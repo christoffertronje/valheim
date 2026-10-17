@@ -141,7 +141,27 @@ a{color:#eac185}footer{color:#ad9677}
  .recipe-calculator .recipe-title{margin:9px 0 7px}
  .batch-note{margin:8px 0 10px}
  .wheel-helper{margin:1px 0}
-}</style><link rel="icon" type="image/svg+xml" href="../assets/cauldron.svg"><link rel="apple-touch-icon" href="../assets/cauldron.svg"></head><body>
+}
+/* Roomier iPhone recipe sheet, without undoing compact heading */
+@media(max-width:740px){
+ .recipe-dialog{width:calc(100vw - 12px);max-width:none;max-height:calc(100dvh - 96px);border-radius:14px}
+ .dialog-inner{padding:clamp(18px,4.5vw,24px);max-height:calc(100dvh - 104px);overflow-y:auto}
+ .dialog-inner .compact-heading{gap:14px}
+ .dialog-inner .compact-heading .dialog-food-icon{font-size:34px;flex-basis:41px}
+ .dialog-inner .heading-info h2{font-size:clamp(22px,6vw,29px)}
+ .compact-stats{padding:12px 8px;margin-top:16px;font-size:12px}
+ .compact-stats b{font-size:16px}
+ .recipe-calculator{margin-top:19px;padding-top:17px}
+ .recipe-calculator .recipe-title{margin:13px 0 11px}
+ .wheel-frame{height:132px}
+ .wheel-highlight{top:44px}
+ .quantity-wheel{height:132px;padding:44px 0}
+ .wheel-helper{margin:5px 0}
+ .batch-note{margin:15px 0 18px}
+ .recipe-calculator .materials{gap:11px}
+ .recipe-calculator .ingredient{padding:12px 14px}
+}
+</style><link rel="icon" type="image/svg+xml" href="../assets/cauldron.svg"><link rel="apple-touch-icon" href="../assets/cauldron.svg"></head><body>
 <header><div class="eyebrow">VALHEIM · PROGRESSION COOKBOOK</div><div class="hero"><div><h1>The Viking<br>Cookbook</h1><p class="intro">Every food from Meadows through Mistlands, with ingredients, station requirements, biome filters and a batch-aware ingredient calculator. No later-biome spoilers.</p></div><div class="hero-illustration" aria-hidden="true">🍄🥘</div></div><div class="strip"><span>✦ Meadows → Mistlands</span><span>⚗ Eitr + Health + Stamina</span><span>♜ No future-biome spoilers</span><span>✓ Ingredient calculator</span></div></header>
 <main><div class="sectionhead"><h2>Foods & recipes</h2><small id="shown"></small></div><p class="section-note">Filter by first-available biome or cooking station level. Sort by biome, station requirements, food stats, or name. Values shown at full food strength.</p>
 <div class="toolbar" id="filters"><button class="filter active" data-filter="all">All foods</button><button class="filter" data-filter="eitr">✨ Eitr</button><button class="filter" data-filter="health">❤️ Health</button><button class="filter" data-filter="stamina">⚡ Stamina</button><button class="filter" data-filter="basic">🍄 Simple / raw</button><button class="filter" data-filter="feast">🍽 Feast</button><input id="search" class="search" type="search" placeholder="Search foods or ingredients…" aria-label="Search foods and ingredients"></div>
