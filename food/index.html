@@ -161,6 +161,12 @@ a{color:#eac185}footer{color:#ad9677}
  .recipe-calculator .materials{gap:11px}
  .recipe-calculator .ingredient{padding:12px 14px}
 }
+
+/* Isolate modal swipes from the page underneath */
+html.recipe-open{overflow:hidden}
+body.recipe-open{position:fixed;overflow:hidden;width:100%;left:0;right:0}
+.recipe-dialog,.dialog-inner{overscroll-behavior:contain}
+.quantity-wheel{overscroll-behavior:contain}
 </style><link rel="icon" type="image/svg+xml" href="../assets/cauldron.svg"><link rel="apple-touch-icon" href="../assets/cauldron.svg"></head><body>
 <header><div class="eyebrow">VALHEIM · PROGRESSION COOKBOOK</div><div class="hero"><div><h1>The Viking<br>Cookbook</h1><p class="intro">Every food from Meadows through Mistlands, with ingredients, station requirements, biome filters and a batch-aware ingredient calculator. No later-biome spoilers.</p></div><div class="hero-illustration" aria-hidden="true">🍄🥘</div></div><div class="strip"><span>✦ Meadows → Mistlands</span><span>⚗ Eitr + Health + Stamina</span><span>♜ No future-biome spoilers</span><span>✓ Ingredient calculator</span></div></header>
 <main><div class="sectionhead"><h2>Foods & recipes</h2><small id="shown"></small></div><p class="section-note">Filter by first-available biome or cooking station level. Sort by biome, station requirements, food stats, or name. Values shown at full food strength.</p>
@@ -202,6 +208,10 @@ const recipeDialog=document.querySelector('#recipe-dialog');
 const dialogBody=document.querySelector('#dialog-body');
 const quantities=new Map();
 let currentRecipe=null;
+let lockedScrollY=0;
+function lockRecipeScroll(){lockedScrollY=window.scrollY;document.documentElement.classList.add('recipe-open');document.body.classList.add('recipe-open');document.body.style.top=`-${lockedScrollY}px`}
+function unlockRecipeScroll(){document.documentElement.classList.remove('recipe-open');document.body.classList.remove('recipe-open');document.body.style.top='';window.scrollTo(0,lockedScrollY)}
+recipeDialog.addEventListener('close',unlockRecipeScroll);
 const maxWheel=100;
 function clampQty(value,max=999){return Math.min(max,Math.max(1,Math.floor(Number(value)||1)))}
 function showRecipe(i){
@@ -215,6 +225,7 @@ function showRecipe(i){
       <div class="quantity-desktop"><label for="recipe-qty">Desired portions</label><input id="recipe-qty" class="qty" type="number" min="1" max="999" step="1" value="${amount}" inputmode="numeric"></div>
       <div class="batch-note" id="batch-note"></div><div class="recipe-title">TOTAL MATERIALS NEEDED</div><div class="materials" id="recipe-materials"></div>
     </div>`;
+  lockRecipeScroll();
   recipeDialog.showModal();
   const wheel=dialogBody.querySelector('.quantity-wheel');
   wheel.scrollTop=(Math.min(maxWheel,amount)-1)*44;
