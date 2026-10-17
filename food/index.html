@@ -118,7 +118,30 @@ a{color:#eac185}footer{color:#ad9677}
  .dialog-inner{padding:16px}
  .dialog-inner .stats{margin:12px 0}
 }
-</style><link rel="icon" type="image/svg+xml" href="../assets/cauldron.svg"><link rel="apple-touch-icon" href="../assets/cauldron.svg"></head><body>
+
+/* Compact food summary above the calculator */
+.dialog-inner .compact-heading{display:flex;align-items:center;gap:11px}
+.dialog-inner .compact-heading .dialog-food-icon{font-size:32px;margin:0;flex:0 0 43px;line-height:1.2;text-align:center}
+.dialog-inner .heading-info{flex:1;min-width:0}
+.dialog-inner .heading-info .eyebrow{font-size:10px;letter-spacing:1.2px;line-height:1.3}
+.dialog-inner .heading-info h2{font-size:clamp(19px,5vw,26px);margin:2px 0;line-height:1.16}
+.dialog-inner .heading-info .station{font-size:11px;margin:3px 0 0}
+.dialog-inner .compact-heading .dialog-close{width:31px;height:31px;font-size:19px;align-self:flex-start}
+.compact-stats{display:flex;align-items:center;justify-content:space-around;gap:8px;flex-wrap:wrap;border:1px solid #6c5638;border-radius:5px;background:#161b16;margin-top:12px;padding:9px 7px;font:12px system-ui,sans-serif;color:#cdbb9f}
+.compact-stats span{white-space:nowrap}.compact-stats b{color:#e2c58b;font-size:15px}
+.recipe-calculator{margin-top:12px;padding-top:10px}
+@media(max-width:740px){
+ .dialog-inner{padding:13px}
+ .dialog-inner .compact-heading .dialog-food-icon{font-size:28px;flex-basis:35px}
+ .compact-stats{font-size:11px;gap:7px;padding:7px 5px;margin-top:9px}
+ .compact-stats b{font-size:13px}
+ .wheel-frame{height:132px}
+ .wheel-highlight{top:44px}
+ .quantity-wheel{height:132px;padding:44px 0}
+ .recipe-calculator .recipe-title{margin:9px 0 7px}
+ .batch-note{margin:8px 0 10px}
+ .wheel-helper{margin:1px 0}
+}</style><link rel="icon" type="image/svg+xml" href="../assets/cauldron.svg"><link rel="apple-touch-icon" href="../assets/cauldron.svg"></head><body>
 <header><div class="eyebrow">VALHEIM · PROGRESSION COOKBOOK</div><div class="hero"><div><h1>The Viking<br>Cookbook</h1><p class="intro">Every food from Meadows through Mistlands, with ingredients, station requirements, biome filters and a batch-aware ingredient calculator. No later-biome spoilers.</p></div><div class="hero-illustration" aria-hidden="true">🍄🥘</div></div><div class="strip"><span>✦ Meadows → Mistlands</span><span>⚗ Eitr + Health + Stamina</span><span>♜ No future-biome spoilers</span><span>✓ Ingredient calculator</span></div></header>
 <main><div class="sectionhead"><h2>Foods & recipes</h2><small id="shown"></small></div><p class="section-note">Filter by first-available biome or cooking station level. Sort by biome, station requirements, food stats, or name. Values shown at full food strength.</p>
 <div class="toolbar" id="filters"><button class="filter active" data-filter="all">All foods</button><button class="filter" data-filter="eitr">✨ Eitr</button><button class="filter" data-filter="health">❤️ Health</button><button class="filter" data-filter="stamina">⚡ Stamina</button><button class="filter" data-filter="basic">🍄 Simple / raw</button><button class="filter" data-filter="feast">🍽 Feast</button><input id="search" class="search" type="search" placeholder="Search foods or ingredients…" aria-label="Search foods and ingredients"></div>
@@ -165,9 +188,8 @@ function showRecipe(i){
   const f=foods[i];if(!f)return;
   currentRecipe=i;
   const amount=clampQty(quantities.get(i)||1);
-  dialogBody.innerHTML=`<div class="dialog-head"><div><span class="dialog-food-icon" aria-hidden="true">${f.icon}</span><div class="eyebrow">${f.biome} · ${names[f.type]}</div><h2>${f.name}</h2></div><button type="button" class="dialog-close" data-close aria-label="Close recipe">×</button></div>
-    <p>${f.sub||''}</p><div class="stats"><div class="stat"><b>${f.hp}</b><span>Health</span></div><div class="stat"><b>${f.stam}</b><span>Stamina</span></div><div class="stat"><b>${f.eitr||'—'}</b><span>Eitr</span></div><div class="stat"><b>${f.time}m</b><span>Duration</span></div></div>
-    <div class="station">⚒ ${f.station}</div>
+  dialogBody.innerHTML=`<div class="dialog-head compact-heading"><span class="dialog-food-icon" aria-hidden="true">${f.icon}</span><div class="heading-info"><div class="eyebrow">${f.biome} · ${names[f.type]}</div><h2>${f.name}</h2><div class="station">⚒ ${f.station}</div></div><button type="button" class="dialog-close" data-close aria-label="Close recipe">×</button></div>
+    <div class="compact-stats"><span><b>${f.hp}</b> HP</span><span><b>${f.stam}</b> Stamina</span>${f.eitr? `<span><b>${f.eitr}</b> Eitr</span>`:''}<span><b>${f.time}m</b> Duration</span></div>
     <div class="recipe-calculator"><div class="recipe-title">HOW MANY ${f.type==='feast'?'SERVINGS':'PORTIONS'}?</div>
       <div class="quantity-mobile"><div class="wheel-helper">Swipe to choose</div><div class="wheel-frame"><div class="wheel-highlight" aria-hidden="true"></div><div class="quantity-wheel" tabindex="0" role="spinbutton" aria-label="Desired portions" aria-valuemin="1" aria-valuemax="${maxWheel}" aria-valuenow="${Math.min(maxWheel,amount)}">${Array.from({length:maxWheel},(_,x)=>`<div class="wheel-item" data-wheel-number="${x+1}">${x+1}</div>`).join('')}</div></div><div class="wheel-helper">1–100 portions</div></div>
       <div class="quantity-desktop"><label for="recipe-qty">Desired portions</label><input id="recipe-qty" class="qty" type="number" min="1" max="999" step="1" value="${amount}" inputmode="numeric"></div>
