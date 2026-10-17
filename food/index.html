@@ -36,11 +36,70 @@ p,.intro,small,.subtitle{color:var(--soft)}
 a{color:#eac185}footer{color:#ad9677}
 @media(max-width:740px){header{padding-top:32px}header:after{letter-spacing:.3em}.card{border-width:1px}}
 
+
+/* Compact recipe catalogue, with full details on demand */
+.grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.card{min-width:0;overflow:hidden}
+.card:before{display:none}
+.cardtop{padding:12px 12px 2px;justify-content:center;background:transparent}
+.iconfood{width:54px;height:54px;font-size:29px}
+.cardbody{padding:9px 11px 13px;display:flex;flex-direction:column;align-items:center;text-align:center}
+.card h3{font-size:clamp(14px,1.5vw,19px);line-height:1.18;margin:0;overflow-wrap:anywhere;min-height:2.35em;display:grid;place-items:center}
+.card .rank{display:none}
+.card .subtitle,.card .recipe-title,.card .materials,.card .station,.card .addfood{display:none}
+.card .stats{width:100%;grid-template-columns:repeat(3,minmax(0,1fr));margin:9px 0 0;padding:7px 2px;gap:0}
+.card .stat{min-width:0}.card .stat b{font-size:14px}.card .stat span{font-size:9px}
+.card .stat:nth-child(4){display:none}
+.card{cursor:pointer;transition:transform .16s,border-color .16s}
+.card:hover{transform:translateY(-2px);border-color:#deb677}
+.card:focus-within{border-color:#e2bc7f}
+.card-open{border:0;cursor:pointer;background:none;color:inherit;font:inherit;padding:0;display:contents}
+.card-open:focus-visible{outline:none}
+.card:has(.card-open:focus-visible){outline:3px solid #ebbe77;outline-offset:3px}
+.card .quick-biome{font:10px system-ui,sans-serif;color:#c3a67b;margin-top:6px}
+.card .selected-mark{font:11px system-ui,sans-serif;color:#c6dca3;margin-top:7px}
+.recipe-dialog{border:2px solid #9d7744;border-radius:11px;background:linear-gradient(#33291f,#181c17);color:#f2dfbd;padding:0;width:min(480px,calc(100vw - 24px));max-height:min(88dvh,760px);box-shadow:0 25px 90px #000d}
+.recipe-dialog::backdrop{background:#050705d9;backdrop-filter:blur(3px)}
+.dialog-inner{padding:clamp(18px,4vw,28px);overflow:auto;max-height:85dvh}
+.dialog-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+.dialog-close{width:38px;height:38px;border:1px solid #907347;border-radius:6px;background:#241f18;color:#f8dab1;font-size:24px;cursor:pointer;flex-shrink:0}
+.dialog-food-icon{font-size:45px;display:block;margin:2px 0 8px}
+.dialog-inner h2{font-size:clamp(24px,6vw,34px);line-height:1.12}
+.dialog-inner .stats{margin:18px 0}.dialog-inner .stat b{font-size:23px}
+.dialog-inner .button{width:100%;padding:15px;margin-top:22px}
+.dialog-inner .materials{margin-top:12px}
+@media(max-width:740px){
+ header{padding-top:15px;padding-bottom:12px;margin-bottom:16px}
+ header:after{margin-top:12px}
+ header h1{font-size:clamp(28px,8vw,42px);margin:8px 0}
+ .intro,.strip,.section-note,.plannerheader p,.planner .note{display:none}
+ .hero-illustration{display:none}
+ header,main,footer{padding-left:12px;padding-right:12px}
+ .grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:7px}
+ .cardtop{padding:10px 5px 0}
+ .iconfood{width:41px;height:41px;font-size:24px}
+ .cardbody{padding:7px 4px 9px}
+ .card h3{font-size:11px;line-height:1.15;min-height:2.5em}
+ .card .stats{margin:6px 0 0;padding:6px 0}
+ .card .stat b{font-size:12px}
+ .card .stat span{font-size:8px}
+ .card .quick-biome{font-size:9px}
+ .toolbar{gap:7px}
+ .filter{padding:8px 9px;font-size:12px}
+ .pick{flex:1 1 43%;min-width:0}
+ .pick .search{min-width:0}
+ .sectionhead h2{font-size:22px}
+ .planner{margin-top:27px;padding:14px}
+ .planner h2{font-size:24px}
+ .planner .controls{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:360px){.card h3{font-size:10px}.card .stat b{font-size:11px}.card .stat span{font-size:7px}}
 </style><link rel="icon" type="image/svg+xml" href="../assets/cauldron.svg"><link rel="apple-touch-icon" href="../assets/cauldron.svg"></head><body>
 <header><div class="eyebrow">VALHEIM · PROGRESSION COOKBOOK</div><div class="hero"><div><h1>The Viking<br>Cookbook</h1><p class="intro">Every food from Meadows through Mistlands, with ingredients, station requirements, biome filters and a batch-aware ingredient calculator. No later-biome spoilers.</p></div><div class="hero-illustration" aria-hidden="true">🍄🥘</div></div><div class="strip"><span>✦ Meadows → Mistlands</span><span>⚗ Eitr + Health + Stamina</span><span>♜ No future-biome spoilers</span><span>✓ Ingredient calculator</span></div></header>
 <main><div class="sectionhead"><h2>Foods & recipes</h2><small id="shown"></small></div><p class="section-note">Filter by first-available biome or cooking station level. Sort by biome, station requirements, food stats, or name. Values shown at full food strength.</p>
 <div class="toolbar" id="filters"><button class="filter active" data-filter="all">All foods</button><button class="filter" data-filter="eitr">✨ Eitr</button><button class="filter" data-filter="health">❤️ Health</button><button class="filter" data-filter="stamina">⚡ Stamina</button><button class="filter" data-filter="basic">🍄 Simple / raw</button><button class="filter" data-filter="feast">🍽 Feast</button><input id="search" class="search" type="search" placeholder="Search foods or ingredients…" aria-label="Search foods and ingredients"></div>
 <div class="toolbar" style="align-items:center"><label class="pick">Biome <select class="search" id="biome"><option value="all">All biomes</option><option>Meadows</option><option>Black Forest</option><option>Swamp</option><option>Mountain</option><option>Plains</option><option>Mistlands</option></select></label><label class="pick">Station <select class="search" id="station"><option value="all">All stations</option><option value="cauldron">Cauldron (any)</option><option value="oven">Stone Oven</option><option value="cooking">Cooking Station</option><option value="prep">Food Preparation Table</option><option value="raw">Gathered / no cooking</option></select></label><label class="pick">Cauldron level <select class="search" id="level"><option value="all">Any level</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select></label><label class="pick">Sort by <select class="search" id="sort"><option value="biome">Biome progression</option><option value="station">Cooking station level</option><option value="hp">Health (high to low)</option><option value="stam">Stamina (high to low)</option><option value="eitr">Eitr (high to low)</option><option value="name">Name (A–Z)</option></select></label></div><section class="grid" id="cards"></section>
+<dialog class="recipe-dialog" id="recipe-dialog" aria-label="Food recipe details"><div class="dialog-inner" id="dialog-body"></div></dialog>
 <section class="planner"><div class="plannerheader"><div><div class="eyebrow">YOUR COOKING PLAN</div><h2 style="margin-top:8px">Ingredient calculator</h2><p>Click <strong>+ Add to calculator</strong> on a food above, then choose how many portions to make. Only selected foods appear here. Multiple-serving recipes are rounded up to full batches.</p></div><button class="button" id="reset">Clear calculator</button></div><div class="controls" id="controls"></div><div class="recipe-title">Total required ingredients</div><div class="totals" id="totals" aria-live="polite"></div><p class="hint" id="craftnote"></p><p class="note">The calculator lists the direct recipe ingredients. For example, Bread dough is counted as Bread dough (not automatically broken down into Barley flour), and the feast calls for its prepared dishes.</p></section>
 </main><footer>Sources: <a href="https://valheim.fandom.com/wiki/Food" target="_blank" rel="noopener noreferrer">Valheim food reference</a> · <a href="https://valheim.fandom.com/wiki/Crafting" target="_blank" rel="noopener noreferrer">Crafting recipes</a>. Recipes and values can change with patches. No recipes from Ashlands or later biomes are included.</footer>
 <script>
@@ -69,7 +128,14 @@ const biomes=["Meadows","Black Forest","Swamp","Mountain","Plains","Mistlands"];
 const names={eitr:'Eitr',health:'Health',stamina:'Stamina',basic:'Simple / raw',feast:'Feast'};
 const cards=document.querySelector('#cards'),controls=document.querySelector('#controls'),totals=document.querySelector('#totals');
 let active='all';
-function render(){const q=document.querySelector('#search').value.trim().toLowerCase();const b=document.querySelector('#biome').value,st=document.querySelector('#station').value,lv=document.querySelector('#level').value,sort=document.querySelector('#sort').value;const selected=foods.filter(f=>(active==='all'||f.type===active)&&(b==='all'||f.biome===b)&&(lv==='all'||(f.station.toLowerCase().includes('cauldron')&&f.level===Number(lv)))&&(st==='all'||(st==='cauldron'&&f.station.toLowerCase().includes('cauldron'))||(st==='oven'&&f.station.toLowerCase().includes('oven'))||(st==='cooking'&&f.station.toLowerCase().includes('cooking station'))||(st==='prep'&&f.station.toLowerCase().includes('preparation table'))||(st==='raw'&&/gather|farm|beehive|eat raw/i.test(f.station)))&&(f.name.toLowerCase().includes(q)||Object.keys(f.ingredients).some(k=>k.toLowerCase().includes(q))));selected.sort((a,b)=>sort==='hp'?b.hp-a.hp:sort==='stam'?b.stam-a.stam:sort==='eitr'?b.eitr-a.eitr:sort==='name'?a.name.localeCompare(b.name):sort==='station'?(a.level-b.level||a.station.localeCompare(b.station)):biomes.indexOf(a.biome)-biomes.indexOf(b.biome)||a.name.localeCompare(b.name));cards.innerHTML=selected.map(f=>`<article class="card"><div class="cardtop"><div class="iconfood">${f.icon}</div><span class="rank">${f.biome} · ${names[f.type]}</span></div><div class="cardbody"><h3>${f.name}</h3><p class="subtitle">${f.sub}</p><div class="stats"><div class="stat"><b>${f.hp}</b><span>Health</span></div><div class="stat"><b>${f.stam}</b><span>Stamina</span></div><div class="stat"><b>${f.eitr||'—'}</b><span>Eitr</span></div><div class="stat"><b>${f.time}m</b><span>Duration</span></div></div><div class="recipe-title">${f.type==='basic'?'Item needed':'Recipe ingredients'} · makes ${f.yield} ${f.type==='feast'?'uses':'portion'+(f.yield>1?'s':'')}</div><div class="materials">${Object.entries(f.ingredients).map(([k,v])=>`<span class="ingredient"><strong>${v}×</strong>${k}</span>`).join('')}</div><div class="station">⚒ ${f.station}</div><button class="button addfood ${chosen.has(foods.indexOf(f))?'in-plan':''}" type="button" data-add="${foods.indexOf(f)}">${chosen.has(foods.indexOf(f))?'✓ In calculator':'+ Add to calculator'}</button></div></article>`).join('')||'<p class="empty">No matches. Try another search or filter.</p>';document.querySelector('#shown').textContent=`${selected.length} of ${foods.length} foods shown`}
+function render(){const q=document.querySelector('#search').value.trim().toLowerCase();const b=document.querySelector('#biome').value,st=document.querySelector('#station').value,lv=document.querySelector('#level').value,sort=document.querySelector('#sort').value;const selected=foods.filter(f=>(active==='all'||f.type===active)&&(b==='all'||f.biome===b)&&(lv==='all'||(f.station.toLowerCase().includes('cauldron')&&f.level===Number(lv)))&&(st==='all'||(st==='cauldron'&&f.station.toLowerCase().includes('cauldron'))||(st==='oven'&&f.station.toLowerCase().includes('oven'))||(st==='cooking'&&f.station.toLowerCase().includes('cooking station'))||(st==='prep'&&f.station.toLowerCase().includes('preparation table'))||(st==='raw'&&/gather|farm|beehive|eat raw/i.test(f.station)))&&(f.name.toLowerCase().includes(q)||Object.keys(f.ingredients).some(k=>k.toLowerCase().includes(q))));selected.sort((a,b)=>sort==='hp'?b.hp-a.hp:sort==='stam'?b.stam-a.stam:sort==='eitr'?b.eitr-a.eitr:sort==='name'?a.name.localeCompare(b.name):sort==='station'?(a.level-b.level||a.station.localeCompare(b.station)):biomes.indexOf(a.biome)-biomes.indexOf(b.biome)||a.name.localeCompare(b.name));cards.innerHTML=selected.map(f=>{const i=foods.indexOf(f);return `<article class="card"><button type="button" class="card-open" data-detail="${i}" aria-label="Show recipe for ${f.name}"><div class="cardtop"><div class="iconfood" aria-hidden="true">${f.icon}</div></div><div class="cardbody"><h3>${f.name}</h3><span class="quick-biome">${f.biome}</span><div class="stats"><div class="stat"><b>${f.hp}</b><span>HP</span></div><div class="stat"><b>${f.stam}</b><span>STA</span></div><div class="stat"><b>${f.eitr||'—'}</b><span>Eitr</span></div></div>${chosen.has(i)?'<span class="selected-mark">✓ In calculator</span>':''}</div></button></article>`}).join('')||'<p class="empty">No matches. Try another search or filter.</p>';document.querySelector('#shown').textContent=`${selected.length} of ${foods.length} foods shown`}
+
+const recipeDialog=document.querySelector('#recipe-dialog');
+const dialogBody=document.querySelector('#dialog-body');
+function showRecipe(i){const f=foods[i];if(!f)return;dialogBody.innerHTML=`<div class="dialog-head"><div><span class="dialog-food-icon" aria-hidden="true">${f.icon}</span><div class="eyebrow">${f.biome} · ${names[f.type]}</div><h2>${f.name}</h2></div><button type="button" class="dialog-close" data-close aria-label="Close recipe">×</button></div><p>${f.sub||''}</p><div class="stats"><div class="stat"><b>${f.hp}</b><span>Health</span></div><div class="stat"><b>${f.stam}</b><span>Stamina</span></div><div class="stat"><b>${f.eitr||'—'}</b><span>Eitr</span></div><div class="stat"><b>${f.time}m</b><span>Duration</span></div></div><div class="recipe-title">Ingredients · makes ${f.yield} ${f.type==='feast'?'uses':'portion'+(f.yield>1?'s':'')}</div><div class="materials">${Object.entries(f.ingredients).map(([k,v])=>`<span class="ingredient"><strong>${v}×</strong>${k}</span>`).join('')}</div><div class="station">⚒ ${f.station}</div><button class="button" type="button" data-dialog-add="${i}">${chosen.has(i)?'✓ Already in calculator':'+ Add to calculator'}</button>`;recipeDialog.showModal()}
+cards.addEventListener('click',e=>{const btn=e.target.closest('[data-detail]');if(btn)showRecipe(Number(btn.dataset.detail))});
+recipeDialog.addEventListener('click',e=>{if(e.target===recipeDialog||e.target.closest('[data-close]'))recipeDialog.close();const btn=e.target.closest('[data-dialog-add]');if(btn){const i=Number(btn.dataset.dialogAdd);if(!chosen.has(i)){chosen.add(i);amounts.set(i,1)}recipeDialog.close();renderControls();render();document.querySelector('.planner').scrollIntoView({behavior:'smooth',block:'start'})}});
+
 const chosen=new Set();
 const amounts=new Map();
 function renderControls(){
