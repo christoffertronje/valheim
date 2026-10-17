@@ -2,16 +2,55 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#0b1515">
+<meta name="theme-color" content="#171812">
 <title>Valheim Companion</title>
 <style>
 :root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(circle at 70% 0%,#24483d 0%,transparent 45%),#0b1515;color:#f0efe0;font:16px system-ui,-apple-system,sans-serif}main{max-width:900px;margin:auto;padding:clamp(24px,5vw,64px)}.eyebrow{color:#8bd8ba;text-transform:uppercase;letter-spacing:.2em;font-size:.78rem}h1{font-size:clamp(2.4rem,7vw,4.5rem);line-height:1.1;margin:15px 0}p{color:#bed0ca;line-height:1.7}.card{display:block;text-decoration:none;color:inherit;background:#172525;border:1px solid #405a50;border-radius:20px;padding:28px;margin-top:36px;transition:transform .15s,border-color .15s}.card:hover,.card:focus-visible{transform:translateY(-3px);border-color:#8bd8ba}.card strong{font-size:1.35rem}.card span{display:block;color:#bed0ca;margin-top:12px}.pill{display:inline-block;padding:5px 10px;border-radius:20px;background:#294238;color:#a7ead0;font-size:.8rem;margin-top:20px}footer{margin-top:65px;color:#8ba39c;font-size:.9rem}
+
+/* Norse timber-and-iron visual refresh; functional layout and calculator kept intact */
+:root{--bg:#0c0e0c;--panel:#211c17;--line:#64513b;--soft:#c5b39a;--text:#f4e7c8;--gold:#e0aa59;--mint:#c9d7a1;--dark:#111511;color-scheme:dark}
+body{background:radial-gradient(ellipse at 50% -12%,#5b4328aa 0%,transparent 48%),repeating-linear-gradient(92deg,transparent 0 88px,#ffffff06 90px,#00000016 94px,transparent 103px),linear-gradient(150deg,#181e1a,#0b0c0b 75%)!important;color:var(--text);font-family:Georgia,'Times New Roman',serif}
+body:before{content:'';position:fixed;inset:0;pointer-events:none;opacity:.18;background-image:repeating-linear-gradient(0deg,transparent 0 3px,#000 4px 5px);z-index:0}
+header,main,footer{position:relative;z-index:1}
+header{position:relative;border-bottom:1px solid #98724877;margin-bottom:30px}
+header:after{content:'ᚠ ᚢ ᚦ ᚨ ᚱ ᚲ ᚷ ᚹ ᚺ ᚾ ᛁ ᛃ ᛈ ᛉ';display:block;margin-top:24px;color:#c99e5d;letter-spacing:.7em;font-size:12px;opacity:.65;white-space:nowrap;overflow:hidden}
+h1,h2,h3{font-family:Georgia,'Times New Roman',serif;font-weight:700;text-shadow:0 3px 14px #0008}
+h1{color:#f5d89e;letter-spacing:.015em}h2{color:#edca86}
+.eyebrow{color:#dda958;letter-spacing:.25em}
+p,.intro,small,.subtitle{color:var(--soft)}
+.card,.planner{position:relative;border:2px solid #755936;background:linear-gradient(155deg,#30271f 0%,#1c1b16 45%,#181b17 100%);box-shadow:inset 0 0 0 2px #171711,0 14px 25px #0008,0 2px 0 #af895248;border-radius:9px}
+.card:before,.planner:before{content:'◆';position:absolute;top:7px;right:11px;color:#c8a36a88;font-size:12px;pointer-events:none}
+.card:hover{border-color:#b7955e}
+.cardtop{background:linear-gradient(#2e2920,#26251f)}
+.iconfood{border-radius:8px;background:radial-gradient(circle,#66533b,#25241d);border-color:#8b6c45;box-shadow:inset 0 2px 8px #0009}
+.rank,.strip span,.ingredient,.total,.controlitem,.note{border-radius:5px;border-color:#6f573a;background:#29251e;color:#e8d6b6}
+.ingredient strong,.total b{color:#f0c27d}
+.stats{border:1px solid #5e5038;background:linear-gradient(#121713,#1b1c17);border-radius:4px}
+.stat{border-color:#514535}.stat b{color:#c9d7a1}
+.stat:nth-child(2) b{color:#e8a494}.stat:nth-child(3) b{color:#edc178}
+.station,.recipe-title{color:#cbb88e}
+.filter,.search,.qty{border-radius:5px;background:#151a15;border:1px solid #8b6f49;color:#f3e6ce;font-family:system-ui,-apple-system,sans-serif}
+.filter.active{background:#76542a;color:#ffedc7;border-color:#dfb56d}
+.filter:focus-visible,.search:focus-visible,.qty:focus-visible,.button:focus-visible{outline:3px solid #e0aa59;outline-offset:2px}
+.button{border-radius:5px;background:linear-gradient(180deg,#755633,#4a3725);border:1px solid #c0975d;color:#fff1d3;font-family:Georgia,serif;font-size:15px;box-shadow:inset 0 1px #ead19b55,0 3px 0 #15130f}
+.button:hover{background:linear-gradient(#8f6e43,#55402b)}
+.addfood.in-plan{background:#3e5439;border-color:#a7b27c}
+.groupheading{color:#e6ba72;border-color:#8c6639}
+.planner{padding:clamp(18px,3vw,30px)}
+.calculator-empty{background:#1a2019;border-color:#94764b;color:#d8ccb4}
+a{color:#eac185}footer{color:#ad9677}
+@media(max-width:740px){header{padding-top:32px}header:after{letter-spacing:.3em}.card{border-width:1px}}
+
+
+/* Longhouse landing page */
+main{position:relative;isolation:isolate}main:before{content:'ᚠ ᚢ ᚦ ᚨ ᚱ ᚲ';display:block;color:#d0a563;font-size:20px;letter-spacing:.8em;margin-bottom:35px;opacity:.7}
+body{background:radial-gradient(ellipse at 50% 0,#5c442a 0,transparent 50%),linear-gradient(125deg,#1c221b,#0b0d0b 80%)!important;color:#f6e4c2;font-family:Georgia,'Times New Roman',serif}h1{color:#edc781;text-shadow:0 5px 20px #000;letter-spacing:.02em}p{color:#cfbc9d}.eyebrow{color:#d6a559}.card{background:linear-gradient(140deg,#33291d,#1b2019);border:2px solid #876b43;border-radius:8px;box-shadow:inset 0 0 0 3px #1a1913,0 20px 35px #0009}.card:hover{border-color:#e1b773}.card span{color:#cbb89c}.pill{border-radius:4px;background:#66502c;color:#f3d699;border:1px solid #bb955b}footer{color:#aa9474}
 </style>
 </head>
 <body><main>
 <div class="eyebrow">Your Viking toolkit</div>
-<h1>⚔️ Valheim Companion</h1>
+<h1>ᛟ Valheim Companion</h1>
 <p>Useful tools for your journey through Valheim. Built to grow, one tool at a time. Content currently covers Meadows through Mistlands.</p>
-<a class="card" href="./food/"><strong>🍄 Viking Cookbook →</strong><span>Explore food, filter by biome and cooking-station level, and calculate the materials you need.</span><span class="pill">Open cookbook</span></a>
+<a class="card" href="./food/"><strong>ᛉ The Viking Cookbook →</strong><span>Explore food, filter by biome and cooking-station level, and calculate the materials you need.</span><span class="pill">Open cookbook</span></a>
 <footer>Unofficial fan-made companion • No later-biome spoilers</footer>
 </main></body></html>
