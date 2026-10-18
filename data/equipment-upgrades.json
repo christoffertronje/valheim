@@ -2289,6 +2289,223 @@
         }
       ],
       "source": "https://valheim.fandom.com/wiki/Battleaxe"
+    },
+    "Iron atgeir": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 2,
+          "stats": {
+            "Pierce": 65,
+            "Durability": 175
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 3,
+          "cost": {
+            "Iron": 15,
+            "Leather scraps": 1
+          },
+          "stats": {
+            "Pierce": 71,
+            "Durability": 225
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 4,
+          "cost": {
+            "Iron": 30,
+            "Leather scraps": 2
+          },
+          "stats": {
+            "Pierce": 77,
+            "Durability": 275
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 5,
+          "cost": {
+            "Iron": 45,
+            "Leather scraps": 3
+          },
+          "stats": {
+            "Pierce": 83,
+            "Durability": 325
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Iron_atgeir"
+    },
+    "Ancient bark spear": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 3,
+          "stats": {
+            "Pierce": 55,
+            "Durability": 100
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 4,
+          "cost": {
+            "Troll hide": 1,
+            "Iron": 5,
+            "Ancient bark": 5
+          },
+          "stats": {
+            "Pierce": 61,
+            "Durability": 150
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 5,
+          "cost": {
+            "Troll hide": 2,
+            "Iron": 10,
+            "Ancient bark": 10
+          },
+          "stats": {
+            "Pierce": 67,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 6,
+          "cost": {
+            "Troll hide": 3,
+            "Iron": 15,
+            "Ancient bark": 15
+          },
+          "stats": {
+            "Pierce": 73,
+            "Durability": 250
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Ancient_bark_spear"
+    },
+    "Banded shield": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 2,
+          "stats": {
+            "Block armor": 42,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 3,
+          "cost": {
+            "Finewood": 10,
+            "Iron": 4
+          },
+          "stats": {
+            "Block armor": 48,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 4,
+          "cost": {
+            "Finewood": 20,
+            "Iron": 8
+          },
+          "stats": {
+            "Block armor": 54,
+            "Durability": 300
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Banded_shield"
+    },
+    "Iron buckler": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 2,
+          "stats": {
+            "Block armor": 28,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 3,
+          "cost": {
+            "Iron": 5,
+            "Ancient bark": 1
+          },
+          "stats": {
+            "Block armor": 34,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 4,
+          "cost": {
+            "Iron": 10,
+            "Ancient bark": 2
+          },
+          "stats": {
+            "Block armor": 40,
+            "Durability": 300
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Iron_buckler"
+    },
+    "Iron tower shield": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 2,
+          "stats": {
+            "Block armor": 52,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 3,
+          "cost": {
+            "Finewood": 10,
+            "Iron": 5
+          },
+          "stats": {
+            "Block armor": 58,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 4,
+          "cost": {
+            "Finewood": 20,
+            "Iron": 10
+          },
+          "stats": {
+            "Block armor": 64,
+            "Durability": 300
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Iron_tower_shield"
     }
   }
 }
