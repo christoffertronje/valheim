@@ -5849,6 +5849,75 @@
         }
       ],
       "source": "https://valheim.fandom.com/wiki/Trollstav"
+    },
+    "Berserkir axes": {
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 3,
+          "stats": {
+            "Slash": 140,
+            "Chop": 80,
+            "Durability": 175
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 4,
+          "cost": {
+            "Flametal": 15,
+            "Asksvin hide": 1
+          },
+          "stats": {
+            "Slash": 145,
+            "Chop": 83,
+            "Durability": 225
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 5,
+          "cost": {
+            "Flametal": 30,
+            "Asksvin hide": 2
+          },
+          "stats": {
+            "Slash": 150,
+            "Chop": 86,
+            "Durability": 275
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Berserkir_axes"
+    },
+    "Dyrnwyn": {
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 4,
+          "stats": {
+            "Slash": 145,
+            "Fire": 10,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 5,
+          "cost": {
+            "Flametal": 10,
+            "Bloodstone": 1
+          },
+          "stats": {
+            "Slash": 151,
+            "Fire": 10,
+            "Durability": 250
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Dyrnwyn"
     }
   }
 }
