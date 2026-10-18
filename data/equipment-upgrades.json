@@ -1680,6 +1680,615 @@
         }
       ],
       "source": "https://www.valheimdatabase.com/items/bronze-plate-leggings/"
+    },
+    "Root harnesk": {
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 2,
+          "stats": {
+            "Armor": 8,
+            "Durability": 800
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 3,
+          "cost": {
+            "Root": 2,
+            "Ancient bark": 5
+          },
+          "stats": {
+            "Armor": 10,
+            "Durability": 900
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 4,
+          "cost": {
+            "Root": 4,
+            "Ancient bark": 10
+          },
+          "stats": {
+            "Armor": 12,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 5,
+          "cost": {
+            "Root": 6,
+            "Ancient bark": 15
+          },
+          "stats": {
+            "Armor": 14,
+            "Durability": 1100
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Root_Set"
+    },
+    "Root leggings": {
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 2,
+          "stats": {
+            "Armor": 8,
+            "Durability": 800
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 3,
+          "cost": {
+            "Root": 2,
+            "Ancient bark": 5
+          },
+          "stats": {
+            "Armor": 10,
+            "Durability": 900
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 4,
+          "cost": {
+            "Root": 4,
+            "Ancient bark": 10
+          },
+          "stats": {
+            "Armor": 12,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 5,
+          "cost": {
+            "Root": 6,
+            "Ancient bark": 15
+          },
+          "stats": {
+            "Armor": 14,
+            "Durability": 1100
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Root_Set"
+    },
+    "Root mask": {
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 2,
+          "stats": {
+            "Armor": 8,
+            "Durability": 800
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 3,
+          "cost": {
+            "Root": 2,
+            "Ancient bark": 5
+          },
+          "stats": {
+            "Armor": 10,
+            "Durability": 900
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 4,
+          "cost": {
+            "Root": 4,
+            "Ancient bark": 10
+          },
+          "stats": {
+            "Armor": 12,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 5,
+          "cost": {
+            "Root": 6,
+            "Ancient bark": 15
+          },
+          "stats": {
+            "Armor": 14,
+            "Durability": 1100
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Root_Set"
+    },
+    "Iron helmet": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Armor": 14,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Iron": 5
+          },
+          "stats": {
+            "Armor": 16,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Iron": 10
+          },
+          "stats": {
+            "Armor": 18,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 4,
+          "cost": {
+            "Iron": 15
+          },
+          "stats": {
+            "Armor": 20,
+            "Durability": 1600
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Iron_Armor"
+    },
+    "Iron scale mail": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 2,
+          "stats": {
+            "Armor": 14,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 3,
+          "cost": {
+            "Iron": 5
+          },
+          "stats": {
+            "Armor": 16,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 4,
+          "cost": {
+            "Iron": 10
+          },
+          "stats": {
+            "Armor": 18,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 5,
+          "cost": {
+            "Iron": 15
+          },
+          "stats": {
+            "Armor": 20,
+            "Durability": 1600
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Iron_Armor"
+    },
+    "Iron greaves": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 2,
+          "stats": {
+            "Armor": 14,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 3,
+          "cost": {
+            "Iron": 5
+          },
+          "stats": {
+            "Armor": 16,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 4,
+          "cost": {
+            "Iron": 10
+          },
+          "stats": {
+            "Armor": 18,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 5,
+          "cost": {
+            "Iron": 15
+          },
+          "stats": {
+            "Armor": 20,
+            "Durability": 1600
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Iron_Armor"
+    },
+    "Iron sword": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 2,
+          "stats": {
+            "Slash": 55,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 3,
+          "cost": {
+            "Wood": 1,
+            "Iron": 10,
+            "Leather scraps": 2
+          },
+          "stats": {
+            "Slash": 61,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 4,
+          "cost": {
+            "Wood": 2,
+            "Iron": 20,
+            "Leather scraps": 4
+          },
+          "stats": {
+            "Slash": 67,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 5,
+          "cost": {
+            "Wood": 3,
+            "Iron": 30,
+            "Leather scraps": 6
+          },
+          "stats": {
+            "Slash": 73,
+            "Durability": 350
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Iron_sword"
+    },
+    "Iron mace": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 2,
+          "stats": {
+            "Blunt": 55,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 3,
+          "cost": {
+            "Iron": 10
+          },
+          "stats": {
+            "Blunt": 61,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 4,
+          "cost": {
+            "Iron": 20
+          },
+          "stats": {
+            "Blunt": 67,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 5,
+          "cost": {
+            "Iron": 30
+          },
+          "stats": {
+            "Blunt": 73,
+            "Durability": 350
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Iron_mace"
+    },
+    "Iron axe": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 2,
+          "stats": {
+            "Slash": 60,
+            "Chop (trees)": 50,
+            "Durability": 175
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 3,
+          "cost": {
+            "Iron": 10,
+            "Leather scraps": 1
+          },
+          "stats": {
+            "Slash": 65,
+            "Chop (trees)": 53,
+            "Durability": 225
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 4,
+          "cost": {
+            "Iron": 20,
+            "Leather scraps": 2
+          },
+          "stats": {
+            "Slash": 70,
+            "Chop (trees)": 56,
+            "Durability": 275
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 5,
+          "cost": {
+            "Iron": 30,
+            "Leather scraps": 3
+          },
+          "stats": {
+            "Slash": 75,
+            "Chop (trees)": 59,
+            "Durability": 325
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Iron_axe"
+    },
+    "Iron pickaxe": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 2,
+          "stats": {
+            "Pierce": 33,
+            "Mining": 33,
+            "Durability": 150
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 3,
+          "cost": {
+            "Corewood": 1,
+            "Iron": 10
+          },
+          "stats": {
+            "Pierce": 38,
+            "Mining": 38,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 4,
+          "cost": {
+            "Corewood": 2,
+            "Iron": 20
+          },
+          "stats": {
+            "Pierce": 43,
+            "Mining": 43,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 5,
+          "cost": {
+            "Corewood": 3,
+            "Iron": 30
+          },
+          "stats": {
+            "Pierce": 48,
+            "Mining": 48,
+            "Durability": 300
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Iron_pickaxe"
+    },
+    "Huntsman bow": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Pierce": 42,
+            "Durability": 100
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Finewood": 5,
+            "Iron": 10,
+            "Feathers": 5,
+            "Deer hide": 2
+          },
+          "stats": {
+            "Pierce": 45,
+            "Durability": 150
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Finewood": 10,
+            "Iron": 20,
+            "Feathers": 10,
+            "Deer hide": 4
+          },
+          "stats": {
+            "Pierce": 48,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 4,
+          "cost": {
+            "Finewood": 15,
+            "Iron": 30,
+            "Feathers": 15,
+            "Deer hide": 6
+          },
+          "stats": {
+            "Pierce": 51,
+            "Durability": 250
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Huntsman_bow"
+    },
+    "Battleaxe": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 2,
+          "stats": {
+            "Slash": 70,
+            "Chop (trees)": 40,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 3,
+          "cost": {
+            "Ancient bark": 5,
+            "Iron": 15
+          },
+          "stats": {
+            "Slash": 76,
+            "Chop (trees)": 42.5,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 4,
+          "cost": {
+            "Ancient bark": 10,
+            "Iron": 30
+          },
+          "stats": {
+            "Slash": 82,
+            "Chop (trees)": 45,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 5,
+          "cost": {
+            "Ancient bark": 15,
+            "Iron": 45
+          },
+          "stats": {
+            "Slash": 88,
+            "Chop (trees)": 47.5,
+            "Durability": 350
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Battleaxe"
     }
   }
 }
