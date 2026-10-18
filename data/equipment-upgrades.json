@@ -894,6 +894,127 @@
         }
       ],
       "source": "https://valheim.fandom.com/wiki/Wood_tower_shield"
+    },
+    "Stone axe": {
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Slash": 15,
+            "Chop (trees)": 20,
+            "Durability": 100
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Stone": 2
+          },
+          "stats": {
+            "Slash": 20,
+            "Chop (trees)": 23,
+            "Durability": 130
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Stone": 4
+          },
+          "stats": {
+            "Slash": 25,
+            "Chop (trees)": 26,
+            "Durability": 160
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 4,
+          "cost": {
+            "Stone": 6
+          },
+          "stats": {
+            "Slash": 30,
+            "Chop (trees)": 29,
+            "Durability": 190
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Stone_axe"
+    },
+    "Hoe": {
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Wood": 1,
+            "Stone": 1
+          },
+          "stats": {
+            "Durability": 400
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Wood": 2,
+            "Stone": 2
+          },
+          "stats": {
+            "Durability": 600
+          }
+        }
+      ],
+      "source": "https://www.valheimdatabase.com/items/hoe/"
+    },
+    "Hammer": {
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Durability": 100
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Wood": 1,
+            "Stone": 1
+          },
+          "stats": {
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Wood": 2,
+            "Stone": 2
+          },
+          "stats": {
+            "Durability": 300
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Hammer"
     }
   }
 }
