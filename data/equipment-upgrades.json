@@ -1015,6 +1015,530 @@
         }
       ],
       "source": "https://valheim.fandom.com/wiki/Hammer"
+    },
+    "Finewood bow": {
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Pierce": 32,
+            "Durability": 100
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Finewood": 5,
+            "Corewood": 5,
+            "Deer hide": 2
+          },
+          "stats": {
+            "Pierce": 35,
+            "Durability": 150
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Finewood": 10,
+            "Corewood": 10,
+            "Deer hide": 4
+          },
+          "stats": {
+            "Pierce": 38,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 4,
+          "cost": {
+            "Finewood": 15,
+            "Corewood": 15,
+            "Deer hide": 6
+          },
+          "stats": {
+            "Pierce": 41,
+            "Durability": 250
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Finewood_bow"
+    },
+    "Abyssal razor": {
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 2,
+          "stats": {
+            "Pierce": 20,
+            "Slash": 20,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 3,
+          "cost": {
+            "Chitin": 10
+          },
+          "stats": {
+            "Pierce": 21,
+            "Slash": 21,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 4,
+          "cost": {
+            "Chitin": 20
+          },
+          "stats": {
+            "Pierce": 22,
+            "Slash": 22,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 5,
+          "cost": {
+            "Chitin": 30
+          },
+          "stats": {
+            "Pierce": 23,
+            "Slash": 23,
+            "Durability": 350
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Abyssal_razor"
+    },
+    "Bone tower shield": {
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 3,
+          "stats": {
+            "Block armor": 32,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 4,
+          "cost": {
+            "Wood": 5,
+            "Bone fragments": 5
+          },
+          "stats": {
+            "Block armor": 38,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 5,
+          "cost": {
+            "Wood": 10,
+            "Bone fragments": 10
+          },
+          "stats": {
+            "Block armor": 44,
+            "Durability": 300
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Bone_tower_shield"
+    },
+    "Cultivator": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Corewood": 1,
+            "Bronze": 1
+          },
+          "stats": {
+            "Durability": 400
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Corewood": 2,
+            "Bronze": 2
+          },
+          "stats": {
+            "Durability": 600
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Cultivator"
+    },
+    "Bronze pickaxe": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Pierce": 25,
+            "Mining": 25,
+            "Durability": 120
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Corewood": 1,
+            "Bronze": 5
+          },
+          "stats": {
+            "Pierce": 30,
+            "Mining": 29,
+            "Durability": 170
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Corewood": 2,
+            "Bronze": 10
+          },
+          "stats": {
+            "Pierce": 35,
+            "Mining": 33,
+            "Durability": 220
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 4,
+          "cost": {
+            "Corewood": 3,
+            "Bronze": 15
+          },
+          "stats": {
+            "Pierce": 40,
+            "Mining": 37,
+            "Durability": 270
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Bronze_pickaxe"
+    },
+    "Bronze axe": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Slash": 40,
+            "Chop (trees)": 40,
+            "Durability": 125
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Bronze": 4,
+            "Leather scraps": 1
+          },
+          "stats": {
+            "Slash": 45,
+            "Chop (trees)": 43,
+            "Durability": 175
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Bronze": 8,
+            "Leather scraps": 2
+          },
+          "stats": {
+            "Slash": 50,
+            "Chop (trees)": 46,
+            "Durability": 225
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 4,
+          "cost": {
+            "Bronze": 12,
+            "Leather scraps": 3
+          },
+          "stats": {
+            "Slash": 55,
+            "Chop (trees)": 49,
+            "Durability": 275
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Bronze_axe"
+    },
+    "Bronze mace": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Blunt": 35,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Bronze": 4
+          },
+          "stats": {
+            "Blunt": 41,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Bronze": 8
+          },
+          "stats": {
+            "Blunt": 47,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 4,
+          "cost": {
+            "Bronze": 12
+          },
+          "stats": {
+            "Blunt": 53,
+            "Durability": 350
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Bronze_mace"
+    },
+    "Bronze spear": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Pierce": 35,
+            "Durability": 100
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Wood": 3,
+            "Bronze": 4,
+            "Deer hide": 1
+          },
+          "stats": {
+            "Pierce": 41,
+            "Durability": 150
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Wood": 6,
+            "Bronze": 8,
+            "Deer hide": 2
+          },
+          "stats": {
+            "Pierce": 47,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 4,
+          "cost": {
+            "Wood": 9,
+            "Bronze": 12,
+            "Deer hide": 3
+          },
+          "stats": {
+            "Pierce": 53,
+            "Durability": 250
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Bronze_spear"
+    },
+    "Bronze atgeir": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Pierce": 45,
+            "Durability": 125
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Bronze": 4
+          },
+          "stats": {
+            "Pierce": 51,
+            "Durability": 175
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Bronze": 8
+          },
+          "stats": {
+            "Pierce": 57,
+            "Durability": 225
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 4,
+          "cost": {
+            "Bronze": 12
+          },
+          "stats": {
+            "Pierce": 63,
+            "Durability": 275
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Bronze_atgeir"
+    },
+    "Copper knife": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Pierce": 12,
+            "Slash": 12,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Copper": 4,
+            "Greydwarf eye": 8
+          },
+          "stats": {
+            "Pierce": 13,
+            "Slash": 13,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Copper": 8,
+            "Greydwarf eye": 16
+          },
+          "stats": {
+            "Pierce": 14,
+            "Slash": 14,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 4,
+          "cost": {
+            "Copper": 12,
+            "Greydwarf eye": 24
+          },
+          "stats": {
+            "Pierce": 15,
+            "Slash": 15,
+            "Durability": 350
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Copper_knife"
+    },
+    "Bronze buckler": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Block armor": 16,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Bronze": 5,
+            "Wood": 1
+          },
+          "stats": {
+            "Block armor": 22,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Bronze": 10,
+            "Wood": 2
+          },
+          "stats": {
+            "Block armor": 28,
+            "Durability": 300
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Bronze_buckler"
     }
   }
 }
