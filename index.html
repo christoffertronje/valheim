@@ -71,7 +71,7 @@ body{background:radial-gradient(ellipse at 50% 0,#5c442a 0,transparent 50%),line
 @media(max-width:360px){.card.chapter{grid-template-columns:58px minmax(0,1fr)}.chapter-art .art-icon{font-size:29px}.chapter-art .art-detail{display:none}.chapter-content{padding:14px 11px!important}}
 @media(prefers-reduced-motion:reduce){.card.chapter{transition:none}}
 </style>
-<link rel="icon" type="image/svg+xml" href="./assets/cauldron.svg"><link rel="apple-touch-icon" href="./assets/cauldron.svg"></head>
+<link rel="icon" type="image/svg+xml" href="./assets/cauldron.svg"><link rel="apple-touch-icon" href="./assets/cauldron.svg"><link rel="manifest" href="./manifest.webmanifest"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="Valheim"><link rel="apple-touch-icon" href="./assets/cauldron.svg"></head>
 <body><main>
 <div class="eyebrow">Your Viking toolkit</div>
 <h1>ᛟ Valheim Companion</h1>
@@ -91,4 +91,4 @@ body{background:radial-gradient(ellipse at 50% 0,#5c442a 0,transparent 50%),line
 </a>
 </nav>
 <footer>Unofficial fan-made companion • No later-biome spoilers</footer>
-</main></body></html>
+</main><script>if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(err=>console.warn('Offline support unavailable:',err)))}</script></body></html>
