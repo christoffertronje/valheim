@@ -45,14 +45,50 @@ a{color:#eac185}footer{color:#ad9677}
 /* Longhouse landing page */
 main{position:relative;isolation:isolate}main:before{content:'ᚠ ᚢ ᚦ ᚨ ᚱ ᚲ';display:block;color:#d0a563;font-size:20px;letter-spacing:.8em;margin-bottom:35px;opacity:.7}
 body{background:radial-gradient(ellipse at 50% 0,#5c442a 0,transparent 50%),linear-gradient(125deg,#1c221b,#0b0d0b 80%)!important;color:#f6e4c2;font-family:Georgia,'Times New Roman',serif}h1{color:#edc781;text-shadow:0 5px 20px #000;letter-spacing:.02em}p{color:#cfbc9d}.eyebrow{color:#d6a559}.card{background:linear-gradient(140deg,#33291d,#1b2019);border:2px solid #876b43;border-radius:8px;box-shadow:inset 0 0 0 3px #1a1913,0 20px 35px #0009}.card:hover{border-color:#e1b773}.card span{color:#cbb89c}.pill{border-radius:4px;background:#66502c;color:#f3d699;border:1px solid #bb955b}footer{color:#aa9474}
+
+/* Chapter cards: one layout, three distinct Valheim-inspired environments */
+.chapters{display:grid;gap:22px;margin-top:34px}
+.card.chapter{--accent:#e7b66a;--accent-soft:#f8daa6;--panel-top:#49331d;--panel-bottom:#221e17;display:grid;grid-template-columns:150px minmax(0,1fr);align-items:stretch;gap:0;overflow:hidden;margin:0;padding:0;min-height:200px;background:linear-gradient(125deg,var(--panel-top),var(--panel-bottom) 80%);border:1px solid var(--accent);border-radius:12px;box-shadow:inset 0 0 0 1px #ffffff0a,0 12px 26px #0008;transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease}
+.card.chapter:before{content:none}
+.card.chapter:hover,.card.chapter:focus-visible{transform:translateY(-3px);box-shadow:inset 0 0 0 1px #ffffff0a,0 17px 35px #000c;outline-offset:4px}
+.card.chapter:focus-visible{outline:2px solid var(--accent-soft)}
+.chapter-food{--accent:#cb9354!important;--accent-soft:#f4d6a2!important;--panel-top:#4b2b18!important;--panel-bottom:#251e15!important}
+.chapter-creatures{--accent:#7c9e7e!important;--accent-soft:#d4e6c8!important;--panel-top:#263b32!important;--panel-bottom:#121e1b!important}
+.chapter-crafting{--accent:#b78068!important;--accent-soft:#f0c6aa!important;--panel-top:#3d2d2a!important;--panel-bottom:#1b1c1e!important}
+.chapter-art{position:relative;display:flex!important;align-items:center;justify-content:center;flex-direction:column;gap:10px;overflow:hidden;margin:0!important;border-right:1px solid #ffffff21;background:radial-gradient(circle at 50% 45%,color-mix(in srgb,var(--accent) 21%,transparent),transparent 64%),repeating-linear-gradient(0deg,#ffffff05 0 1px,transparent 1px 12px),linear-gradient(145deg,#00000010,#00000055)}
+.chapter-art:before,.chapter-art:after{content:'';position:absolute;inset:13px;border:1px solid color-mix(in srgb,var(--accent) 34%,transparent);border-radius:70px 70px 10px 10px;pointer-events:none}
+.chapter-art:after{inset:20px;border-style:dashed;opacity:.5}
+.chapter-art .art-icon{display:block;margin:0;color:var(--accent-soft);font-size:64px;line-height:1;text-shadow:0 0 30px var(--accent),0 4px 12px #000}
+.chapter-art .art-detail{display:block;margin:0;color:var(--accent-soft);opacity:.65;letter-spacing:.4em;font-size:11px}
+.chapter-content{display:flex!important;flex-direction:column;align-items:flex-start;gap:10px;margin:0!important;padding:26px 26px 23px;min-width:0}
+.card.chapter .chapter-kicker{display:block;margin:0;color:var(--accent-soft);font:700 10px system-ui,-apple-system,sans-serif;letter-spacing:.14em;line-height:1.5}
+.card.chapter strong{display:block;color:#f7e7c9;font-size:clamp(22px,3vw,29px);line-height:1.13;overflow-wrap:break-word}
+.card.chapter .chapter-description{margin:0;color:#d5c5ad;font:14px/1.55 system-ui,-apple-system,sans-serif}
+.card.chapter .chapter-action{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:auto;padding:11px 13px;min-width:175px;border:1px solid var(--accent);border-radius:6px;background:color-mix(in srgb,var(--accent) 19%,#12150f);color:var(--accent-soft);font:700 12px system-ui,-apple-system,sans-serif;letter-spacing:.015em}
+.card.chapter .chapter-action span{display:inline;margin:0;color:inherit;font-size:18px;line-height:.6}
+.chapter:active{transform:translateY(0)!important}
+@media(max-width:600px){.chapters{gap:15px;margin-top:25px}.card.chapter{grid-template-columns:78px minmax(0,1fr);min-height:178px}.chapter-art:before{inset:7px;border-radius:40px 40px 7px 7px}.chapter-art:after{inset:12px}.chapter-art .art-icon{font-size:39px}.chapter-art .art-detail{font-size:8px;letter-spacing:.12em}.chapter-content{padding:17px 14px!important;gap:9px}.card.chapter strong{font-size:clamp(19px,5.4vw,25px)}.card.chapter .chapter-kicker{font-size:9px;letter-spacing:.08em}.card.chapter .chapter-description{font-size:12px;line-height:1.45}.card.chapter .chapter-action{min-width:0;width:100%;padding:9px 11px;font-size:11px}}
+@media(max-width:360px){.card.chapter{grid-template-columns:58px minmax(0,1fr)}.chapter-art .art-icon{font-size:29px}.chapter-art .art-detail{display:none}.chapter-content{padding:14px 11px!important}}
+@media(prefers-reduced-motion:reduce){.card.chapter{transition:none}}
 </style>
 <link rel="icon" type="image/svg+xml" href="./assets/cauldron.svg"><link rel="apple-touch-icon" href="./assets/cauldron.svg"></head>
 <body><main>
 <div class="eyebrow">Your Viking toolkit</div>
 <h1>ᛟ Valheim Companion</h1>
 <p>Useful tools for your journey through Valheim. Built to grow, one tool at a time. Later-biome content is hidden by default in the guides.</p>
-<a class="card" href="./food/"><strong>ᛉ The Viking Cookbook →</strong><span>Explore food, filter by biome and cooking-station level, and calculate the materials you need.</span><span class="pill">Open cookbook</span></a>
-<a class="card" href="./creatures/"><strong>ᛉ Creature Compendium →</strong><span>Explore creatures by biome, compare base HP and attack damage, and inspect weaknesses and resistances. Future biomes hidden by default.</span><span class="pill">Open compendium</span></a>
-<a class="card" href="./crafting/"><strong>ᚠ The Crafting Codex →</strong><span>Browse weapons, armour, tools, shields, ammunition and magical equipment by biome, station and upgrade level. Food lives in the cookbook.</span><span class="pill">Open crafting</span></a>
+<nav class="chapters" aria-label="Companion guides">
+<a class="card chapter chapter-food" href="./food/">
+ <span class="chapter-art" aria-hidden="true"><span class="art-icon">♨</span><span class="art-detail">ᚠ ᛟ ᚦ</span></span>
+ <span class="chapter-content"><span class="chapter-kicker">THE HEARTH · FOOD & INGREDIENTS</span><strong>The Viking Cookbook</strong><span class="chapter-description">Discover Viking meals, compare food stats and plan your ingredients before the next feast.</span><span class="chapter-action">Enter the kitchen <span aria-hidden="true">→</span></span></span>
+</a>
+<a class="card chapter chapter-creatures" href="./creatures/">
+ <span class="chapter-art" aria-hidden="true"><span class="art-icon">ᛉ</span><span class="art-detail">ᚷ ᚺ ᛇ</span></span>
+ <span class="chapter-content"><span class="chapter-kicker">THE WILDS · CREATURES & COMBAT</span><strong>Creature Compendium</strong><span class="chapter-description">Study the creatures of each biome, their attacks, weaknesses and resistances.</span><span class="chapter-action">Open the bestiary <span aria-hidden="true">→</span></span></span>
+</a>
+<a class="card chapter chapter-crafting" href="./crafting/">
+ <span class="chapter-art" aria-hidden="true"><span class="art-icon">⚒</span><span class="art-detail">ᚢ ᛏ ᚲ</span></span>
+ <span class="chapter-content"><span class="chapter-kicker">THE FORGE · GEAR & MATERIALS</span><strong>The Crafting Codex</strong><span class="chapter-description">Find recipes for weapons, armour and tools, then calculate the materials for your next creation.</span><span class="chapter-action">Enter the forge <span aria-hidden="true">→</span></span></span>
+</a>
+</nav>
 <footer>Unofficial fan-made companion • No later-biome spoilers</footer>
 </main></body></html>
