@@ -2559,6 +2559,533 @@
         }
       ],
       "source": "https://www.valheimdatabase.com/items/iron-sledge/"
+    },
+    "Fenris coat": {
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 2,
+          "stats": {
+            "Armor": 10,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 3,
+          "cost": {
+            "Fenris hair": 5,
+            "Wolf pelt": 3,
+            "Leather scraps": 4
+          },
+          "stats": {
+            "Armor": 12,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 4,
+          "cost": {
+            "Fenris hair": 10,
+            "Wolf pelt": 6,
+            "Leather scraps": 8
+          },
+          "stats": {
+            "Armor": 14,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 5,
+          "cost": {
+            "Fenris hair": 15,
+            "Wolf pelt": 9,
+            "Leather scraps": 12
+          },
+          "stats": {
+            "Armor": 16,
+            "Durability": 1600
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Fenris_Set"
+    },
+    "Fenris leggings": {
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 2,
+          "stats": {
+            "Armor": 10,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 3,
+          "cost": {
+            "Fenris hair": 5,
+            "Wolf pelt": 3,
+            "Leather scraps": 4
+          },
+          "stats": {
+            "Armor": 12,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 4,
+          "cost": {
+            "Fenris hair": 10,
+            "Wolf pelt": 6,
+            "Leather scraps": 8
+          },
+          "stats": {
+            "Armor": 14,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 5,
+          "cost": {
+            "Fenris hair": 15,
+            "Wolf pelt": 9,
+            "Leather scraps": 12
+          },
+          "stats": {
+            "Armor": 16,
+            "Durability": 1600
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Fenris_Set"
+    },
+    "Fenris hood": {
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 2,
+          "stats": {
+            "Armor": 10,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 3,
+          "cost": {
+            "Fenris hair": 5,
+            "Wolf pelt": 4
+          },
+          "stats": {
+            "Armor": 12,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 4,
+          "cost": {
+            "Fenris hair": 10,
+            "Wolf pelt": 8
+          },
+          "stats": {
+            "Armor": 14,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 5,
+          "cost": {
+            "Fenris hair": 15,
+            "Wolf pelt": 12
+          },
+          "stats": {
+            "Armor": 16,
+            "Durability": 1600
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Fenris_Set"
+    },
+    "Wolf fur cape": {
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 2,
+          "stats": {
+            "Armor": 1,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 3,
+          "cost": {
+            "Silver": 2,
+            "Wolf pelt": 4
+          },
+          "stats": {
+            "Armor": 2,
+            "Durability": 1050
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 4,
+          "cost": {
+            "Silver": 4,
+            "Wolf pelt": 8
+          },
+          "stats": {
+            "Armor": 3,
+            "Durability": 1100
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 5,
+          "cost": {
+            "Silver": 6,
+            "Wolf pelt": 12
+          },
+          "stats": {
+            "Armor": 4,
+            "Durability": 1150
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Wolf_Armor"
+    },
+    "Drake helmet": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Armor": 20,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Silver": 5
+          },
+          "stats": {
+            "Armor": 22,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Silver": 10
+          },
+          "stats": {
+            "Armor": 24,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 4,
+          "cost": {
+            "Silver": 15
+          },
+          "stats": {
+            "Armor": 26,
+            "Durability": 1600
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Wolf_Armor"
+    },
+    "Wolf armor chest": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 2,
+          "stats": {
+            "Armor": 20,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 3,
+          "cost": {
+            "Silver": 5,
+            "Wolf pelt": 2
+          },
+          "stats": {
+            "Armor": 22,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 4,
+          "cost": {
+            "Silver": 10,
+            "Wolf pelt": 4
+          },
+          "stats": {
+            "Armor": 24,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 5,
+          "cost": {
+            "Silver": 15,
+            "Wolf pelt": 6
+          },
+          "stats": {
+            "Armor": 26,
+            "Durability": 1600
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Wolf_Armor"
+    },
+    "Wolf armor legs": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 2,
+          "stats": {
+            "Armor": 20,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 3,
+          "cost": {
+            "Silver": 5,
+            "Wolf pelt": 2,
+            "Wolf fang": 1
+          },
+          "stats": {
+            "Armor": 22,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 4,
+          "cost": {
+            "Silver": 10,
+            "Wolf pelt": 4,
+            "Wolf fang": 2
+          },
+          "stats": {
+            "Armor": 24,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 5,
+          "cost": {
+            "Silver": 15,
+            "Wolf pelt": 6,
+            "Wolf fang": 3
+          },
+          "stats": {
+            "Armor": 26,
+            "Durability": 1600
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Wolf_Armor"
+    },
+    "Silver sword": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 3,
+          "stats": {
+            "Slash": 75,
+            "Spirit": 30,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 4,
+          "cost": {
+            "Wood": 1,
+            "Silver": 20,
+            "Leather scraps": 1,
+            "Iron": 3
+          },
+          "stats": {
+            "Slash": 81,
+            "Spirit": 35,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 5,
+          "cost": {
+            "Wood": 2,
+            "Silver": 40,
+            "Leather scraps": 2,
+            "Iron": 6
+          },
+          "stats": {
+            "Slash": 87,
+            "Spirit": 40,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 6,
+          "cost": {
+            "Wood": 3,
+            "Silver": 60,
+            "Leather scraps": 3,
+            "Iron": 9
+          },
+          "stats": {
+            "Slash": 93,
+            "Spirit": 45,
+            "Durability": 350
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Silver_sword"
+    },
+    "Frostner": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 3,
+          "stats": {
+            "Blunt": 35,
+            "Frost": 40,
+            "Spirit": 20,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 4,
+          "cost": {
+            "Silver": 15
+          },
+          "stats": {
+            "Blunt": 35,
+            "Frost": 46,
+            "Spirit": 20,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 5,
+          "cost": {
+            "Silver": 30
+          },
+          "stats": {
+            "Blunt": 35,
+            "Frost": 52,
+            "Spirit": 20,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 6,
+          "cost": {
+            "Silver": 45
+          },
+          "stats": {
+            "Blunt": 35,
+            "Frost": 58,
+            "Spirit": 20,
+            "Durability": 350
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Frostner"
+    },
+    "Fang spear": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 3,
+          "stats": {
+            "Pierce": 70,
+            "Durability": 100
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 4,
+          "cost": {
+            "Ancient bark": 5,
+            "Wolf fang": 2,
+            "Leather scraps": 1,
+            "Silver": 1
+          },
+          "stats": {
+            "Pierce": 76,
+            "Durability": 150
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 5,
+          "cost": {
+            "Ancient bark": 10,
+            "Wolf fang": 4,
+            "Leather scraps": 2,
+            "Silver": 2
+          },
+          "stats": {
+            "Pierce": 82,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 6,
+          "cost": {
+            "Ancient bark": 15,
+            "Wolf fang": 6,
+            "Leather scraps": 3,
+            "Silver": 3
+          },
+          "stats": {
+            "Pierce": 88,
+            "Durability": 250
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Fang_spear"
     }
   }
 }
