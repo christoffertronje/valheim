@@ -3086,6 +3086,279 @@
         }
       ],
       "source": "https://valheim.fandom.com/wiki/Fang_spear"
+    },
+    "Silver knife": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 3,
+          "stats": {
+            "Pierce": 25,
+            "Slash": 25,
+            "Spirit": 12,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 4,
+          "cost": {
+            "Wood": 1,
+            "Silver": 5,
+            "Leather scraps": 1,
+            "Iron": 1
+          },
+          "stats": {
+            "Pierce": 26,
+            "Slash": 26,
+            "Spirit": 12,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 5,
+          "cost": {
+            "Wood": 2,
+            "Silver": 10,
+            "Leather scraps": 2,
+            "Iron": 2
+          },
+          "stats": {
+            "Pierce": 27,
+            "Slash": 27,
+            "Spirit": 12,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 6,
+          "cost": {
+            "Wood": 3,
+            "Silver": 15,
+            "Leather scraps": 3,
+            "Iron": 3
+          },
+          "stats": {
+            "Pierce": 28,
+            "Slash": 28,
+            "Spirit": 12,
+            "Durability": 350
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Silver_knife"
+    },
+    "Flesh Rippers": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 3,
+          "stats": {
+            "Slash": 60,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 4,
+          "cost": {
+            "Fenris hair": 1,
+            "Fenris claw": 1,
+            "Silver": 1
+          },
+          "stats": {
+            "Slash": 64,
+            "Durability": 350
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 5,
+          "cost": {
+            "Fenris hair": 2,
+            "Fenris claw": 2,
+            "Silver": 2
+          },
+          "stats": {
+            "Slash": 68,
+            "Durability": 400
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 6,
+          "cost": {
+            "Fenris hair": 3,
+            "Fenris claw": 3,
+            "Silver": 3
+          },
+          "stats": {
+            "Slash": 72,
+            "Durability": 450
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Flesh_Rippers"
+    },
+    "Draugr Fang": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 2,
+          "stats": {
+            "Pierce": 47,
+            "Poison": 5,
+            "Durability": 100
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 3,
+          "cost": {
+            "Ancient bark": 5,
+            "Silver": 10,
+            "Deer hide": 2,
+            "Guck": 2
+          },
+          "stats": {
+            "Pierce": 50,
+            "Poison": 10,
+            "Durability": 150
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 4,
+          "cost": {
+            "Ancient bark": 10,
+            "Silver": 20,
+            "Deer hide": 4,
+            "Guck": 4
+          },
+          "stats": {
+            "Pierce": 53,
+            "Poison": 15,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 5,
+          "cost": {
+            "Ancient bark": 15,
+            "Silver": 30,
+            "Deer hide": 6,
+            "Guck": 6
+          },
+          "stats": {
+            "Pierce": 56,
+            "Poison": 20,
+            "Durability": 250
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Draugr_Fang"
+    },
+    "Silver shield": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 3,
+          "stats": {
+            "Block armor": 60,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 4,
+          "cost": {
+            "Finewood": 10,
+            "Silver": 4
+          },
+          "stats": {
+            "Block armor": 66,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 5,
+          "cost": {
+            "Finewood": 20,
+            "Silver": 8
+          },
+          "stats": {
+            "Block armor": 72,
+            "Durability": 300
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Silver_shield"
+    },
+    "Crystal battleaxe": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 3,
+          "stats": {
+            "Slash": 90,
+            "Spirit": 30,
+            "Chop (trees)": 50,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 4,
+          "cost": {
+            "Ancient bark": 5,
+            "Silver": 15
+          },
+          "stats": {
+            "Slash": 96,
+            "Spirit": 30,
+            "Chop (trees)": 52.5,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 5,
+          "cost": {
+            "Ancient bark": 10,
+            "Silver": 30
+          },
+          "stats": {
+            "Slash": 102,
+            "Spirit": 30,
+            "Chop (trees)": 55,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 6,
+          "cost": {
+            "Ancient bark": 15,
+            "Silver": 45
+          },
+          "stats": {
+            "Slash": 108,
+            "Spirit": 30,
+            "Chop (trees)": 57.5,
+            "Durability": 350
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Crystal_battleaxe"
     }
   }
 }
