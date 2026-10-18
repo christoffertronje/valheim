@@ -2506,6 +2506,59 @@
         }
       ],
       "source": "https://valheim.fandom.com/wiki/Iron_tower_shield"
+    },
+    "Iron sledge": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 2,
+          "stats": {
+            "Blunt": 55,
+            "Durability": 100
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 3,
+          "cost": {
+            "Ancient bark": 2,
+            "Iron": 15,
+            "Ymir flesh": 2
+          },
+          "stats": {
+            "Blunt": 61,
+            "Durability": 150
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 4,
+          "cost": {
+            "Ancient bark": 4,
+            "Iron": 30,
+            "Ymir flesh": 4
+          },
+          "stats": {
+            "Blunt": 67,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 5,
+          "cost": {
+            "Ancient bark": 8,
+            "Iron": 60,
+            "Ymir flesh": 8
+          },
+          "stats": {
+            "Blunt": 73,
+            "Durability": 250
+          }
+        }
+      ],
+      "source": "https://www.valheimdatabase.com/items/iron-sledge/"
     }
   }
 }
