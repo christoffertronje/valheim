@@ -5086,6 +5086,116 @@
         }
       ],
       "source": "https://valheim.fandom.com/wiki/Staff_of_Frost"
+    },
+    "Staff of Embers": {
+      "station": "Galdr Table",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Fire": 120,
+            "Blunt": 120,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Yggdrasil wood": 10,
+            "Surtling core": 2,
+            "Refined eitr": 8
+          },
+          "stats": {
+            "Fire": 126,
+            "Blunt": 120,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Yggdrasil wood": 20,
+            "Surtling core": 4,
+            "Refined eitr": 16
+          },
+          "stats": {
+            "Fire": 132,
+            "Blunt": 120,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 4,
+          "cost": {
+            "Yggdrasil wood": 30,
+            "Surtling core": 6,
+            "Refined eitr": 24
+          },
+          "stats": {
+            "Fire": 138,
+            "Blunt": 120,
+            "Durability": 350
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Staff_of_Embers"
+    },
+    "Staff of Protection": {
+      "station": "Galdr Table",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Barrier duration (s)": 60,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Yggdrasil wood": 10,
+            "Blood clot": 2,
+            "Refined eitr": 8
+          },
+          "stats": {
+            "Barrier duration (s)": 120,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Yggdrasil wood": 20,
+            "Blood clot": 4,
+            "Refined eitr": 16
+          },
+          "stats": {
+            "Barrier duration (s)": 180,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 4,
+          "cost": {
+            "Yggdrasil wood": 30,
+            "Blood clot": 6,
+            "Refined eitr": 24
+          },
+          "stats": {
+            "Barrier duration (s)": 240,
+            "Durability": 350
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Staff_of_Protection"
     }
   }
 }
