@@ -1,0 +1,19 @@
+{
+  "id": "/valheim/",
+  "name": "Valheim Companion",
+  "short_name": "Valheim",
+  "description": "A Viking toolkit for food, creatures and crafting.",
+  "start_url": "/valheim/",
+  "scope": "/valheim/",
+  "display": "standalone",
+  "background_color": "#0c0e0c",
+  "theme_color": "#171812",
+  "icons": [
+    {
+      "src": "./assets/cauldron.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
