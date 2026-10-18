@@ -3985,6 +3985,642 @@
         }
       ],
       "source": "https://valheim.fandom.com/wiki/Linen_cape"
+    },
+    "Mistwalker": {
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Slash": 75,
+            "Frost": 40,
+            "Spirit": 0,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Iron": 10,
+            "Refined eitr": 5,
+            "Wisp": 1
+          },
+          "stats": {
+            "Slash": 75,
+            "Frost": 46,
+            "Spirit": 5,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Iron": 20,
+            "Refined eitr": 10,
+            "Wisp": 2
+          },
+          "stats": {
+            "Slash": 75,
+            "Frost": 52,
+            "Spirit": 10,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 4,
+          "cost": {
+            "Iron": 30,
+            "Refined eitr": 15,
+            "Wisp": 3
+          },
+          "stats": {
+            "Slash": 75,
+            "Frost": 58,
+            "Spirit": 15,
+            "Durability": 350
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Mistwalker"
+    },
+    "Krom": {
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Slash": 150,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Iron": 15,
+            "Bronze": 10,
+            "Scale hide": 5
+          },
+          "stats": {
+            "Slash": 156,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Iron": 30,
+            "Bronze": 20,
+            "Scale hide": 10
+          },
+          "stats": {
+            "Slash": 162,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 4,
+          "cost": {
+            "Iron": 45,
+            "Bronze": 30,
+            "Scale hide": 15
+          },
+          "stats": {
+            "Slash": 168,
+            "Durability": 350
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Krom"
+    },
+    "Arbalest": {
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Pierce": 200,
+            "Durability": 50
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Wood": 5,
+            "Iron": 4,
+            "Root": 1
+          },
+          "stats": {
+            "Pierce": 203,
+            "Durability": 100
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Wood": 10,
+            "Iron": 8,
+            "Root": 2
+          },
+          "stats": {
+            "Pierce": 206,
+            "Durability": 150
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 4,
+          "cost": {
+            "Wood": 15,
+            "Iron": 12,
+            "Root": 3
+          },
+          "stats": {
+            "Pierce": 209,
+            "Durability": 200
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Arbalest"
+    },
+    "Carapace helmet": {
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Armor": 32,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Carapace": 8,
+            "Scale hide": 1,
+            "Refined eitr": 2
+          },
+          "stats": {
+            "Armor": 34,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Carapace": 16,
+            "Scale hide": 2,
+            "Refined eitr": 4
+          },
+          "stats": {
+            "Armor": 36,
+            "Durability": 1600
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 4,
+          "cost": {
+            "Carapace": 24,
+            "Scale hide": 3,
+            "Refined eitr": 6
+          },
+          "stats": {
+            "Armor": 38,
+            "Durability": 1800
+          }
+        }
+      ],
+      "source": "https://www.valheim.tools/armor-sets/carapace"
+    },
+    "Carapace breastplate": {
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Armor": 32,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Carapace": 10,
+            "Scale hide": 1,
+            "Refined eitr": 2
+          },
+          "stats": {
+            "Armor": 34,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Carapace": 20,
+            "Scale hide": 2,
+            "Refined eitr": 4
+          },
+          "stats": {
+            "Armor": 36,
+            "Durability": 1600
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 4,
+          "cost": {
+            "Carapace": 30,
+            "Scale hide": 3,
+            "Refined eitr": 6
+          },
+          "stats": {
+            "Armor": 38,
+            "Durability": 1800
+          }
+        }
+      ],
+      "source": "https://www.valheim.tools/armor-sets/carapace"
+    },
+    "Carapace greaves": {
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Armor": 32,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Carapace": 10,
+            "Scale hide": 1,
+            "Refined eitr": 2
+          },
+          "stats": {
+            "Armor": 34,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Carapace": 20,
+            "Scale hide": 2,
+            "Refined eitr": 4
+          },
+          "stats": {
+            "Armor": 36,
+            "Durability": 1600
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 4,
+          "cost": {
+            "Carapace": 30,
+            "Scale hide": 3,
+            "Refined eitr": 6
+          },
+          "stats": {
+            "Armor": 38,
+            "Durability": 1800
+          }
+        }
+      ],
+      "source": "https://www.valheim.tools/armor-sets/carapace"
+    },
+    "Eitr-weave hood": {
+      "station": "Galdr Table",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Armor": 16,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Linen thread": 8,
+            "Refined eitr": 5
+          },
+          "stats": {
+            "Armor": 18,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Linen thread": 16,
+            "Refined eitr": 10
+          },
+          "stats": {
+            "Armor": 20,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 4,
+          "cost": {
+            "Linen thread": 24,
+            "Refined eitr": 15
+          },
+          "stats": {
+            "Armor": 22,
+            "Durability": 1600
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Eitr-weave_Set"
+    },
+    "Eitr-weave robe": {
+      "station": "Galdr Table",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Armor": 16,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Linen thread": 10,
+            "Refined eitr": 5
+          },
+          "stats": {
+            "Armor": 18,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Linen thread": 20,
+            "Refined eitr": 10
+          },
+          "stats": {
+            "Armor": 20,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 4,
+          "cost": {
+            "Linen thread": 30,
+            "Refined eitr": 15
+          },
+          "stats": {
+            "Armor": 22,
+            "Durability": 1600
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Eitr-weave_Set"
+    },
+    "Eitr-weave trousers": {
+      "station": "Galdr Table",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Armor": 16,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Linen thread": 10,
+            "Refined eitr": 5
+          },
+          "stats": {
+            "Armor": 18,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Linen thread": 20,
+            "Refined eitr": 10
+          },
+          "stats": {
+            "Armor": 20,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 4,
+          "cost": {
+            "Linen thread": 30,
+            "Refined eitr": 15
+          },
+          "stats": {
+            "Armor": 22,
+            "Durability": 1600
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Eitr-weave_Set"
+    },
+    "Feather cape": {
+      "station": "Galdr Table",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Armor": 1,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Feathers": 2,
+            "Scale hide": 5,
+            "Refined eitr": 3
+          },
+          "stats": {
+            "Armor": 2,
+            "Durability": 1250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Feathers": 4,
+            "Scale hide": 10,
+            "Refined eitr": 6
+          },
+          "stats": {
+            "Armor": 3,
+            "Durability": 1300
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 4,
+          "cost": {
+            "Feathers": 6,
+            "Scale hide": 15,
+            "Refined eitr": 9
+          },
+          "stats": {
+            "Armor": 4,
+            "Durability": 1350
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Feather_cape"
+    },
+    "Dead Raiser": {
+      "station": "Galdr Table",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Max skeletons": 1,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Bone fragments": 5,
+            "Refined eitr": 8,
+            "Skeleton trophy": 2
+          },
+          "stats": {
+            "Max skeletons": 2,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Bone fragments": 10,
+            "Refined eitr": 16,
+            "Skeleton trophy": 4
+          },
+          "stats": {
+            "Max skeletons": 3,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 4,
+          "cost": {
+            "Bone fragments": 15,
+            "Refined eitr": 24,
+            "Skeleton trophy": 6
+          },
+          "stats": {
+            "Max skeletons": 4,
+            "Durability": 350
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Dead_Raiser"
+    },
+    "Black metal pickaxe": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 2,
+          "stats": {
+            "Pierce": 49,
+            "Mining": 49,
+            "Durability": 210
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 3,
+          "cost": {
+            "Yggdrasil wood": 1,
+            "Black metal": 15
+          },
+          "stats": {
+            "Pierce": 54,
+            "Mining": 54,
+            "Durability": 260
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 4,
+          "cost": {
+            "Yggdrasil wood": 2,
+            "Black metal": 30
+          },
+          "stats": {
+            "Pierce": 59,
+            "Mining": 59,
+            "Durability": 310
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 5,
+          "cost": {
+            "Yggdrasil wood": 3,
+            "Black metal": 45
+          },
+          "stats": {
+            "Pierce": 64,
+            "Mining": 64,
+            "Durability": 360
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Black_metal_pickaxe"
     }
   }
 }
