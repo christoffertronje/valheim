@@ -5196,6 +5196,659 @@
         }
       ],
       "source": "https://valheim.fandom.com/wiki/Staff_of_Protection"
+    },
+    "Nidhögg": {
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 3,
+          "stats": {
+            "Slash": 135,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 4,
+          "cost": {
+            "Flametal": 10,
+            "Asksvin hide": 2
+          },
+          "stats": {
+            "Slash": 141,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 5,
+          "cost": {
+            "Flametal": 20,
+            "Asksvin hide": 4
+          },
+          "stats": {
+            "Slash": 147,
+            "Durability": 300
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Nidh%C3%B6gg"
+    },
+    "Slayer": {
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 3,
+          "stats": {
+            "Slash": 170,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 4,
+          "cost": {
+            "Flametal": 15,
+            "Morgen sinew": 3,
+            "Asksvin hide": 5
+          },
+          "stats": {
+            "Slash": 176,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 5,
+          "cost": {
+            "Flametal": 30,
+            "Morgen sinew": 6,
+            "Asksvin hide": 10
+          },
+          "stats": {
+            "Slash": 182,
+            "Durability": 300
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Slayer"
+    },
+    "Ripper": {
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 3,
+          "stats": {
+            "Pierce": 220,
+            "Durability": 50
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 4,
+          "cost": {
+            "Ashwood": 5,
+            "Flametal": 4,
+            "Morgen sinew": 1,
+            "Bonemaw tooth": 4
+          },
+          "stats": {
+            "Pierce": 223,
+            "Durability": 100
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 5,
+          "cost": {
+            "Ashwood": 10,
+            "Flametal": 8,
+            "Morgen sinew": 2,
+            "Bonemaw tooth": 8
+          },
+          "stats": {
+            "Pierce": 226,
+            "Durability": 150
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Ripper"
+    },
+    "Ash Fang": {
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 3,
+          "stats": {
+            "Pierce": 82,
+            "Spirit": 0,
+            "Durability": 100
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 4,
+          "cost": {
+            "Ashwood": 5,
+            "Charred bone": 10,
+            "Flametal": 5,
+            "Bonemaw tooth": 5
+          },
+          "stats": {
+            "Pierce": 86,
+            "Spirit": 5,
+            "Durability": 150
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 5,
+          "cost": {
+            "Ashwood": 10,
+            "Charred bone": 20,
+            "Flametal": 10,
+            "Bonemaw tooth": 10
+          },
+          "stats": {
+            "Pierce": 90,
+            "Spirit": 10,
+            "Durability": 200
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Ash_Fang"
+    },
+    "Flametal mace": {
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 3,
+          "stats": {
+            "Blunt": 135,
+            "Durability": 150
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 4,
+          "cost": {
+            "Charred bone": 5,
+            "Flametal": 8,
+            "Sulfur": 3,
+            "Asksvin hide": 2
+          },
+          "stats": {
+            "Blunt": 141,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 5,
+          "cost": {
+            "Charred bone": 10,
+            "Flametal": 16,
+            "Sulfur": 6,
+            "Asksvin hide": 4
+          },
+          "stats": {
+            "Blunt": 147,
+            "Durability": 250
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Flametal_mace"
+    },
+    "Flametal Helmet": {
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 3,
+          "stats": {
+            "Armor": 38,
+            "Durability": 800
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 4,
+          "cost": {
+            "Flametal": 8,
+            "Asksvin hide": 1,
+            "Refined eitr": 2
+          },
+          "stats": {
+            "Armor": 40,
+            "Durability": 900
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 5,
+          "cost": {
+            "Flametal": 16,
+            "Asksvin hide": 2,
+            "Refined eitr": 4
+          },
+          "stats": {
+            "Armor": 42,
+            "Durability": 1000
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Flametal_Armor"
+    },
+    "Flametal Breastplate": {
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 3,
+          "stats": {
+            "Armor": 38,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 4,
+          "cost": {
+            "Flametal": 10,
+            "Asksvin hide": 1
+          },
+          "stats": {
+            "Armor": 40,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 5,
+          "cost": {
+            "Flametal": 20,
+            "Asksvin hide": 2
+          },
+          "stats": {
+            "Armor": 42,
+            "Durability": 1400
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Flametal_Armor"
+    },
+    "Flametal Greaves": {
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 3,
+          "stats": {
+            "Armor": 38,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 4,
+          "cost": {
+            "Flametal": 10,
+            "Asksvin hide": 1
+          },
+          "stats": {
+            "Armor": 40,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 5,
+          "cost": {
+            "Flametal": 20,
+            "Asksvin hide": 2
+          },
+          "stats": {
+            "Armor": 42,
+            "Durability": 1400
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Flametal_Armor"
+    },
+    "Breastplate of Ask": {
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 3,
+          "stats": {
+            "Armor": 28,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 4,
+          "cost": {
+            "Linen thread": 10,
+            "Lox pelt": 2,
+            "Asksvin hide": 5
+          },
+          "stats": {
+            "Armor": 30,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 5,
+          "cost": {
+            "Linen thread": 20,
+            "Lox pelt": 4,
+            "Asksvin hide": 10
+          },
+          "stats": {
+            "Armor": 32,
+            "Durability": 1400
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Ask_Set"
+    },
+    "Trousers of Ask": {
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 3,
+          "stats": {
+            "Armor": 28,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 4,
+          "cost": {
+            "Linen thread": 10,
+            "Lox pelt": 2,
+            "Asksvin hide": 5
+          },
+          "stats": {
+            "Armor": 30,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 5,
+          "cost": {
+            "Linen thread": 20,
+            "Lox pelt": 4,
+            "Asksvin hide": 10
+          },
+          "stats": {
+            "Armor": 32,
+            "Durability": 1400
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Ask_Set"
+    },
+    "Hood of Ask": {
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 3,
+          "stats": {
+            "Armor": 28,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 4,
+          "cost": {
+            "Linen thread": 10,
+            "Lox pelt": 2,
+            "Asksvin hide": 5
+          },
+          "stats": {
+            "Armor": 30,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 5,
+          "cost": {
+            "Linen thread": 20,
+            "Lox pelt": 4,
+            "Asksvin hide": 10
+          },
+          "stats": {
+            "Armor": 32,
+            "Durability": 1400
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Ask_Set"
+    },
+    "Flametal shield": {
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 3,
+          "stats": {
+            "Block armor": 114,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 4,
+          "cost": {
+            "Ashwood": 10,
+            "Flametal": 4,
+            "Asksvin hide": 2
+          },
+          "stats": {
+            "Block armor": 120,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 5,
+          "cost": {
+            "Ashwood": 20,
+            "Flametal": 8,
+            "Asksvin hide": 4
+          },
+          "stats": {
+            "Block armor": 126,
+            "Durability": 300
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Flametal_shield"
+    },
+    "Flametal tower shield": {
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 3,
+          "stats": {
+            "Block armor": 140,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 4,
+          "cost": {
+            "Ashwood": 10,
+            "Flametal": 4,
+            "Asksvin hide": 2
+          },
+          "stats": {
+            "Block armor": 146,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 5,
+          "cost": {
+            "Ashwood": 20,
+            "Flametal": 8,
+            "Asksvin hide": 4
+          },
+          "stats": {
+            "Block armor": 152,
+            "Durability": 300
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Flametal_tower_shield"
+    },
+    "Staff of Fracturing": {
+      "station": "Galdr Table",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 2,
+          "stats": {
+            "Fire": 12,
+            "Blunt": 12,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 3,
+          "cost": {
+            "Charred bone": 5,
+            "Ashwood": 3,
+            "Proustite powder": 1
+          },
+          "stats": {
+            "Fire": 18,
+            "Blunt": 12,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 4,
+          "cost": {
+            "Charred bone": 10,
+            "Ashwood": 6,
+            "Proustite powder": 2
+          },
+          "stats": {
+            "Fire": 24,
+            "Blunt": 12,
+            "Durability": 300
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Staff_of_Fracturing"
+    },
+    "Staff of the Wild": {
+      "station": "Galdr Table",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 2,
+          "stats": {
+            "Poison": 20,
+            "Blunt": 20,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 3,
+          "cost": {
+            "Ashwood": 5,
+            "Fiddlehead": 2,
+            "Celestial feather": 3,
+            "Jade": 1
+          },
+          "stats": {
+            "Poison": 40,
+            "Blunt": 40,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 4,
+          "cost": {
+            "Ashwood": 10,
+            "Fiddlehead": 4,
+            "Celestial feather": 6,
+            "Jade": 2
+          },
+          "stats": {
+            "Poison": 60,
+            "Blunt": 60,
+            "Durability": 300
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Staff_of_the_Wild"
+    },
+    "Trollstav": {
+      "station": "Galdr Table",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 2,
+          "stats": {
+            "Fire": 300,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 3,
+          "cost": {
+            "Charred bone": 5,
+            "Troll trophy": 1,
+            "Flametal": 3,
+            "Bloodstone": 1
+          },
+          "stats": {
+            "Fire": 300,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 4,
+          "cost": {
+            "Charred bone": 10,
+            "Troll trophy": 2,
+            "Flametal": 6,
+            "Bloodstone": 2
+          },
+          "stats": {
+            "Fire": 300,
+            "Durability": 300
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Trollstav"
     }
   }
 }
