@@ -4621,6 +4621,471 @@
         }
       ],
       "source": "https://valheim.fandom.com/wiki/Black_metal_pickaxe"
+    },
+    "Skoll and Hati": {
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Slash": 45,
+            "Pierce": 45,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Iron": 4,
+            "Black metal": 4
+          },
+          "stats": {
+            "Slash": 46,
+            "Pierce": 46,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Iron": 8,
+            "Black metal": 8
+          },
+          "stats": {
+            "Slash": 47,
+            "Pierce": 47,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 4,
+          "cost": {
+            "Iron": 12,
+            "Black metal": 12
+          },
+          "stats": {
+            "Slash": 48,
+            "Pierce": 48,
+            "Durability": 350
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Skoll_and_Hati"
+    },
+    "Demolisher": {
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Blunt": 145,
+            "Durability": 100
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Yggdrasil wood": 2,
+            "Iron": 15,
+            "Refined eitr": 2
+          },
+          "stats": {
+            "Blunt": 151,
+            "Durability": 150
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Yggdrasil wood": 4,
+            "Iron": 30,
+            "Refined eitr": 4
+          },
+          "stats": {
+            "Blunt": 157,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 4,
+          "cost": {
+            "Yggdrasil wood": 6,
+            "Iron": 45,
+            "Refined eitr": 6
+          },
+          "stats": {
+            "Blunt": 163,
+            "Durability": 250
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Demolisher"
+    },
+    "Carapace spear": {
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Pierce": 115,
+            "Durability": 100
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Yggdrasil wood": 5,
+            "Carapace": 4,
+            "Mandible": 1
+          },
+          "stats": {
+            "Pierce": 121,
+            "Durability": 150
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Yggdrasil wood": 10,
+            "Carapace": 8,
+            "Mandible": 2
+          },
+          "stats": {
+            "Pierce": 127,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 4,
+          "cost": {
+            "Yggdrasil wood": 15,
+            "Carapace": 12,
+            "Mandible": 3
+          },
+          "stats": {
+            "Pierce": 133,
+            "Durability": 250
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Carapace_spear"
+    },
+    "Himminafl": {
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Pierce": 85,
+            "Lightning": 40,
+            "Durability": 175
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Refined eitr": 15,
+            "Silver": 5,
+            "Mandible": 2
+          },
+          "stats": {
+            "Pierce": 85,
+            "Lightning": 46,
+            "Durability": 225
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Refined eitr": 30,
+            "Silver": 10,
+            "Mandible": 4
+          },
+          "stats": {
+            "Pierce": 85,
+            "Lightning": 52,
+            "Durability": 275
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 4,
+          "cost": {
+            "Refined eitr": 45,
+            "Silver": 15,
+            "Mandible": 6
+          },
+          "stats": {
+            "Pierce": 85,
+            "Lightning": 58,
+            "Durability": 325
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Himminafl"
+    },
+    "Jotun Bane": {
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Slash": 80,
+            "Poison": 40,
+            "Chop": 70,
+            "Durability": 175
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Iron": 10,
+            "Bilebag": 1,
+            "Refined eitr": 1
+          },
+          "stats": {
+            "Slash": 85,
+            "Poison": 40,
+            "Chop": 73,
+            "Durability": 225
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Iron": 20,
+            "Bilebag": 2,
+            "Refined eitr": 2
+          },
+          "stats": {
+            "Slash": 90,
+            "Poison": 40,
+            "Chop": 76,
+            "Durability": 275
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 4,
+          "cost": {
+            "Iron": 30,
+            "Bilebag": 3,
+            "Refined eitr": 3
+          },
+          "stats": {
+            "Slash": 95,
+            "Poison": 40,
+            "Chop": 79,
+            "Durability": 325
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Jotun_Bane"
+    },
+    "Spinesnap": {
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Pierce": 72,
+            "Spirit": 5,
+            "Durability": 100
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Finewood": 5,
+            "Bone fragments": 20
+          },
+          "stats": {
+            "Pierce": 76,
+            "Spirit": 10,
+            "Durability": 150
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Finewood": 10,
+            "Bone fragments": 40
+          },
+          "stats": {
+            "Pierce": 80,
+            "Spirit": 15,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 4,
+          "cost": {
+            "Finewood": 15,
+            "Bone fragments": 60
+          },
+          "stats": {
+            "Pierce": 84,
+            "Spirit": 20,
+            "Durability": 250
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Spinesnap"
+    },
+    "Carapace buckler": {
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Block armor": 78,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Carapace": 8,
+            "Scale hide": 3,
+            "Refined eitr": 3
+          },
+          "stats": {
+            "Block armor": 84,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Carapace": 16,
+            "Scale hide": 6,
+            "Refined eitr": 6
+          },
+          "stats": {
+            "Block armor": 90,
+            "Durability": 300
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Carapace_buckler"
+    },
+    "Carapace shield": {
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Block armor": 96,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Carapace": 10,
+            "Scale hide": 3,
+            "Refined eitr": 3
+          },
+          "stats": {
+            "Block armor": 102,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Carapace": 20,
+            "Scale hide": 6,
+            "Refined eitr": 6
+          },
+          "stats": {
+            "Block armor": 108,
+            "Durability": 300
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Carapace_shield"
+    },
+    "Staff of Frost": {
+      "station": "Galdr Table",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Frost": 30,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Yggdrasil wood": 10,
+            "Freeze gland": 2,
+            "Refined eitr": 8
+          },
+          "stats": {
+            "Frost": 32,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Yggdrasil wood": 20,
+            "Freeze gland": 4,
+            "Refined eitr": 16
+          },
+          "stats": {
+            "Frost": 34,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 4,
+          "cost": {
+            "Yggdrasil wood": 30,
+            "Freeze gland": 6,
+            "Refined eitr": 24
+          },
+          "stats": {
+            "Frost": 36,
+            "Durability": 350
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Staff_of_Frost"
     }
   }
 }
