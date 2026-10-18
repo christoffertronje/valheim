@@ -1,0 +1,307 @@
+{
+  "schemaVersion": 1,
+  "description": "Quality 1 is crafting baseline; cost on qualities >=2 is the cost to upgrade to that quality. Only sourced entries appear.",
+  "items": {
+    "Flint axe": {
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Slash": 20,
+            "Chop (trees)": 30,
+            "Durability": 100
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Flint": 3,
+            "Leather scraps": 2
+          },
+          "stats": {
+            "Slash": 25,
+            "Chop (trees)": 33,
+            "Durability": 130
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Flint": 6,
+            "Leather scraps": 4
+          },
+          "stats": {
+            "Slash": 30,
+            "Chop (trees)": 36,
+            "Durability": 160
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 4,
+          "cost": {
+            "Flint": 9,
+            "Leather scraps": 6
+          },
+          "stats": {
+            "Slash": 35,
+            "Chop (trees)": 39,
+            "Durability": 190
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Flint_axe"
+    },
+    "Bronze sword": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Slash": 35,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Wood": 1,
+            "Bronze": 4,
+            "Leather scraps": 1
+          },
+          "stats": {
+            "Slash": 41,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Wood": 2,
+            "Bronze": 8,
+            "Leather scraps": 2
+          },
+          "stats": {
+            "Slash": 47,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 4,
+          "cost": {
+            "Wood": 3,
+            "Bronze": 12,
+            "Leather scraps": 3
+          },
+          "stats": {
+            "Slash": 53,
+            "Durability": 350
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Bronze_sword"
+    },
+    "Troll leather tunic": {
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 2,
+          "stats": {
+            "Armor": 6,
+            "Durability": 500
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 3,
+          "cost": {
+            "Troll hide": 2
+          },
+          "stats": {
+            "Armor": 8,
+            "Durability": 700
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 4,
+          "cost": {
+            "Troll hide": 4
+          },
+          "stats": {
+            "Armor": 10,
+            "Durability": 900
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 5,
+          "cost": {
+            "Troll hide": 6
+          },
+          "stats": {
+            "Armor": 12,
+            "Durability": 1100
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Troll_Set"
+    },
+    "Troll leather pants": {
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 2,
+          "stats": {
+            "Armor": 6,
+            "Durability": 500
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 3,
+          "cost": {
+            "Troll hide": 2
+          },
+          "stats": {
+            "Armor": 8,
+            "Durability": 700
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 4,
+          "cost": {
+            "Troll hide": 4
+          },
+          "stats": {
+            "Armor": 10,
+            "Durability": 900
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 5,
+          "cost": {
+            "Troll hide": 6
+          },
+          "stats": {
+            "Armor": 12,
+            "Durability": 1100
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Troll_Set"
+    },
+    "Troll leather helmet": {
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 2,
+          "stats": {
+            "Armor": 6,
+            "Durability": 500
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 3,
+          "cost": {
+            "Troll hide": 2,
+            "Bone fragments": 1
+          },
+          "stats": {
+            "Armor": 8,
+            "Durability": 700
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 4,
+          "cost": {
+            "Troll hide": 4,
+            "Bone fragments": 2
+          },
+          "stats": {
+            "Armor": 10,
+            "Durability": 900
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 5,
+          "cost": {
+            "Troll hide": 6,
+            "Bone fragments": 3
+          },
+          "stats": {
+            "Armor": 12,
+            "Durability": 1100
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Troll_Set"
+    },
+    "Troll hide cape": {
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 2,
+          "stats": {
+            "Armor": 1,
+            "Durability": 500
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 3,
+          "cost": {
+            "Troll hide": 5,
+            "Bone fragments": 5
+          },
+          "stats": {
+            "Armor": 2,
+            "Durability": 550
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 4,
+          "cost": {
+            "Troll hide": 10,
+            "Bone fragments": 10
+          },
+          "stats": {
+            "Armor": 3,
+            "Durability": 600
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 5,
+          "cost": {
+            "Troll hide": 15,
+            "Bone fragments": 15
+          },
+          "stats": {
+            "Armor": 4,
+            "Durability": 650
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Troll_Set"
+    }
+  }
+}
