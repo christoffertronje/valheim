@@ -1539,6 +1539,147 @@
         }
       ],
       "source": "https://valheim.fandom.com/wiki/Bronze_buckler"
+    },
+    "Bronze helmet": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Armor": 8,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Bronze": 3
+          },
+          "stats": {
+            "Armor": 10,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Bronze": 6
+          },
+          "stats": {
+            "Armor": 12,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 4,
+          "cost": {
+            "Bronze": 12
+          },
+          "stats": {
+            "Armor": 14,
+            "Durability": 1600
+          }
+        }
+      ],
+      "source": "https://www.valheimdatabase.com/items/bronze-helmet/"
+    },
+    "Bronze plate cuirass": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Armor": 8,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Bronze": 3
+          },
+          "stats": {
+            "Armor": 10,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Bronze": 6
+          },
+          "stats": {
+            "Armor": 12,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 4,
+          "cost": {
+            "Bronze": 12
+          },
+          "stats": {
+            "Armor": 14,
+            "Durability": 1600
+          }
+        }
+      ],
+      "source": "https://www.valheimdatabase.com/items/bronze-plate-cuirass/"
+    },
+    "Bronze plate leggings": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Armor": 8,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Bronze": 3
+          },
+          "stats": {
+            "Armor": 10,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Bronze": 6
+          },
+          "stats": {
+            "Armor": 12,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 4,
+          "cost": {
+            "Bronze": 12
+          },
+          "stats": {
+            "Armor": 14,
+            "Durability": 1600
+          }
+        }
+      ],
+      "source": "https://www.valheimdatabase.com/items/bronze-plate-leggings/"
     }
   }
 }
