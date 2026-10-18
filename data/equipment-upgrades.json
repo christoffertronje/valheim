@@ -302,6 +302,598 @@
         }
       ],
       "source": "https://valheim.fandom.com/wiki/Troll_Set"
+    },
+    "Club": {
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Blunt": 12,
+            "Durability": 100
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Bone fragments": 5
+          },
+          "stats": {
+            "Blunt": 18,
+            "Durability": 150
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Bone fragments": 10
+          },
+          "stats": {
+            "Blunt": 24,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 4,
+          "cost": {
+            "Bone fragments": 15
+          },
+          "stats": {
+            "Blunt": 30,
+            "Durability": 250
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Club"
+    },
+    "Crude bow": {
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Pierce": 22,
+            "Durability": 50
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Wood": 5,
+            "Leather scraps": 4,
+            "Deer hide": 1
+          },
+          "stats": {
+            "Pierce": 25,
+            "Durability": 100
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Wood": 10,
+            "Leather scraps": 8,
+            "Deer hide": 2
+          },
+          "stats": {
+            "Pierce": 28,
+            "Durability": 150
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 4,
+          "cost": {
+            "Wood": 15,
+            "Leather scraps": 12,
+            "Deer hide": 3
+          },
+          "stats": {
+            "Pierce": 31,
+            "Durability": 200
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Crude_bow"
+    },
+    "Flint spear": {
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Pierce": 20,
+            "Durability": 100
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Wood": 3,
+            "Flint": 5,
+            "Leather scraps": 1
+          },
+          "stats": {
+            "Pierce": 26,
+            "Durability": 150
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Wood": 6,
+            "Flint": 10,
+            "Leather scraps": 2
+          },
+          "stats": {
+            "Pierce": 32,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 4,
+          "cost": {
+            "Wood": 9,
+            "Flint": 15,
+            "Leather scraps": 3
+          },
+          "stats": {
+            "Pierce": 38,
+            "Durability": 250
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Flint_spear"
+    },
+    "Flint knife": {
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Pierce": 5,
+            "Slash": 5,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Flint": 2
+          },
+          "stats": {
+            "Pierce": 6,
+            "Slash": 6,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Flint": 4
+          },
+          "stats": {
+            "Pierce": 7,
+            "Slash": 7,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 4,
+          "cost": {
+            "Flint": 6
+          },
+          "stats": {
+            "Pierce": 8,
+            "Slash": 8,
+            "Durability": 350
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Flint_knife"
+    },
+    "Stagbreaker": {
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 2,
+          "stats": {
+            "Blunt": 20,
+            "Pierce": 5,
+            "Durability": 100
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 3,
+          "cost": {
+            "Corewood": 5,
+            "Deer trophy": 2,
+            "Leather scraps": 1,
+            "Bone fragments": 10
+          },
+          "stats": {
+            "Blunt": 26,
+            "Pierce": 5,
+            "Durability": 150
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 4,
+          "cost": {
+            "Corewood": 10,
+            "Deer trophy": 4,
+            "Leather scraps": 2,
+            "Bone fragments": 20
+          },
+          "stats": {
+            "Blunt": 32,
+            "Pierce": 5,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 5,
+          "cost": {
+            "Corewood": 15,
+            "Deer trophy": 6,
+            "Leather scraps": 3,
+            "Bone fragments": 30
+          },
+          "stats": {
+            "Blunt": 38,
+            "Pierce": 5,
+            "Durability": 250
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Stagbreaker"
+    },
+    "Leather helmet": {
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 2,
+          "stats": {
+            "Armor": 2,
+            "Durability": 400
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 3,
+          "cost": {
+            "Deer hide": 6,
+            "Bone fragments": 5
+          },
+          "stats": {
+            "Armor": 4,
+            "Durability": 500
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 4,
+          "cost": {
+            "Deer hide": 12,
+            "Bone fragments": 10
+          },
+          "stats": {
+            "Armor": 6,
+            "Durability": 600
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 5,
+          "cost": {
+            "Deer hide": 18,
+            "Bone fragments": 15
+          },
+          "stats": {
+            "Armor": 8,
+            "Durability": 700
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Leather_Armor"
+    },
+    "Leather tunic": {
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 2,
+          "stats": {
+            "Armor": 2,
+            "Durability": 400
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 3,
+          "cost": {
+            "Deer hide": 6,
+            "Bone fragments": 5
+          },
+          "stats": {
+            "Armor": 4,
+            "Durability": 500
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 4,
+          "cost": {
+            "Deer hide": 12,
+            "Bone fragments": 10
+          },
+          "stats": {
+            "Armor": 6,
+            "Durability": 600
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 5,
+          "cost": {
+            "Deer hide": 18,
+            "Bone fragments": 15
+          },
+          "stats": {
+            "Armor": 8,
+            "Durability": 700
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Leather_Armor"
+    },
+    "Leather pants": {
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 2,
+          "stats": {
+            "Armor": 2,
+            "Durability": 400
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 3,
+          "cost": {
+            "Deer hide": 6,
+            "Bone fragments": 5
+          },
+          "stats": {
+            "Armor": 4,
+            "Durability": 500
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 4,
+          "cost": {
+            "Deer hide": 12,
+            "Bone fragments": 10
+          },
+          "stats": {
+            "Armor": 6,
+            "Durability": 600
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 5,
+          "cost": {
+            "Deer hide": 18,
+            "Bone fragments": 15
+          },
+          "stats": {
+            "Armor": 8,
+            "Durability": 700
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Leather_Armor"
+    },
+    "Deer hide cape": {
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 2,
+          "stats": {
+            "Armor": 1,
+            "Durability": 400
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 3,
+          "cost": {
+            "Deer hide": 4,
+            "Bone fragments": 5
+          },
+          "stats": {
+            "Armor": 2,
+            "Durability": 450
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 4,
+          "cost": {
+            "Deer hide": 8,
+            "Bone fragments": 10
+          },
+          "stats": {
+            "Armor": 3,
+            "Durability": 500
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 5,
+          "cost": {
+            "Deer hide": 12,
+            "Bone fragments": 15
+          },
+          "stats": {
+            "Armor": 4,
+            "Durability": 550
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Leather_Armor"
+    },
+    "Rag tunic": {
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Armor": 2,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Leather scraps": 5
+          },
+          "stats": {
+            "Armor": 3,
+            "Durability": 250
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Rag_Armor"
+    },
+    "Rag pants": {
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Armor": 2,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Leather scraps": 5
+          },
+          "stats": {
+            "Armor": 3,
+            "Durability": 250
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Rag_Armor"
+    },
+    "Wood shield": {
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Block armor": 6,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Wood": 5,
+            "Resin": 2,
+            "Leather scraps": 2
+          },
+          "stats": {
+            "Block armor": 12,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Wood": 10,
+            "Resin": 4,
+            "Leather scraps": 4
+          },
+          "stats": {
+            "Block armor": 18,
+            "Durability": 300
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Wood_shield"
+    },
+    "Wood tower shield": {
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Block armor": 10,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Wood": 5,
+            "Leather scraps": 3
+          },
+          "stats": {
+            "Block armor": 16,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Wood": 10,
+            "Leather scraps": 6
+          },
+          "stats": {
+            "Block armor": 22,
+            "Durability": 300
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Wood_tower_shield"
     }
   }
 }
