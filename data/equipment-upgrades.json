@@ -3359,6 +3359,632 @@
         }
       ],
       "source": "https://valheim.fandom.com/wiki/Crystal_battleaxe"
+    },
+    "Black metal sword": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 4,
+          "stats": {
+            "Slash": 95,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 5,
+          "cost": {
+            "Black metal": 10,
+            "Linen thread": 5
+          },
+          "stats": {
+            "Slash": 101,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 6,
+          "cost": {
+            "Black metal": 20,
+            "Linen thread": 10
+          },
+          "stats": {
+            "Slash": 107,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 7,
+          "cost": {
+            "Black metal": 30,
+            "Linen thread": 15
+          },
+          "stats": {
+            "Slash": 113,
+            "Durability": 350
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Black_metal_sword"
+    },
+    "Black metal axe": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 4,
+          "stats": {
+            "Slash": 100,
+            "Chop (trees)": 60,
+            "Durability": 175
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 5,
+          "cost": {
+            "Black metal": 10,
+            "Linen thread": 5
+          },
+          "stats": {
+            "Slash": 105,
+            "Chop (trees)": 63,
+            "Durability": 225
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 6,
+          "cost": {
+            "Black metal": 20,
+            "Linen thread": 10
+          },
+          "stats": {
+            "Slash": 110,
+            "Chop (trees)": 66,
+            "Durability": 275
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 7,
+          "cost": {
+            "Black metal": 30,
+            "Linen thread": 15
+          },
+          "stats": {
+            "Slash": 115,
+            "Chop (trees)": 69,
+            "Durability": 325
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Black_metal_axe"
+    },
+    "Black metal atgeir": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 4,
+          "stats": {
+            "Pierce": 105,
+            "Durability": 175
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 5,
+          "cost": {
+            "Black metal": 15,
+            "Linen thread": 5
+          },
+          "stats": {
+            "Pierce": 111,
+            "Durability": 225
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 6,
+          "cost": {
+            "Black metal": 30,
+            "Linen thread": 10
+          },
+          "stats": {
+            "Pierce": 117,
+            "Durability": 275
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 7,
+          "cost": {
+            "Black metal": 45,
+            "Linen thread": 15
+          },
+          "stats": {
+            "Pierce": 123,
+            "Durability": 325
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Black_metal_atgeir"
+    },
+    "Black metal knife": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 4,
+          "stats": {
+            "Slash": 34,
+            "Pierce": 34,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 5,
+          "cost": {
+            "Black metal": 4,
+            "Linen thread": 5
+          },
+          "stats": {
+            "Slash": 35,
+            "Pierce": 35,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 6,
+          "cost": {
+            "Black metal": 8,
+            "Linen thread": 10
+          },
+          "stats": {
+            "Slash": 36,
+            "Pierce": 36,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 7,
+          "cost": {
+            "Black metal": 12,
+            "Linen thread": 15
+          },
+          "stats": {
+            "Slash": 37,
+            "Pierce": 37,
+            "Durability": 350
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Black_metal_knife"
+    },
+    "Porcupine": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 4,
+          "stats": {
+            "Blunt": 50,
+            "Pierce": 45,
+            "Durability": 150
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 5,
+          "cost": {
+            "Iron": 2,
+            "Needle": 2
+          },
+          "stats": {
+            "Blunt": 50,
+            "Pierce": 51,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 6,
+          "cost": {
+            "Iron": 4,
+            "Needle": 4
+          },
+          "stats": {
+            "Blunt": 50,
+            "Pierce": 57,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 7,
+          "cost": {
+            "Iron": 6,
+            "Needle": 6
+          },
+          "stats": {
+            "Blunt": 50,
+            "Pierce": 63,
+            "Durability": 300
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Porcupine"
+    },
+    "Black metal shield": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 3,
+          "stats": {
+            "Block armor": 78,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 4,
+          "cost": {
+            "Finewood": 10,
+            "Black metal": 4,
+            "Chain": 2
+          },
+          "stats": {
+            "Block armor": 84,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 5,
+          "cost": {
+            "Finewood": 20,
+            "Black metal": 8,
+            "Chain": 4
+          },
+          "stats": {
+            "Block armor": 90,
+            "Durability": 300
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Black_metal_shield"
+    },
+    "Black metal tower shield": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 3,
+          "stats": {
+            "Block armor": 104,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 4,
+          "cost": {
+            "Finewood": 10,
+            "Black metal": 4,
+            "Chain": 2
+          },
+          "stats": {
+            "Block armor": 110,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 5,
+          "cost": {
+            "Finewood": 20,
+            "Black metal": 8,
+            "Chain": 4
+          },
+          "stats": {
+            "Block armor": 116,
+            "Durability": 300
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Black_metal_tower_shield"
+    },
+    "Serpent scale shield": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 3,
+          "stats": {
+            "Block armor": 60,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 4,
+          "cost": {
+            "Finewood": 10,
+            "Iron": 2,
+            "Serpent scale": 4
+          },
+          "stats": {
+            "Block armor": 66,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 5,
+          "cost": {
+            "Finewood": 20,
+            "Iron": 4,
+            "Serpent scale": 8
+          },
+          "stats": {
+            "Block armor": 72,
+            "Durability": 350
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Serpent_scale_shield"
+    },
+    "Padded helmet": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 1,
+          "stats": {
+            "Armor": 26,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 2,
+          "cost": {
+            "Iron": 5,
+            "Linen thread": 10
+          },
+          "stats": {
+            "Armor": 28,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 3,
+          "cost": {
+            "Iron": 10,
+            "Linen thread": 20
+          },
+          "stats": {
+            "Armor": 30,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 4,
+          "cost": {
+            "Iron": 15,
+            "Linen thread": 30
+          },
+          "stats": {
+            "Armor": 32,
+            "Durability": 1600
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Padded_Armor"
+    },
+    "Padded cuirass": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 2,
+          "stats": {
+            "Armor": 26,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 3,
+          "cost": {
+            "Iron": 3,
+            "Linen thread": 10
+          },
+          "stats": {
+            "Armor": 28,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 4,
+          "cost": {
+            "Iron": 6,
+            "Linen thread": 20
+          },
+          "stats": {
+            "Armor": 30,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 5,
+          "cost": {
+            "Iron": 9,
+            "Linen thread": 30
+          },
+          "stats": {
+            "Armor": 32,
+            "Durability": 1600
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Padded_Armor"
+    },
+    "Padded greaves": {
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 2,
+          "stats": {
+            "Armor": 26,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 3,
+          "cost": {
+            "Iron": 3,
+            "Linen thread": 10
+          },
+          "stats": {
+            "Armor": 28,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 4,
+          "cost": {
+            "Iron": 6,
+            "Linen thread": 20
+          },
+          "stats": {
+            "Armor": 30,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 5,
+          "cost": {
+            "Iron": 9,
+            "Linen thread": 30
+          },
+          "stats": {
+            "Armor": 32,
+            "Durability": 1600
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Padded_Armor"
+    },
+    "Lox cape": {
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 2,
+          "stats": {
+            "Armor": 1,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 3,
+          "cost": {
+            "Lox pelt": 2
+          },
+          "stats": {
+            "Armor": 2,
+            "Durability": 1250
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 4,
+          "cost": {
+            "Lox pelt": 4
+          },
+          "stats": {
+            "Armor": 3,
+            "Durability": 1300
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 5,
+          "cost": {
+            "Lox pelt": 6
+          },
+          "stats": {
+            "Armor": 4,
+            "Durability": 1350
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Lox_cape"
+    },
+    "Linen cape": {
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stationLevel": 2,
+          "stats": {
+            "Armor": 1,
+            "Durability": 1500
+          }
+        },
+        {
+          "quality": 2,
+          "stationLevel": 3,
+          "cost": {
+            "Linen thread": 4
+          },
+          "stats": {
+            "Armor": 2,
+            "Durability": 1550
+          }
+        },
+        {
+          "quality": 3,
+          "stationLevel": 4,
+          "cost": {
+            "Linen thread": 8
+          },
+          "stats": {
+            "Armor": 3,
+            "Durability": 1600
+          }
+        },
+        {
+          "quality": 4,
+          "stationLevel": 5,
+          "cost": {
+            "Linen thread": 12
+          },
+          "stats": {
+            "Armor": 4,
+            "Durability": 1650
+          }
+        }
+      ],
+      "source": "https://valheim.fandom.com/wiki/Linen_cape"
     }
   }
 }
