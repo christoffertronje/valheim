@@ -1,0 +1,5256 @@
+{
+  "version": 1,
+  "base": {
+    "hp": 25,
+    "stam": 50,
+    "eitr": 0
+  },
+  "foods": [
+    {
+      "name": "Seeker Aspic",
+      "biome": "Mistlands",
+      "hp": 28,
+      "stam": 14,
+      "eitr": 85,
+      "time": 30,
+      "icon": "🍮",
+      "type": "eitr"
+    },
+    {
+      "name": "Yggdrasil Porridge",
+      "biome": "Mistlands",
+      "hp": 27,
+      "stam": 13,
+      "eitr": 80,
+      "time": 25,
+      "icon": "🥣",
+      "type": "eitr"
+    },
+    {
+      "name": "Stuffed Mushroom",
+      "biome": "Mistlands",
+      "hp": 25,
+      "stam": 12,
+      "eitr": 75,
+      "time": 25,
+      "icon": "🍄",
+      "type": "eitr"
+    },
+    {
+      "name": "Misthare Supreme",
+      "biome": "Mistlands",
+      "hp": 85,
+      "stam": 28,
+      "eitr": 0,
+      "time": 25,
+      "icon": "🍗",
+      "type": "health"
+    },
+    {
+      "name": "Meat Platter",
+      "biome": "Mistlands",
+      "hp": 80,
+      "stam": 26,
+      "eitr": 0,
+      "time": 30,
+      "icon": "🥩",
+      "type": "health"
+    },
+    {
+      "name": "Honey Glazed Chicken",
+      "biome": "Mistlands",
+      "hp": 80,
+      "stam": 26,
+      "eitr": 0,
+      "time": 30,
+      "icon": "🍖",
+      "type": "health"
+    },
+    {
+      "name": "Fish ’n’ Bread",
+      "biome": "Mistlands",
+      "hp": 30,
+      "stam": 90,
+      "eitr": 0,
+      "time": 30,
+      "icon": "🐟",
+      "type": "stamina"
+    },
+    {
+      "name": "Mushroom Omelette",
+      "biome": "Mistlands",
+      "hp": 28,
+      "stam": 85,
+      "eitr": 0,
+      "time": 25,
+      "icon": "🍳",
+      "type": "stamina"
+    },
+    {
+      "name": "Salad",
+      "biome": "Mistlands",
+      "hp": 26,
+      "stam": 80,
+      "eitr": 0,
+      "time": 25,
+      "icon": "🥗",
+      "type": "stamina"
+    },
+    {
+      "name": "Cooked Seeker Meat",
+      "biome": "Mistlands",
+      "hp": 60,
+      "stam": 20,
+      "eitr": 0,
+      "time": 20,
+      "icon": "🍖",
+      "type": "health"
+    },
+    {
+      "name": "Cooked Hare Meat",
+      "biome": "Mistlands",
+      "hp": 60,
+      "stam": 20,
+      "eitr": 0,
+      "time": 20,
+      "icon": "🍗",
+      "type": "health"
+    },
+    {
+      "name": "Cooked Chicken Meat",
+      "biome": "Mistlands",
+      "hp": 60,
+      "stam": 20,
+      "eitr": 0,
+      "time": 20,
+      "icon": "🍗",
+      "type": "health"
+    },
+    {
+      "name": "Cooked Egg",
+      "biome": "Mistlands",
+      "hp": 35,
+      "stam": 12,
+      "eitr": 0,
+      "time": 20,
+      "icon": "🥚",
+      "type": "health"
+    },
+    {
+      "name": "Magecap",
+      "biome": "Mistlands",
+      "hp": 25,
+      "stam": 25,
+      "eitr": 25,
+      "time": 15,
+      "icon": "🍄",
+      "type": "basic"
+    },
+    {
+      "name": "Jotun Puffs",
+      "biome": "Mistlands",
+      "hp": 25,
+      "stam": 25,
+      "eitr": 0,
+      "time": 15,
+      "icon": "🍄",
+      "type": "basic"
+    },
+    {
+      "name": "Royal Jelly",
+      "biome": "Mistlands",
+      "hp": 15,
+      "stam": 15,
+      "eitr": 0,
+      "time": 15,
+      "icon": "🍯",
+      "type": "basic"
+    },
+    {
+      "name": "Mushrooms Galore á la Mistlands",
+      "biome": "Mistlands",
+      "hp": 65,
+      "stam": 65,
+      "eitr": 33,
+      "time": 50,
+      "icon": "🍽️",
+      "type": "feast"
+    },
+    {
+      "name": "Raspberries",
+      "biome": "Meadows",
+      "hp": 7,
+      "stam": 20,
+      "eitr": 0,
+      "time": 10,
+      "icon": "🥕",
+      "type": "stamina"
+    },
+    {
+      "name": "Mushroom",
+      "biome": "Meadows",
+      "hp": 15,
+      "stam": 15,
+      "eitr": 0,
+      "time": 15,
+      "icon": "🍄",
+      "type": "basic"
+    },
+    {
+      "name": "Honey",
+      "biome": "Meadows",
+      "hp": 8,
+      "stam": 35,
+      "eitr": 0,
+      "time": 15,
+      "icon": "🥕",
+      "type": "stamina"
+    },
+    {
+      "name": "Grilled Neck Tail",
+      "biome": "Meadows",
+      "hp": 25,
+      "stam": 8,
+      "eitr": 0,
+      "time": 20,
+      "icon": "🥩",
+      "type": "health"
+    },
+    {
+      "name": "Cooked Boar Meat",
+      "biome": "Meadows",
+      "hp": 30,
+      "stam": 10,
+      "eitr": 0,
+      "time": 20,
+      "icon": "🥩",
+      "type": "health"
+    },
+    {
+      "name": "Cooked Deer Meat",
+      "biome": "Meadows",
+      "hp": 35,
+      "stam": 12,
+      "eitr": 0,
+      "time": 20,
+      "icon": "🥩",
+      "type": "health"
+    },
+    {
+      "name": "Blueberries",
+      "biome": "Black Forest",
+      "hp": 8,
+      "stam": 25,
+      "eitr": 0,
+      "time": 10,
+      "icon": "🥕",
+      "type": "stamina"
+    },
+    {
+      "name": "Yellow Mushroom",
+      "biome": "Black Forest",
+      "hp": 10,
+      "stam": 30,
+      "eitr": 0,
+      "time": 10,
+      "icon": "🥕",
+      "type": "stamina"
+    },
+    {
+      "name": "Carrot",
+      "biome": "Black Forest",
+      "hp": 10,
+      "stam": 32,
+      "eitr": 0,
+      "time": 15,
+      "icon": "🥕",
+      "type": "stamina"
+    },
+    {
+      "name": "Boar Jerky",
+      "biome": "Black Forest",
+      "hp": 23,
+      "stam": 23,
+      "eitr": 0,
+      "time": 30,
+      "icon": "🍄",
+      "type": "basic"
+    },
+    {
+      "name": "Minced Meat Sauce",
+      "biome": "Black Forest",
+      "hp": 40,
+      "stam": 13,
+      "eitr": 0,
+      "time": 25,
+      "icon": "🥩",
+      "type": "health"
+    },
+    {
+      "name": "Queen's Jam",
+      "biome": "Black Forest",
+      "hp": 14,
+      "stam": 40,
+      "eitr": 0,
+      "time": 20,
+      "icon": "🥕",
+      "type": "stamina"
+    },
+    {
+      "name": "Carrot Soup",
+      "biome": "Black Forest",
+      "hp": 15,
+      "stam": 45,
+      "eitr": 0,
+      "time": 25,
+      "icon": "🥕",
+      "type": "stamina"
+    },
+    {
+      "name": "Deer Stew",
+      "biome": "Black Forest",
+      "hp": 45,
+      "stam": 15,
+      "eitr": 0,
+      "time": 25,
+      "icon": "🥩",
+      "type": "health"
+    },
+    {
+      "name": "Cooked Bear Meat",
+      "biome": "Black Forest",
+      "hp": 40,
+      "stam": 13,
+      "eitr": 0,
+      "time": 20,
+      "icon": "🥩",
+      "type": "health"
+    },
+    {
+      "name": "Cooked Fish",
+      "biome": "Swamp",
+      "hp": 45,
+      "stam": 15,
+      "eitr": 0,
+      "time": 20,
+      "icon": "🥩",
+      "type": "health"
+    },
+    {
+      "name": "Muckshake",
+      "biome": "Swamp",
+      "hp": 16,
+      "stam": 50,
+      "eitr": 0,
+      "time": 20,
+      "icon": "🥕",
+      "type": "stamina"
+    },
+    {
+      "name": "Turnip Stew",
+      "biome": "Swamp",
+      "hp": 18,
+      "stam": 55,
+      "eitr": 0,
+      "time": 25,
+      "icon": "🥕",
+      "type": "stamina"
+    },
+    {
+      "name": "Sausages",
+      "biome": "Swamp",
+      "hp": 55,
+      "stam": 18,
+      "eitr": 0,
+      "time": 25,
+      "icon": "🥩",
+      "type": "health"
+    },
+    {
+      "name": "Black Soup",
+      "biome": "Swamp",
+      "hp": 50,
+      "stam": 17,
+      "eitr": 0,
+      "time": 20,
+      "icon": "🥩",
+      "type": "health"
+    },
+    {
+      "name": "Cooked Serpent Meat",
+      "biome": "Swamp",
+      "hp": 70,
+      "stam": 23,
+      "eitr": 0,
+      "time": 25,
+      "icon": "🥩",
+      "type": "health"
+    },
+    {
+      "name": "Serpent Stew",
+      "biome": "Swamp",
+      "hp": 80,
+      "stam": 26,
+      "eitr": 0,
+      "time": 30,
+      "icon": "🥩",
+      "type": "health"
+    },
+    {
+      "name": "Onion",
+      "biome": "Mountain",
+      "hp": 13,
+      "stam": 40,
+      "eitr": 0,
+      "time": 15,
+      "icon": "🥕",
+      "type": "stamina"
+    },
+    {
+      "name": "Cooked Wolf Meat",
+      "biome": "Mountain",
+      "hp": 45,
+      "stam": 15,
+      "eitr": 0,
+      "time": 20,
+      "icon": "🥩",
+      "type": "health"
+    },
+    {
+      "name": "Wolf Jerky",
+      "biome": "Mountain",
+      "hp": 33,
+      "stam": 33,
+      "eitr": 0,
+      "time": 30,
+      "icon": "🍄",
+      "type": "basic"
+    },
+    {
+      "name": "Onion Soup",
+      "biome": "Mountain",
+      "hp": 20,
+      "stam": 60,
+      "eitr": 0,
+      "time": 20,
+      "icon": "🥕",
+      "type": "stamina"
+    },
+    {
+      "name": "Wolf Skewer",
+      "biome": "Mountain",
+      "hp": 65,
+      "stam": 21,
+      "eitr": 0,
+      "time": 25,
+      "icon": "🥩",
+      "type": "health"
+    },
+    {
+      "name": "Eyescream",
+      "biome": "Mountain",
+      "hp": 21,
+      "stam": 65,
+      "eitr": 0,
+      "time": 25,
+      "icon": "🥕",
+      "type": "stamina"
+    },
+    {
+      "name": "Cloudberries",
+      "biome": "Plains",
+      "hp": 13,
+      "stam": 40,
+      "eitr": 0,
+      "time": 15,
+      "icon": "🥕",
+      "type": "stamina"
+    },
+    {
+      "name": "Cooked Lox Meat",
+      "biome": "Plains",
+      "hp": 50,
+      "stam": 16,
+      "eitr": 0,
+      "time": 20,
+      "icon": "🥩",
+      "type": "health"
+    },
+    {
+      "name": "Fish Wraps",
+      "biome": "Plains",
+      "hp": 70,
+      "stam": 23,
+      "eitr": 0,
+      "time": 25,
+      "icon": "🥩",
+      "type": "health"
+    },
+    {
+      "name": "Lox Meat Pie",
+      "biome": "Plains",
+      "hp": 75,
+      "stam": 24,
+      "eitr": 0,
+      "time": 30,
+      "icon": "🥩",
+      "type": "health"
+    },
+    {
+      "name": "Blood Pudding",
+      "biome": "Plains",
+      "hp": 25,
+      "stam": 75,
+      "eitr": 0,
+      "time": 30,
+      "icon": "🥕",
+      "type": "stamina"
+    },
+    {
+      "name": "Bread",
+      "biome": "Plains",
+      "hp": 23,
+      "stam": 70,
+      "eitr": 0,
+      "time": 25,
+      "icon": "🥕",
+      "type": "stamina"
+    },
+    {
+      "name": "Frosted Sweetbread",
+      "biome": "Plains",
+      "hp": 43,
+      "stam": 43,
+      "eitr": 0,
+      "time": 30,
+      "icon": "🍄",
+      "type": "basic"
+    },
+    {
+      "name": "Whole Roasted Meadow Boar",
+      "biome": "Swamp",
+      "hp": 35,
+      "stam": 35,
+      "eitr": 0,
+      "time": 50,
+      "icon": "🍽️",
+      "type": "feast"
+    },
+    {
+      "name": "Black Forest Buffet Platter",
+      "biome": "Swamp",
+      "hp": 35,
+      "stam": 35,
+      "eitr": 0,
+      "time": 50,
+      "icon": "🍽️",
+      "type": "feast"
+    },
+    {
+      "name": "Swamp Dweller's Delight",
+      "biome": "Swamp",
+      "hp": 35,
+      "stam": 35,
+      "eitr": 0,
+      "time": 50,
+      "icon": "🍽️",
+      "type": "feast"
+    },
+    {
+      "name": "Sailor's Bounty",
+      "biome": "Swamp",
+      "hp": 45,
+      "stam": 45,
+      "eitr": 0,
+      "time": 50,
+      "icon": "🍽️",
+      "type": "feast"
+    },
+    {
+      "name": "Hearty Mountain Logger's Stew",
+      "biome": "Mountain",
+      "hp": 45,
+      "stam": 45,
+      "eitr": 0,
+      "time": 50,
+      "icon": "🍽️",
+      "type": "feast"
+    },
+    {
+      "name": "Plains Pie Picnic",
+      "biome": "Plains",
+      "hp": 55,
+      "stam": 55,
+      "eitr": 0,
+      "time": 50,
+      "icon": "🍽️",
+      "type": "feast"
+    },
+    {
+      "name": "Smoke Puff",
+      "biome": "Ashlands",
+      "hp": 15,
+      "stam": 15,
+      "eitr": 0,
+      "time": 15,
+      "icon": "🌿",
+      "type": "basic"
+    },
+    {
+      "name": "Fiddlehead",
+      "biome": "Ashlands",
+      "hp": 30,
+      "stam": 30,
+      "eitr": 0,
+      "time": 15,
+      "icon": "🌿",
+      "type": "basic"
+    },
+    {
+      "name": "Vineberry Cluster",
+      "biome": "Ashlands",
+      "hp": 30,
+      "stam": 30,
+      "eitr": 30,
+      "time": 15,
+      "icon": "✨",
+      "type": "basic"
+    },
+    {
+      "name": "Cooked Asksvin Tail",
+      "biome": "Ashlands",
+      "hp": 70,
+      "stam": 24,
+      "eitr": 0,
+      "time": 20,
+      "icon": "🍲",
+      "type": "health"
+    },
+    {
+      "name": "Cooked Volture Meat",
+      "biome": "Ashlands",
+      "hp": 70,
+      "stam": 24,
+      "eitr": 0,
+      "time": 20,
+      "icon": "🍲",
+      "type": "health"
+    },
+    {
+      "name": "Cooked Bonemaw Meat",
+      "biome": "Ashlands",
+      "hp": 90,
+      "stam": 30,
+      "eitr": 0,
+      "time": 25,
+      "icon": "🍲",
+      "type": "health"
+    },
+    {
+      "name": "Fiery Svinstew",
+      "biome": "Ashlands",
+      "hp": 95,
+      "stam": 32,
+      "eitr": 0,
+      "time": 25,
+      "icon": "🍲",
+      "type": "health"
+    },
+    {
+      "name": "Mashed Meat",
+      "biome": "Ashlands",
+      "hp": 100,
+      "stam": 34,
+      "eitr": 0,
+      "time": 25,
+      "icon": "🍲",
+      "type": "health"
+    },
+    {
+      "name": "Piquant Pie",
+      "biome": "Ashlands",
+      "hp": 105,
+      "stam": 35,
+      "eitr": 0,
+      "time": 30,
+      "icon": "🥧",
+      "type": "health"
+    },
+    {
+      "name": "Spicy Marmalade",
+      "biome": "Ashlands",
+      "hp": 30,
+      "stam": 90,
+      "eitr": 0,
+      "time": 25,
+      "icon": "🍲",
+      "type": "stamina"
+    },
+    {
+      "name": "Scorching Medley",
+      "biome": "Ashlands",
+      "hp": 32,
+      "stam": 95,
+      "eitr": 0,
+      "time": 25,
+      "icon": "🍲",
+      "type": "stamina"
+    },
+    {
+      "name": "Roasted Crust Pie",
+      "biome": "Ashlands",
+      "hp": 34,
+      "stam": 100,
+      "eitr": 0,
+      "time": 30,
+      "icon": "🥧",
+      "type": "stamina"
+    },
+    {
+      "name": "Sizzling Berry Broth",
+      "biome": "Ashlands",
+      "hp": 28,
+      "stam": 14,
+      "eitr": 85,
+      "time": 25,
+      "icon": "✨",
+      "type": "eitr"
+    },
+    {
+      "name": "Sparkling Shroomshake",
+      "biome": "Ashlands",
+      "hp": 30,
+      "stam": 15,
+      "eitr": 90,
+      "time": 25,
+      "icon": "✨",
+      "type": "eitr"
+    },
+    {
+      "name": "Marinated Greens",
+      "biome": "Ashlands",
+      "hp": 32,
+      "stam": 16,
+      "eitr": 95,
+      "time": 30,
+      "icon": "✨",
+      "type": "eitr"
+    },
+    {
+      "name": "Ashlands Gourmet Bowl",
+      "biome": "Ashlands",
+      "hp": 75,
+      "stam": 75,
+      "eitr": 38,
+      "time": 50,
+      "icon": "✨",
+      "type": "basic"
+    },
+    {
+      "name": "Luminous Larva",
+      "biome": "Deep North",
+      "hp": 30,
+      "stam": 30,
+      "eitr": 0,
+      "time": 10,
+      "icon": "🌿",
+      "type": "basic"
+    },
+    {
+      "name": "Poteitr",
+      "biome": "Deep North",
+      "hp": 35,
+      "stam": 35,
+      "eitr": 35,
+      "time": 15,
+      "icon": "✨",
+      "type": "basic"
+    },
+    {
+      "name": "Kale",
+      "biome": "Deep North",
+      "hp": 35,
+      "stam": 35,
+      "eitr": 0,
+      "time": 15,
+      "icon": "🌿",
+      "type": "basic"
+    },
+    {
+      "name": "Oats",
+      "biome": "Deep North",
+      "hp": 33,
+      "stam": 33,
+      "eitr": 0,
+      "time": 30,
+      "icon": "🌿",
+      "type": "basic"
+    },
+    {
+      "name": "Lingonberries",
+      "biome": "Deep North",
+      "hp": 35,
+      "stam": 35,
+      "eitr": 0,
+      "time": 15,
+      "icon": "🌿",
+      "type": "basic"
+    },
+    {
+      "name": "Cooked Moose Meat",
+      "biome": "Deep North",
+      "hp": 80,
+      "stam": 27,
+      "eitr": 0,
+      "time": 20,
+      "icon": "🍲",
+      "type": "health"
+    },
+    {
+      "name": "Cooked Seal Blubber",
+      "biome": "Deep North",
+      "hp": 60,
+      "stam": 20,
+      "eitr": 0,
+      "time": 20,
+      "icon": "🥧",
+      "type": "health"
+    },
+    {
+      "name": "Smoked Moose Meat",
+      "biome": "Deep North",
+      "hp": 105,
+      "stam": 35,
+      "eitr": 0,
+      "time": 25,
+      "icon": "🍲",
+      "type": "health"
+    },
+    {
+      "name": "Kale Chips",
+      "biome": "Deep North",
+      "hp": 35,
+      "stam": 105,
+      "eitr": 0,
+      "time": 25,
+      "icon": "🥧",
+      "type": "stamina"
+    },
+    {
+      "name": "Lingonberry Juice",
+      "biome": "Deep North",
+      "hp": 35,
+      "stam": 105,
+      "eitr": 0,
+      "time": 25,
+      "icon": "🍲",
+      "type": "stamina"
+    },
+    {
+      "name": "Oat Milk",
+      "biome": "Deep North",
+      "hp": 37,
+      "stam": 110,
+      "eitr": 0,
+      "time": 25,
+      "icon": "🍲",
+      "type": "stamina"
+    },
+    {
+      "name": "Baked Poteitr",
+      "biome": "Deep North",
+      "hp": 34,
+      "stam": 17,
+      "eitr": 100,
+      "time": 25,
+      "icon": "✨",
+      "type": "eitr"
+    },
+    {
+      "name": "Smoked Fish",
+      "biome": "Deep North",
+      "hp": 30,
+      "stam": 16,
+      "eitr": 95,
+      "time": 25,
+      "icon": "✨",
+      "type": "eitr"
+    },
+    {
+      "name": "Fish Soup",
+      "biome": "Deep North",
+      "hp": 37,
+      "stam": 18,
+      "eitr": 105,
+      "time": 30,
+      "icon": "✨",
+      "type": "eitr"
+    },
+    {
+      "name": "Oven Pancake",
+      "biome": "Deep North",
+      "hp": 37,
+      "stam": 18,
+      "eitr": 105,
+      "time": 30,
+      "icon": "✨",
+      "type": "eitr"
+    },
+    {
+      "name": "Meatballs and Poteitr",
+      "biome": "Deep North",
+      "hp": 35,
+      "stam": 18,
+      "eitr": 105,
+      "time": 25,
+      "icon": "✨",
+      "type": "eitr"
+    },
+    {
+      "name": "Oatmeal",
+      "biome": "Deep North",
+      "hp": 39,
+      "stam": 115,
+      "eitr": 85,
+      "time": 30,
+      "icon": "✨",
+      "type": "eitr"
+    },
+    {
+      "name": "Seal Meat Soup",
+      "biome": "Deep North",
+      "hp": 110,
+      "stam": 37,
+      "eitr": 0,
+      "time": 30,
+      "icon": "🍲",
+      "type": "health"
+    },
+    {
+      "name": "Meat In Bread",
+      "biome": "Deep North",
+      "hp": 110,
+      "stam": 37,
+      "eitr": 0,
+      "time": 30,
+      "icon": "🍲",
+      "type": "health"
+    },
+    {
+      "name": "Pancakes",
+      "biome": "Deep North",
+      "hp": 39,
+      "stam": 115,
+      "eitr": 0,
+      "time": 30,
+      "icon": "🍲",
+      "type": "stamina"
+    },
+    {
+      "name": "Pulled Bear",
+      "biome": "Deep North",
+      "hp": 37,
+      "stam": 16,
+      "eitr": 0,
+      "time": 30,
+      "icon": "🍲",
+      "type": "health"
+    },
+    {
+      "name": "Northern Morning Fare",
+      "biome": "Deep North",
+      "hp": 85,
+      "stam": 85,
+      "eitr": 43,
+      "time": 50,
+      "icon": "🍽️",
+      "type": "feast"
+    }
+  ],
+  "equipment": [
+    {
+      "name": "Stone axe",
+      "biome": "Meadows",
+      "type": "Tools",
+      "station": "Inventory",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Slash": 15,
+            "Chop (trees)": 20,
+            "Durability": 100
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Slash": 20,
+            "Chop (trees)": 23,
+            "Durability": 130
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Slash": 25,
+            "Chop (trees)": 26,
+            "Durability": 160
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Slash": 30,
+            "Chop (trees)": 29,
+            "Durability": 190
+          }
+        }
+      ]
+    },
+    {
+      "name": "Club",
+      "biome": "Meadows",
+      "type": "Weapons",
+      "station": "Inventory",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Blunt": 12,
+            "Durability": 100
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Blunt": 18,
+            "Durability": 150
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Blunt": 24,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Blunt": 30,
+            "Durability": 250
+          }
+        }
+      ]
+    },
+    {
+      "name": "Hammer",
+      "biome": "Meadows",
+      "type": "Tools",
+      "station": "Inventory",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Durability": 100
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Durability": 300
+          }
+        }
+      ]
+    },
+    {
+      "name": "Hoe",
+      "biome": "Meadows",
+      "type": "Tools",
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Durability": 400
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Durability": 600
+          }
+        }
+      ]
+    },
+    {
+      "name": "Flint axe",
+      "biome": "Meadows",
+      "type": "Tools",
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Slash": 20,
+            "Chop (trees)": 30,
+            "Durability": 100
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Slash": 25,
+            "Chop (trees)": 33,
+            "Durability": 130
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Slash": 30,
+            "Chop (trees)": 36,
+            "Durability": 160
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Slash": 35,
+            "Chop (trees)": 39,
+            "Durability": 190
+          }
+        }
+      ]
+    },
+    {
+      "name": "Crude bow",
+      "biome": "Meadows",
+      "type": "Weapons",
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Pierce": 22,
+            "Durability": 50
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Pierce": 25,
+            "Durability": 100
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Pierce": 28,
+            "Durability": 150
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Pierce": 31,
+            "Durability": 200
+          }
+        }
+      ]
+    },
+    {
+      "name": "Flint spear",
+      "biome": "Meadows",
+      "type": "Weapons",
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Pierce": 20,
+            "Durability": 100
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Pierce": 26,
+            "Durability": 150
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Pierce": 32,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Pierce": 38,
+            "Durability": 250
+          }
+        }
+      ]
+    },
+    {
+      "name": "Flint knife",
+      "biome": "Meadows",
+      "type": "Weapons",
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Pierce": 5,
+            "Slash": 5,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Pierce": 6,
+            "Slash": 6,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Pierce": 7,
+            "Slash": 7,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Pierce": 8,
+            "Slash": 8,
+            "Durability": 350
+          }
+        }
+      ]
+    },
+    {
+      "name": "Stagbreaker",
+      "biome": "Meadows",
+      "type": "Weapons",
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Blunt": 20,
+            "Pierce": 5,
+            "Durability": 100
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Blunt": 26,
+            "Pierce": 5,
+            "Durability": 150
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Blunt": 32,
+            "Pierce": 5,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Blunt": 38,
+            "Pierce": 5,
+            "Durability": 250
+          }
+        }
+      ]
+    },
+    {
+      "name": "Rag tunic",
+      "biome": "Meadows",
+      "type": "Armor",
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 2,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 3,
+            "Durability": 250
+          }
+        }
+      ]
+    },
+    {
+      "name": "Rag pants",
+      "biome": "Meadows",
+      "type": "Armor",
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 2,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 3,
+            "Durability": 250
+          }
+        }
+      ]
+    },
+    {
+      "name": "Leather tunic",
+      "biome": "Meadows",
+      "type": "Armor",
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 2,
+            "Durability": 400
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 4,
+            "Durability": 500
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 6,
+            "Durability": 600
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Armor": 8,
+            "Durability": 700
+          }
+        }
+      ]
+    },
+    {
+      "name": "Leather pants",
+      "biome": "Meadows",
+      "type": "Armor",
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 2,
+            "Durability": 400
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 4,
+            "Durability": 500
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 6,
+            "Durability": 600
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Armor": 8,
+            "Durability": 700
+          }
+        }
+      ]
+    },
+    {
+      "name": "Leather helmet",
+      "biome": "Meadows",
+      "type": "Armor",
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 2,
+            "Durability": 400
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 4,
+            "Durability": 500
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 6,
+            "Durability": 600
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Armor": 8,
+            "Durability": 700
+          }
+        }
+      ]
+    },
+    {
+      "name": "Deer hide cape",
+      "biome": "Meadows",
+      "type": "Armor",
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 1,
+            "Durability": 400
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 2,
+            "Durability": 450
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 3,
+            "Durability": 500
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Armor": 4,
+            "Durability": 550
+          }
+        }
+      ]
+    },
+    {
+      "name": "Wood shield",
+      "biome": "Meadows",
+      "type": "Shields",
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Block armor": 6,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Block armor": 12,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Block armor": 18,
+            "Durability": 300
+          }
+        }
+      ]
+    },
+    {
+      "name": "Wood tower shield",
+      "biome": "Meadows",
+      "type": "Shields",
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Block armor": 10,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Block armor": 16,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Block armor": 22,
+            "Durability": 300
+          }
+        }
+      ]
+    },
+    {
+      "name": "Finewood bow",
+      "biome": "Black Forest",
+      "type": "Weapons",
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Pierce": 32,
+            "Durability": 100
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Pierce": 35,
+            "Durability": 150
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Pierce": 38,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Pierce": 41,
+            "Durability": 250
+          }
+        }
+      ]
+    },
+    {
+      "name": "Abyssal razor",
+      "biome": "Black Forest",
+      "type": "Weapons",
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Pierce": 20,
+            "Slash": 20,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Pierce": 21,
+            "Slash": 21,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Pierce": 22,
+            "Slash": 22,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Pierce": 23,
+            "Slash": 23,
+            "Durability": 350
+          }
+        }
+      ]
+    },
+    {
+      "name": "Troll leather tunic",
+      "biome": "Black Forest",
+      "type": "Armor",
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 6,
+            "Durability": 500
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 8,
+            "Durability": 700
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 10,
+            "Durability": 900
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Armor": 12,
+            "Durability": 1100
+          }
+        }
+      ]
+    },
+    {
+      "name": "Troll leather pants",
+      "biome": "Black Forest",
+      "type": "Armor",
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 6,
+            "Durability": 500
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 8,
+            "Durability": 700
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 10,
+            "Durability": 900
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Armor": 12,
+            "Durability": 1100
+          }
+        }
+      ]
+    },
+    {
+      "name": "Troll leather helmet",
+      "biome": "Black Forest",
+      "type": "Armor",
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 6,
+            "Durability": 500
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 8,
+            "Durability": 700
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 10,
+            "Durability": 900
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Armor": 12,
+            "Durability": 1100
+          }
+        }
+      ]
+    },
+    {
+      "name": "Troll hide cape",
+      "biome": "Black Forest",
+      "type": "Armor",
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 1,
+            "Durability": 500
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 2,
+            "Durability": 550
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 3,
+            "Durability": 600
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Armor": 4,
+            "Durability": 650
+          }
+        }
+      ]
+    },
+    {
+      "name": "Bone tower shield",
+      "biome": "Black Forest",
+      "type": "Shields",
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Block armor": 32,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Block armor": 38,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Block armor": 44,
+            "Durability": 300
+          }
+        }
+      ]
+    },
+    {
+      "name": "Root harnesk",
+      "biome": "Swamp",
+      "type": "Armor",
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 8,
+            "Durability": 800
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 10,
+            "Durability": 900
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 12,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Armor": 14,
+            "Durability": 1100
+          }
+        }
+      ]
+    },
+    {
+      "name": "Root leggings",
+      "biome": "Swamp",
+      "type": "Armor",
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 8,
+            "Durability": 800
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 10,
+            "Durability": 900
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 12,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Armor": 14,
+            "Durability": 1100
+          }
+        }
+      ]
+    },
+    {
+      "name": "Root mask",
+      "biome": "Swamp",
+      "type": "Armor",
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 8,
+            "Durability": 800
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 10,
+            "Durability": 900
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 12,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Armor": 14,
+            "Durability": 1100
+          }
+        }
+      ]
+    },
+    {
+      "name": "Fenris coat",
+      "biome": "Mountain",
+      "type": "Armor",
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 10,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 12,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 14,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Armor": 16,
+            "Durability": 1600
+          }
+        }
+      ]
+    },
+    {
+      "name": "Fenris leggings",
+      "biome": "Mountain",
+      "type": "Armor",
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 10,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 12,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 14,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Armor": 16,
+            "Durability": 1600
+          }
+        }
+      ]
+    },
+    {
+      "name": "Fenris hood",
+      "biome": "Mountain",
+      "type": "Armor",
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 10,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 12,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 14,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Armor": 16,
+            "Durability": 1600
+          }
+        }
+      ]
+    },
+    {
+      "name": "Wolf fur cape",
+      "biome": "Mountain",
+      "type": "Armor",
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 1,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 2,
+            "Durability": 1050
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 3,
+            "Durability": 1100
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Armor": 4,
+            "Durability": 1150
+          }
+        }
+      ]
+    },
+    {
+      "name": "Lox cape",
+      "biome": "Plains",
+      "type": "Armor",
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 1,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 2,
+            "Durability": 1250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 3,
+            "Durability": 1300
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Armor": 4,
+            "Durability": 1350
+          }
+        }
+      ]
+    },
+    {
+      "name": "Linen cape",
+      "biome": "Plains",
+      "type": "Armor",
+      "station": "Workbench",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 1,
+            "Durability": 1500
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 2,
+            "Durability": 1550
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 3,
+            "Durability": 1600
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Armor": 4,
+            "Durability": 1650
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cultivator",
+      "biome": "Black Forest",
+      "type": "Tools",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Durability": 400
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Durability": 600
+          }
+        }
+      ]
+    },
+    {
+      "name": "Bronze pickaxe",
+      "biome": "Black Forest",
+      "type": "Tools",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Pierce": 25,
+            "Mining": 25,
+            "Durability": 120
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Pierce": 30,
+            "Mining": 29,
+            "Durability": 170
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Pierce": 35,
+            "Mining": 33,
+            "Durability": 220
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Pierce": 40,
+            "Mining": 37,
+            "Durability": 270
+          }
+        }
+      ]
+    },
+    {
+      "name": "Bronze axe",
+      "biome": "Black Forest",
+      "type": "Tools",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Slash": 40,
+            "Chop (trees)": 40,
+            "Durability": 125
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Slash": 45,
+            "Chop (trees)": 43,
+            "Durability": 175
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Slash": 50,
+            "Chop (trees)": 46,
+            "Durability": 225
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Slash": 55,
+            "Chop (trees)": 49,
+            "Durability": 275
+          }
+        }
+      ]
+    },
+    {
+      "name": "Bronze sword",
+      "biome": "Black Forest",
+      "type": "Weapons",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Slash": 35,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Slash": 41,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Slash": 47,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Slash": 53,
+            "Durability": 350
+          }
+        }
+      ]
+    },
+    {
+      "name": "Bronze mace",
+      "biome": "Black Forest",
+      "type": "Weapons",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Blunt": 35,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Blunt": 41,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Blunt": 47,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Blunt": 53,
+            "Durability": 350
+          }
+        }
+      ]
+    },
+    {
+      "name": "Bronze spear",
+      "biome": "Black Forest",
+      "type": "Weapons",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Pierce": 35,
+            "Durability": 100
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Pierce": 41,
+            "Durability": 150
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Pierce": 47,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Pierce": 53,
+            "Durability": 250
+          }
+        }
+      ]
+    },
+    {
+      "name": "Bronze atgeir",
+      "biome": "Black Forest",
+      "type": "Weapons",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Pierce": 45,
+            "Durability": 125
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Pierce": 51,
+            "Durability": 175
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Pierce": 57,
+            "Durability": 225
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Pierce": 63,
+            "Durability": 275
+          }
+        }
+      ]
+    },
+    {
+      "name": "Copper knife",
+      "biome": "Black Forest",
+      "type": "Weapons",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Pierce": 12,
+            "Slash": 12,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Pierce": 13,
+            "Slash": 13,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Pierce": 14,
+            "Slash": 14,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Pierce": 15,
+            "Slash": 15,
+            "Durability": 350
+          }
+        }
+      ]
+    },
+    {
+      "name": "Bronze buckler",
+      "biome": "Black Forest",
+      "type": "Shields",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Block armor": 16,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Block armor": 22,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Block armor": 28,
+            "Durability": 300
+          }
+        }
+      ]
+    },
+    {
+      "name": "Bronze helmet",
+      "biome": "Black Forest",
+      "type": "Armor",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 8,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 10,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 12,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Armor": 14,
+            "Durability": 1600
+          }
+        }
+      ]
+    },
+    {
+      "name": "Bronze plate cuirass",
+      "biome": "Black Forest",
+      "type": "Armor",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 8,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 10,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 12,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Armor": 14,
+            "Durability": 1600
+          }
+        }
+      ]
+    },
+    {
+      "name": "Bronze plate leggings",
+      "biome": "Black Forest",
+      "type": "Armor",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 8,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 10,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 12,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Armor": 14,
+            "Durability": 1600
+          }
+        }
+      ]
+    },
+    {
+      "name": "Iron pickaxe",
+      "biome": "Swamp",
+      "type": "Tools",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Pierce": 33,
+            "Mining": 33,
+            "Durability": 150
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Pierce": 38,
+            "Mining": 38,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Pierce": 43,
+            "Mining": 43,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Pierce": 48,
+            "Mining": 48,
+            "Durability": 300
+          }
+        }
+      ]
+    },
+    {
+      "name": "Iron axe",
+      "biome": "Swamp",
+      "type": "Tools",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Slash": 60,
+            "Chop (trees)": 50,
+            "Durability": 175
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Slash": 65,
+            "Chop (trees)": 53,
+            "Durability": 225
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Slash": 70,
+            "Chop (trees)": 56,
+            "Durability": 275
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Slash": 75,
+            "Chop (trees)": 59,
+            "Durability": 325
+          }
+        }
+      ]
+    },
+    {
+      "name": "Iron sword",
+      "biome": "Swamp",
+      "type": "Weapons",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Slash": 55,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Slash": 61,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Slash": 67,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Slash": 73,
+            "Durability": 350
+          }
+        }
+      ]
+    },
+    {
+      "name": "Iron mace",
+      "biome": "Swamp",
+      "type": "Weapons",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Blunt": 55,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Blunt": 61,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Blunt": 67,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Blunt": 73,
+            "Durability": 350
+          }
+        }
+      ]
+    },
+    {
+      "name": "Iron atgeir",
+      "biome": "Swamp",
+      "type": "Weapons",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Pierce": 65,
+            "Durability": 175
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Pierce": 71,
+            "Durability": 225
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Pierce": 77,
+            "Durability": 275
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Pierce": 83,
+            "Durability": 325
+          }
+        }
+      ]
+    },
+    {
+      "name": "Battleaxe",
+      "biome": "Swamp",
+      "type": "Weapons",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Slash": 70,
+            "Chop (trees)": 40,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Slash": 76,
+            "Chop (trees)": 42.5,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Slash": 82,
+            "Chop (trees)": 45,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Slash": 88,
+            "Chop (trees)": 47.5,
+            "Durability": 350
+          }
+        }
+      ]
+    },
+    {
+      "name": "Iron sledge",
+      "biome": "Swamp",
+      "type": "Weapons",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Blunt": 55,
+            "Durability": 100
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Blunt": 61,
+            "Durability": 150
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Blunt": 67,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Blunt": 73,
+            "Durability": 250
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ancient bark spear",
+      "biome": "Swamp",
+      "type": "Weapons",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Pierce": 55,
+            "Durability": 100
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Pierce": 61,
+            "Durability": 150
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Pierce": 67,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Pierce": 73,
+            "Durability": 250
+          }
+        }
+      ]
+    },
+    {
+      "name": "Huntsman bow",
+      "biome": "Swamp",
+      "type": "Weapons",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Pierce": 42,
+            "Durability": 100
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Pierce": 45,
+            "Durability": 150
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Pierce": 48,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Pierce": 51,
+            "Durability": 250
+          }
+        }
+      ]
+    },
+    {
+      "name": "Banded shield",
+      "biome": "Swamp",
+      "type": "Shields",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Block armor": 42,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Block armor": 48,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Block armor": 54,
+            "Durability": 300
+          }
+        }
+      ]
+    },
+    {
+      "name": "Iron buckler",
+      "biome": "Swamp",
+      "type": "Shields",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Block armor": 28,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Block armor": 34,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Block armor": 40,
+            "Durability": 300
+          }
+        }
+      ]
+    },
+    {
+      "name": "Iron tower shield",
+      "biome": "Swamp",
+      "type": "Shields",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Block armor": 52,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Block armor": 58,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Block armor": 64,
+            "Durability": 300
+          }
+        }
+      ]
+    },
+    {
+      "name": "Iron helmet",
+      "biome": "Swamp",
+      "type": "Armor",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 14,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 16,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 18,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Armor": 20,
+            "Durability": 1600
+          }
+        }
+      ]
+    },
+    {
+      "name": "Iron scale mail",
+      "biome": "Swamp",
+      "type": "Armor",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 14,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 16,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 18,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Armor": 20,
+            "Durability": 1600
+          }
+        }
+      ]
+    },
+    {
+      "name": "Iron greaves",
+      "biome": "Swamp",
+      "type": "Armor",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 14,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 16,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 18,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Armor": 20,
+            "Durability": 1600
+          }
+        }
+      ]
+    },
+    {
+      "name": "Silver sword",
+      "biome": "Mountain",
+      "type": "Weapons",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Slash": 75,
+            "Spirit": 30,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Slash": 81,
+            "Spirit": 35,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Slash": 87,
+            "Spirit": 40,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Slash": 93,
+            "Spirit": 45,
+            "Durability": 350
+          }
+        }
+      ]
+    },
+    {
+      "name": "Silver knife",
+      "biome": "Mountain",
+      "type": "Weapons",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Pierce": 25,
+            "Slash": 25,
+            "Spirit": 12,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Pierce": 26,
+            "Slash": 26,
+            "Spirit": 12,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Pierce": 27,
+            "Slash": 27,
+            "Spirit": 12,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Pierce": 28,
+            "Slash": 28,
+            "Spirit": 12,
+            "Durability": 350
+          }
+        }
+      ]
+    },
+    {
+      "name": "Fang spear",
+      "biome": "Mountain",
+      "type": "Weapons",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Pierce": 70,
+            "Durability": 100
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Pierce": 76,
+            "Durability": 150
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Pierce": 82,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Pierce": 88,
+            "Durability": 250
+          }
+        }
+      ]
+    },
+    {
+      "name": "Frostner",
+      "biome": "Mountain",
+      "type": "Weapons",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Blunt": 35,
+            "Frost": 40,
+            "Spirit": 20,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Blunt": 35,
+            "Frost": 46,
+            "Spirit": 20,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Blunt": 35,
+            "Frost": 52,
+            "Spirit": 20,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Blunt": 35,
+            "Frost": 58,
+            "Spirit": 20,
+            "Durability": 350
+          }
+        }
+      ]
+    },
+    {
+      "name": "Crystal battleaxe",
+      "biome": "Mountain",
+      "type": "Weapons",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Slash": 90,
+            "Spirit": 30,
+            "Chop (trees)": 50,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Slash": 96,
+            "Spirit": 30,
+            "Chop (trees)": 52.5,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Slash": 102,
+            "Spirit": 30,
+            "Chop (trees)": 55,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Slash": 108,
+            "Spirit": 30,
+            "Chop (trees)": 57.5,
+            "Durability": 350
+          }
+        }
+      ]
+    },
+    {
+      "name": "Flesh Rippers",
+      "biome": "Mountain",
+      "type": "Weapons",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Slash": 60,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Slash": 64,
+            "Durability": 350
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Slash": 68,
+            "Durability": 400
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Slash": 72,
+            "Durability": 450
+          }
+        }
+      ]
+    },
+    {
+      "name": "Draugr Fang",
+      "biome": "Mountain",
+      "type": "Weapons",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Pierce": 47,
+            "Poison": 5,
+            "Durability": 100
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Pierce": 50,
+            "Poison": 10,
+            "Durability": 150
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Pierce": 53,
+            "Poison": 15,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Pierce": 56,
+            "Poison": 20,
+            "Durability": 250
+          }
+        }
+      ]
+    },
+    {
+      "name": "Silver shield",
+      "biome": "Mountain",
+      "type": "Shields",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Block armor": 60,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Block armor": 66,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Block armor": 72,
+            "Durability": 300
+          }
+        }
+      ]
+    },
+    {
+      "name": "Wolf armor chest",
+      "biome": "Mountain",
+      "type": "Armor",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 20,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 22,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 24,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Armor": 26,
+            "Durability": 1600
+          }
+        }
+      ]
+    },
+    {
+      "name": "Wolf armor legs",
+      "biome": "Mountain",
+      "type": "Armor",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 20,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 22,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 24,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Armor": 26,
+            "Durability": 1600
+          }
+        }
+      ]
+    },
+    {
+      "name": "Drake helmet",
+      "biome": "Mountain",
+      "type": "Armor",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 20,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 22,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 24,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Armor": 26,
+            "Durability": 1600
+          }
+        }
+      ]
+    },
+    {
+      "name": "Black metal sword",
+      "biome": "Plains",
+      "type": "Weapons",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Slash": 95,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Slash": 101,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Slash": 107,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Slash": 113,
+            "Durability": 350
+          }
+        }
+      ]
+    },
+    {
+      "name": "Black metal axe",
+      "biome": "Plains",
+      "type": "Weapons",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Slash": 100,
+            "Chop (trees)": 60,
+            "Durability": 175
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Slash": 105,
+            "Chop (trees)": 63,
+            "Durability": 225
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Slash": 110,
+            "Chop (trees)": 66,
+            "Durability": 275
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Slash": 115,
+            "Chop (trees)": 69,
+            "Durability": 325
+          }
+        }
+      ]
+    },
+    {
+      "name": "Black metal atgeir",
+      "biome": "Plains",
+      "type": "Weapons",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Pierce": 105,
+            "Durability": 175
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Pierce": 111,
+            "Durability": 225
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Pierce": 117,
+            "Durability": 275
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Pierce": 123,
+            "Durability": 325
+          }
+        }
+      ]
+    },
+    {
+      "name": "Black metal knife",
+      "biome": "Plains",
+      "type": "Weapons",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Slash": 34,
+            "Pierce": 34,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Slash": 35,
+            "Pierce": 35,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Slash": 36,
+            "Pierce": 36,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Slash": 37,
+            "Pierce": 37,
+            "Durability": 350
+          }
+        }
+      ]
+    },
+    {
+      "name": "Porcupine",
+      "biome": "Plains",
+      "type": "Weapons",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Blunt": 50,
+            "Pierce": 45,
+            "Durability": 150
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Blunt": 50,
+            "Pierce": 51,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Blunt": 50,
+            "Pierce": 57,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Blunt": 50,
+            "Pierce": 63,
+            "Durability": 300
+          }
+        }
+      ]
+    },
+    {
+      "name": "Black metal shield",
+      "biome": "Plains",
+      "type": "Shields",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Block armor": 78,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Block armor": 84,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Block armor": 90,
+            "Durability": 300
+          }
+        }
+      ]
+    },
+    {
+      "name": "Black metal tower shield",
+      "biome": "Plains",
+      "type": "Shields",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Block armor": 104,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Block armor": 110,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Block armor": 116,
+            "Durability": 300
+          }
+        }
+      ]
+    },
+    {
+      "name": "Padded helmet",
+      "biome": "Plains",
+      "type": "Armor",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 26,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 28,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 30,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Armor": 32,
+            "Durability": 1600
+          }
+        }
+      ]
+    },
+    {
+      "name": "Padded cuirass",
+      "biome": "Plains",
+      "type": "Armor",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 26,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 28,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 30,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Armor": 32,
+            "Durability": 1600
+          }
+        }
+      ]
+    },
+    {
+      "name": "Padded greaves",
+      "biome": "Plains",
+      "type": "Armor",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 26,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 28,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 30,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Armor": 32,
+            "Durability": 1600
+          }
+        }
+      ]
+    },
+    {
+      "name": "Mistwalker",
+      "biome": "Mistlands",
+      "type": "Weapons",
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Slash": 75,
+            "Frost": 40,
+            "Spirit": 0,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Slash": 75,
+            "Frost": 46,
+            "Spirit": 5,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Slash": 75,
+            "Frost": 52,
+            "Spirit": 10,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Slash": 75,
+            "Frost": 58,
+            "Spirit": 15,
+            "Durability": 350
+          }
+        }
+      ]
+    },
+    {
+      "name": "Krom",
+      "biome": "Mistlands",
+      "type": "Weapons",
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Slash": 150,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Slash": 156,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Slash": 162,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Slash": 168,
+            "Durability": 350
+          }
+        }
+      ]
+    },
+    {
+      "name": "Himminafl",
+      "biome": "Mistlands",
+      "type": "Weapons",
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Pierce": 85,
+            "Lightning": 40,
+            "Durability": 175
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Pierce": 85,
+            "Lightning": 46,
+            "Durability": 225
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Pierce": 85,
+            "Lightning": 52,
+            "Durability": 275
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Pierce": 85,
+            "Lightning": 58,
+            "Durability": 325
+          }
+        }
+      ]
+    },
+    {
+      "name": "Jotun Bane",
+      "biome": "Mistlands",
+      "type": "Weapons",
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Slash": 80,
+            "Poison": 40,
+            "Chop": 70,
+            "Durability": 175
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Slash": 85,
+            "Poison": 40,
+            "Chop": 73,
+            "Durability": 225
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Slash": 90,
+            "Poison": 40,
+            "Chop": 76,
+            "Durability": 275
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Slash": 95,
+            "Poison": 40,
+            "Chop": 79,
+            "Durability": 325
+          }
+        }
+      ]
+    },
+    {
+      "name": "Skoll and Hati",
+      "biome": "Mistlands",
+      "type": "Weapons",
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Slash": 45,
+            "Pierce": 45,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Slash": 46,
+            "Pierce": 46,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Slash": 47,
+            "Pierce": 47,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Slash": 48,
+            "Pierce": 48,
+            "Durability": 350
+          }
+        }
+      ]
+    },
+    {
+      "name": "Demolisher",
+      "biome": "Mistlands",
+      "type": "Weapons",
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Blunt": 145,
+            "Durability": 100
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Blunt": 151,
+            "Durability": 150
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Blunt": 157,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Blunt": 163,
+            "Durability": 250
+          }
+        }
+      ]
+    },
+    {
+      "name": "Spinesnap",
+      "biome": "Mistlands",
+      "type": "Weapons",
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Pierce": 72,
+            "Spirit": 5,
+            "Durability": 100
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Pierce": 76,
+            "Spirit": 10,
+            "Durability": 150
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Pierce": 80,
+            "Spirit": 15,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Pierce": 84,
+            "Spirit": 20,
+            "Durability": 250
+          }
+        }
+      ]
+    },
+    {
+      "name": "Arbalest",
+      "biome": "Mistlands",
+      "type": "Weapons",
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Pierce": 200,
+            "Durability": 50
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Pierce": 203,
+            "Durability": 100
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Pierce": 206,
+            "Durability": 150
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Pierce": 209,
+            "Durability": 200
+          }
+        }
+      ]
+    },
+    {
+      "name": "Carapace spear",
+      "biome": "Mistlands",
+      "type": "Weapons",
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Pierce": 115,
+            "Durability": 100
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Pierce": 121,
+            "Durability": 150
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Pierce": 127,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Pierce": 133,
+            "Durability": 250
+          }
+        }
+      ]
+    },
+    {
+      "name": "Carapace buckler",
+      "biome": "Mistlands",
+      "type": "Shields",
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Block armor": 78,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Block armor": 84,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Block armor": 90,
+            "Durability": 300
+          }
+        }
+      ]
+    },
+    {
+      "name": "Carapace shield",
+      "biome": "Mistlands",
+      "type": "Shields",
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Block armor": 96,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Block armor": 102,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Block armor": 108,
+            "Durability": 300
+          }
+        }
+      ]
+    },
+    {
+      "name": "Carapace breastplate",
+      "biome": "Mistlands",
+      "type": "Armor",
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 32,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 34,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 36,
+            "Durability": 1600
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Armor": 38,
+            "Durability": 1800
+          }
+        }
+      ]
+    },
+    {
+      "name": "Carapace greaves",
+      "biome": "Mistlands",
+      "type": "Armor",
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 32,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 34,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 36,
+            "Durability": 1600
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Armor": 38,
+            "Durability": 1800
+          }
+        }
+      ]
+    },
+    {
+      "name": "Carapace helmet",
+      "biome": "Mistlands",
+      "type": "Armor",
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 32,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 34,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 36,
+            "Durability": 1600
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Armor": 38,
+            "Durability": 1800
+          }
+        }
+      ]
+    },
+    {
+      "name": "Staff of Embers",
+      "biome": "Mistlands",
+      "type": "Magic",
+      "station": "Galdr Table",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Fire": 120,
+            "Blunt": 120,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Fire": 126,
+            "Blunt": 120,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Fire": 132,
+            "Blunt": 120,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Fire": 138,
+            "Blunt": 120,
+            "Durability": 350
+          }
+        }
+      ]
+    },
+    {
+      "name": "Staff of Frost",
+      "biome": "Mistlands",
+      "type": "Magic",
+      "station": "Galdr Table",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Frost": 30,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Frost": 32,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Frost": 34,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Frost": 36,
+            "Durability": 350
+          }
+        }
+      ]
+    },
+    {
+      "name": "Staff of Protection",
+      "biome": "Mistlands",
+      "type": "Magic",
+      "station": "Galdr Table",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Barrier duration (s)": 60,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Barrier duration (s)": 120,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Barrier duration (s)": 180,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Barrier duration (s)": 240,
+            "Durability": 350
+          }
+        }
+      ]
+    },
+    {
+      "name": "Dead Raiser",
+      "biome": "Mistlands",
+      "type": "Magic",
+      "station": "Galdr Table",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Max skeletons": 1,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Max skeletons": 2,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Max skeletons": 3,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Max skeletons": 4,
+            "Durability": 350
+          }
+        }
+      ]
+    },
+    {
+      "name": "Eitr-weave hood",
+      "biome": "Mistlands",
+      "type": "Armor",
+      "station": "Galdr Table",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 16,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 18,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 20,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Armor": 22,
+            "Durability": 1600
+          }
+        }
+      ]
+    },
+    {
+      "name": "Eitr-weave robe",
+      "biome": "Mistlands",
+      "type": "Armor",
+      "station": "Galdr Table",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 16,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 18,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 20,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Armor": 22,
+            "Durability": 1600
+          }
+        }
+      ]
+    },
+    {
+      "name": "Eitr-weave trousers",
+      "biome": "Mistlands",
+      "type": "Armor",
+      "station": "Galdr Table",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 16,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 18,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 20,
+            "Durability": 1400
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Armor": 22,
+            "Durability": 1600
+          }
+        }
+      ]
+    },
+    {
+      "name": "Feather cape",
+      "biome": "Mistlands",
+      "type": "Armor",
+      "station": "Galdr Table",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 1,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 2,
+            "Durability": 1250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 3,
+            "Durability": 1300
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Armor": 4,
+            "Durability": 1350
+          }
+        }
+      ]
+    },
+    {
+      "name": "Nidhögg",
+      "biome": "Ashlands",
+      "type": "Weapons",
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Slash": 135,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Slash": 141,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Slash": 147,
+            "Durability": 300
+          }
+        }
+      ]
+    },
+    {
+      "name": "Slayer",
+      "biome": "Ashlands",
+      "type": "Weapons",
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Slash": 170,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Slash": 176,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Slash": 182,
+            "Durability": 300
+          }
+        }
+      ]
+    },
+    {
+      "name": "Berserkir axes",
+      "biome": "Ashlands",
+      "type": "Weapons",
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Slash": 140,
+            "Chop": 80,
+            "Durability": 175
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Slash": 145,
+            "Chop": 83,
+            "Durability": 225
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Slash": 150,
+            "Chop": 86,
+            "Durability": 275
+          }
+        }
+      ]
+    },
+    {
+      "name": "Flametal mace",
+      "biome": "Ashlands",
+      "type": "Weapons",
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Blunt": 135,
+            "Durability": 150
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Blunt": 141,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Blunt": 147,
+            "Durability": 250
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ash Fang",
+      "biome": "Ashlands",
+      "type": "Weapons",
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Pierce": 82,
+            "Spirit": 0,
+            "Durability": 100
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Pierce": 86,
+            "Spirit": 5,
+            "Durability": 150
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Pierce": 90,
+            "Spirit": 10,
+            "Durability": 200
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ripper",
+      "biome": "Ashlands",
+      "type": "Weapons",
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Pierce": 220,
+            "Durability": 50
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Pierce": 223,
+            "Durability": 100
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Pierce": 226,
+            "Durability": 150
+          }
+        }
+      ]
+    },
+    {
+      "name": "Dyrnwyn",
+      "biome": "Ashlands",
+      "type": "Weapons",
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Slash": 145,
+            "Fire": 10,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Slash": 151,
+            "Fire": 10,
+            "Durability": 250
+          }
+        }
+      ]
+    },
+    {
+      "name": "Flametal shield",
+      "biome": "Ashlands",
+      "type": "Shields",
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Block armor": 114,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Block armor": 120,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Block armor": 126,
+            "Durability": 300
+          }
+        }
+      ]
+    },
+    {
+      "name": "Flametal tower shield",
+      "biome": "Ashlands",
+      "type": "Shields",
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Block armor": 140,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Block armor": 146,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Block armor": 152,
+            "Durability": 300
+          }
+        }
+      ]
+    },
+    {
+      "name": "Flametal Helmet",
+      "biome": "Ashlands",
+      "type": "Armor",
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 38,
+            "Durability": 800
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 40,
+            "Durability": 900
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 42,
+            "Durability": 1000
+          }
+        }
+      ]
+    },
+    {
+      "name": "Flametal Breastplate",
+      "biome": "Ashlands",
+      "type": "Armor",
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 38,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 40,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 42,
+            "Durability": 1400
+          }
+        }
+      ]
+    },
+    {
+      "name": "Flametal Greaves",
+      "biome": "Ashlands",
+      "type": "Armor",
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 38,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 40,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 42,
+            "Durability": 1400
+          }
+        }
+      ]
+    },
+    {
+      "name": "Breastplate of Ask",
+      "biome": "Ashlands",
+      "type": "Armor",
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 28,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 30,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 32,
+            "Durability": 1400
+          }
+        }
+      ]
+    },
+    {
+      "name": "Trousers of Ask",
+      "biome": "Ashlands",
+      "type": "Armor",
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 28,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 30,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 32,
+            "Durability": 1400
+          }
+        }
+      ]
+    },
+    {
+      "name": "Hood of Ask",
+      "biome": "Ashlands",
+      "type": "Armor",
+      "station": "Black Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Armor": 28,
+            "Durability": 1000
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Armor": 30,
+            "Durability": 1200
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Armor": 32,
+            "Durability": 1400
+          }
+        }
+      ]
+    },
+    {
+      "name": "Staff of Fracturing",
+      "biome": "Ashlands",
+      "type": "Magic",
+      "station": "Galdr Table",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Fire": 12,
+            "Blunt": 12,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Fire": 18,
+            "Blunt": 12,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Fire": 24,
+            "Blunt": 12,
+            "Durability": 300
+          }
+        }
+      ]
+    },
+    {
+      "name": "Staff of the Wild",
+      "biome": "Ashlands",
+      "type": "Magic",
+      "station": "Galdr Table",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Poison": 20,
+            "Blunt": 20,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Poison": 40,
+            "Blunt": 40,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Poison": 60,
+            "Blunt": 60,
+            "Durability": 300
+          }
+        }
+      ]
+    },
+    {
+      "name": "Trollstav",
+      "biome": "Ashlands",
+      "type": "Magic",
+      "station": "Galdr Table",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Fire": 300,
+            "Durability": 200
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Fire": 300,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Fire": 300,
+            "Durability": 300
+          }
+        }
+      ]
+    },
+    {
+      "name": "Black metal pickaxe",
+      "biome": "Mistlands",
+      "type": "Tools",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Pierce": 49,
+            "Mining": 49,
+            "Durability": 210
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Pierce": 54,
+            "Mining": 54,
+            "Durability": 260
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Pierce": 59,
+            "Mining": 59,
+            "Durability": 310
+          }
+        },
+        {
+          "quality": 4,
+          "stats": {
+            "Pierce": 64,
+            "Mining": 64,
+            "Durability": 360
+          }
+        }
+      ]
+    },
+    {
+      "name": "Serpent scale shield",
+      "biome": "Plains",
+      "type": "Shields",
+      "station": "Forge",
+      "levels": [
+        {
+          "quality": 1,
+          "stats": {
+            "Block armor": 60,
+            "Durability": 250
+          }
+        },
+        {
+          "quality": 2,
+          "stats": {
+            "Block armor": 66,
+            "Durability": 300
+          }
+        },
+        {
+          "quality": 3,
+          "stats": {
+            "Block armor": 72,
+            "Durability": 350
+          }
+        }
+      ]
+    }
+  ]
+}
