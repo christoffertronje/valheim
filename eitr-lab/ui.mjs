@@ -57,6 +57,19 @@ function syncControls() {
       if (key === 'attackDuration') element.max = settings.castInterval;
     }
   }
+  const actualCost = settings.manualCost ? settings.baseCost :
+    eitrCost(MECHANICS.embersBaseCost.value, settings.skillLevel);
+  const thresholdMin = Math.min(actualCost, settings.maxEitr);
+  for (const element of document.querySelectorAll('[data-key="threshold"]')) {
+    element.min = thresholdMin;
+    if (element.type === 'range') element.value = Math.max(thresholdMin, settings.threshold);
+  }
+  $('effective-threshold').textContent = format(Math.max(settings.threshold, thresholdMin), 1);
+  $('threshold-hint').textContent = settings.maxEitr < actualCost
+    ? 'Not enough maximum Eitr to cast this spell.'
+    : settings.threshold < actualCost
+      ? `Your saved threshold is below the ${format(actualCost, 2)} Eitr spell cost. Casting waits until enough Eitr is available.`
+      : `One fireball costs ${format(actualCost, 2)} Eitr. Move the slider to change your casting strategy.`;
   for (const element of document.querySelectorAll('[data-key="baseCost"]')) element.disabled = !settings.manualCost;
   $('derived-cost').textContent = `Effective cost: ${format(settings.manualCost ? settings.baseCost :
     eitrCost(MECHANICS.embersBaseCost.value, settings.skillLevel), 2)} Eitr`;
@@ -95,7 +108,11 @@ document.addEventListener('input', event => {
   const value = element.type === 'checkbox' ? element.checked :
     element.value.trim() === '' ? NaN : Number(element.value);
   try {
-    const next = updateSetting(settings, key, value);
+    const effectiveCost = settings.manualCost ? settings.baseCost :
+      eitrCost(MECHANICS.embersBaseCost.value, settings.skillLevel);
+    const adjusted = key === 'threshold' && element.type === 'range'
+      ? Math.max(value, Math.min(effectiveCost, settings.maxEitr)) : value;
+    const next = updateSetting(settings, key, adjusted);
     if (serializeSettings(next) !== serializeSettings(settings)) {
       settings = next;
       if (imported) $('import-status').textContent =
@@ -116,7 +133,7 @@ document.addEventListener('input', event => {
 $('reset').addEventListener('click', () => {
   settings = { ...DEFAULT_SETTINGS };
   imported = null;
-  $('import-eitr').textContent = 'Build snapshot';
+  $('import-eitr').textContent = 'Not imported';
   $('import-details').replaceChildren();
   $('import-status').textContent = 'Example settings restored. Import a saved character whenever you like.';
   invalidateOptimization(); save(); render();
@@ -204,9 +221,7 @@ function drawGraph() {
     svg.append(svgNode('line', { x1: x(cursorTime), x2: x(cursorTime),
       y1: plot.top, y2: plot.bottom, class: 'cursor' }));
   }
-  $('graph-note').textContent = data.simplified
-    ? 'Dense events are simplified in this view. Cast totals still use the full simulation.'
-    : 'Recovery curves use the simulator’s analytical segments.';
+  $('graph-note').textContent = data.simplified ? 'Graph simplified for readability; results use all casts.' : '';
 }
 $('graph-window').addEventListener('change', () => { cursorTime = null; drawGraph(); });
 $('show-best').addEventListener('change', drawGraph);
