@@ -26,6 +26,14 @@ select{width:100%;min-width:0;border:1px solid #826640;border-radius:7px;padding
 
 /* iOS Safari: inputs below 16px trigger unwanted focus zoom. Keep browser pinch zoom enabled. */
 input[type="search"],input[type="text"],input[type="number"],select,textarea{font-size:16px!important;-webkit-text-size-adjust:100%}
+
+/* Mobile picker layout */
+.sheet-card{display:flex;flex-direction:column;overflow:hidden;height:min(720px,calc(100dvh - 16px));max-height:calc(100dvh - 16px);gap:10px}
+.sheet-top,.sheet-search,#picker-quality{flex-shrink:0}
+.sheet-search{margin:0;width:100%;padding:12px;font-size:16px}
+.sheet-list{flex:1 1 auto;min-height:70px;max-height:none;overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;align-content:start}
+#picker-quality{border-top:1px solid #715a3c;padding-top:10px}
+@media(max-width:730px){.sheet-card{padding-bottom:max(18px,env(safe-area-inset-bottom))}}
 </style></head><body><main><header><a class="back" href="../">← Companion</a><label class="control"><input id="spoilers" type="checkbox" checked> Hide late biomes</label></header>
 <h1>ᛟ Character Builder</h1><p class="intro">Build your Viking loadout. Equip armor and weapons, choose three foods, and see combined character stats and individual weapon damage. No character artwork needed — the numbers take center stage.</p>
 <div class="controls"><button class="btn" id="reset" type="button">↺ Reset build</button><span class="badge">Saved on this device</span></div>
@@ -58,7 +66,7 @@ function render(){const filtered=gear.filter(x=>allowed(x.biome));$('spoilers').
 $('gear-slots').innerHTML=SLOTS.map(([id,icon,title])=>{const current=activeGear(id);return '<button type="button" class="slot-tap" data-open-gear="'+id+'"><span class="slot-icon">'+icon+'</span><span class="slot-info"><span class="slot-title">'+esc(title)+'</span><span class="slot-name">'+esc(current?.name||'Choose equipment')+'</span><span class="slot-reward">'+esc(gearDescription(current))+'</span></span>'+(current?'<span class="slot-level">+'+current.quality+'</span>':'')+'<span aria-hidden="true">›</span></button>'}).join('');
 $('food-slots').innerHTML=Array.from({length:foodSlots},(_,i)=>{const food=foods.find(f=>f.name===selection.foods[i]&&allowed(f.biome));return '<button type="button" class="food-tap" data-open-food="'+i+'"><span class="slot-icon">'+(food?esc(food.icon):'🍲')+'</span><span class="slot-info"><span class="slot-title">Food '+(i+1)+'</span><span class="slot-name">'+(food?esc(food.name):'Choose food')+'</span><span class="food-reward">'+(food?'❤️ '+food.hp+' · ⚡ '+food.stam+' · ✨ '+food.eitr+' · '+food.time+' min':'Empty slot')+'</span></span><span aria-hidden="true">›</span></button>'}).join('');
 update()}
-function openPicker(kind,id){lastFocus=document.activeElement;pickerState={kind,id};$('picker-search').value='';$('picker-title').textContent=kind==='gear'?'Choose '+slotLabel(id):'Choose food '+(Number(id)+1);$('picker').hidden=false;document.body.classList.add('sheet-open');drawPicker();$('picker-search').focus()}
+function openPicker(kind,id){lastFocus=document.activeElement;pickerState={kind,id};$('picker-search').value='';$('picker-title').textContent=kind==='gear'?'Choose '+slotLabel(id):'Choose food '+(Number(id)+1);$('picker').hidden=false;document.body.classList.add('sheet-open');drawPicker()}
 function closePicker(){if(!pickerState)return;pickerState=null;$('picker').hidden=true;document.body.classList.remove('sheet-open');lastFocus?.focus()}
 function optionButton(label,subtitle,value,selected){return '<button type="button" class="sheet-choice" data-choice="'+esc(value)+'" aria-pressed="'+(selected?'true':'false')+'">'+esc(label)+(subtitle?'<small>'+esc(subtitle)+'</small>':'')+'</button>'}
 function drawPicker(){if(!pickerState)return;const {kind,id}=pickerState,query=$('picker-search').value.toLowerCase().trim();let choices=[];let current='';
