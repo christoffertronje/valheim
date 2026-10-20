@@ -19,7 +19,7 @@
   <div class="result"><span>Cost · regen</span><strong id="cost-regen">—</strong></div>
 </section>
 <section class="panel import-panel" aria-labelledby="import-title">
-  <div class="import-summary"><div><h2 id="import-title">Your character</h2><p id="import-status" class="note">Import your saved build to start experimenting.</p></div><strong id="import-eitr" class="import-eitr">Build snapshot</strong></div>
+  <div class="import-summary"><div><h2 id="import-title">Your character</h2><p id="import-status" class="note">Import your saved build to start experimenting.</p></div><strong id="import-eitr" class="import-eitr">Not imported</strong></div>
   <details class="import-more"><summary>View foods, armor & import</summary><div id="import-details" class="chips" aria-live="polite"></div>
   <button id="import-character" type="button">Import from Character Builder</button></details>
 </section>
@@ -30,9 +30,9 @@
   <div class="section-head"><h2 id="graph-title">Eitr over time</h2><label class="window-label" for="graph-window">View <select id="graph-window"><option value="60">First minute</option><option value="full">Full fight</option></select></label></div>
   <div class="graph-wrap"><svg id="graph" viewBox="0 0 640 320" role="img" aria-label="Eitr over time graph"></svg></div>
   <p id="inspect" class="note" aria-live="polite">Tap or move across the graph to inspect Eitr.</p>
-  <div class="legend"><span><i class="key recovery"></i> Recovering</span><span><i class="key flat"></i> Recovery paused</span><span><i class="key cast"></i> Cast</span><span><i class="key best"></i> Best tested</span></div>
-  <div id="primary-threshold" class="primary-threshold"><h3>Cast at Eitr</h3><p class="note">Adjust the threshold and watch the fireballs change.</p></div>
-  <p id="graph-note" class="note"></p>
+  <div class="legend"><span><i class="key recovery"></i> Eitr recovery</span><span><i class="key cast"></i> Fireball</span><span><i class="key threshold"></i> Cast threshold</span><span><i class="key best"></i> Best tested</span></div>
+  <div id="primary-threshold" class="primary-threshold"><div class="threshold-heading"><h3>Cast when Eitr reaches</h3><strong id="effective-threshold" class="threshold-value">—</strong></div><p id="threshold-hint" class="note">Choose when to cast the next fireball.</p></div>
+  <p id="graph-note" class="note graph-footnote"></p>
 </section>
 <section class="panel" aria-labelledby="optimize-title">
   <div class="section-head"><h2 id="optimize-title">Threshold search</h2><button id="optimize" type="button">Optimize</button></div>
