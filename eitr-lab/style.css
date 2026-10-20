@@ -31,3 +31,36 @@ svg .cursor{stroke:#f4dfae;stroke-width:1;stroke-dasharray:3 3}.legend{display:f
 @media(max-width:760px){.layout{grid-template-columns:1fr}.panel{padding:14px}.results{grid-template-columns:repeat(2,minmax(0,1fr))}.import-panel{align-items:stretch;flex-direction:column}.import-panel button{width:100%}.graph-panel{padding:12px}.section-head h2{font-size:20px}}
 @media(max-width:380px){main{padding-inline:10px}.field input[type=number]{width:76px}.result{padding:10px}.result strong{font-size:22px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}}
+
+/* Phase 2C: experiment-first responsive layout */
+.intro{max-width:660px;margin:8px 0 14px}
+.eyebrow{margin-top:18px}
+.results{margin:12px 0}
+.import-panel{display:block;margin:0 0 14px;padding:12px 16px}
+.import-summary{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.import-summary h2{font-size:19px;margin:0 0 3px}
+.import-summary .note{margin:0}
+.import-eitr{color:var(--gold);white-space:nowrap;font-size:16px}
+.import-more summary{cursor:pointer;color:var(--gold);padding:9px 0;min-height:44px}
+.import-more .chips{margin:6px 0 12px}
+.import-more button{width:100%}
+.layout{grid-template-columns:minmax(0,1fr) minmax(285px,390px)}
+.output{grid-column:1;grid-row:1}
+.controls{grid-column:2;grid-row:1}
+.primary-threshold{border-top:1px solid #66513a;padding:10px 0 2px;margin-top:12px}
+.primary-threshold h3{font-size:17px;color:var(--gold);margin:0}
+.primary-threshold .note{margin:4px 0 8px}
+.primary-threshold .field{border-top:none;padding:4px 0}
+svg .threshold-line{stroke:#e5a553;stroke-width:1.5;stroke-dasharray:6 5;opacity:.9;pointer-events:none}
+@media(max-width:760px){
+ .layout{display:flex;flex-direction:column}
+ .output,.controls{width:100%}
+ .graph-panel{order:0}
+ .import-panel{padding:12px}
+ .intro{font-size:14px;line-height:1.45}
+ h1{margin:3px 0}
+ .results{gap:8px}
+ .result{padding:10px}
+ .panel{box-shadow:0 7px 16px #0003}
+ .section-head{flex-wrap:wrap}
+}
