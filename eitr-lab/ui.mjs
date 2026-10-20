@@ -19,7 +19,6 @@ const basic = [
   ['maxEitr', 'Maximum Eitr', 'From food when imported', 1],
   ['startingEitr', 'Starting Eitr', '', 1],
   ['skillLevel', 'Elemental Magic skill', '0–100', 1],
-  ['threshold', 'Cast-at-Eitr threshold', 'Minimum Eitr before starting an attack', 1],
   ['duration', 'Fight duration (seconds)', '', 1],
 ];
 const advanced = [
@@ -44,6 +43,7 @@ $('controls').innerHTML = basic.map(field).join('') +
   '<div class="field">' + toggle('rested', 'Rested', '+100% Eitr recovery') +
   toggle('hood', 'Eitr-weave hood', '+20%') + toggle('robe', 'Eitr-weave robe', '+40%') +
   toggle('trousers', 'Eitr-weave trousers', '+40%') + '</div>';
+$('primary-threshold').insertAdjacentHTML('beforeend', field(['threshold', 'Cast-at-Eitr threshold', 'Minimum Eitr before starting an attack', 1]));
 $('advanced-controls').innerHTML = advanced.map(field).join('') +
   toggle('suppressRegenDuringAttack', 'Pause recovery during attack');
 
@@ -116,6 +116,7 @@ document.addEventListener('input', event => {
 $('reset').addEventListener('click', () => {
   settings = { ...DEFAULT_SETTINGS };
   imported = null;
+  $('import-eitr').textContent = 'Build snapshot';
   $('import-details').replaceChildren();
   $('import-status').textContent = 'Example settings restored. Import a saved character whenever you like.';
   invalidateOptimization(); save(); render();
@@ -134,6 +135,7 @@ $('import-character').addEventListener('click', async () => {
     }
     settings = applyCharacterSnapshot(settings, snapshot);
     imported = snapshot;
+    $('import-eitr').textContent = `${format(snapshot.maxEitr, 0)} Eitr`;
     invalidateOptimization(); save(); render();
     $('import-status').textContent = snapshot.warnings.length
       ? 'Imported valid selections; some saved entries were ignored.'
@@ -197,6 +199,10 @@ function drawGraph() {
   if (cursorTime !== null && cursorTime <= end) {
     svg.append(svgNode('line', { x1: x(cursorTime), x2: x(cursorTime),
       y1: plot.top, y2: plot.bottom, class: 'cursor' }));
+  }
+  const thresholdY = y(settings.threshold);
+  if (thresholdY >= plot.top && thresholdY <= plot.bottom) {
+    svg.append(svgNode('line', { x1: plot.left, x2: plot.right, y1: thresholdY, y2: thresholdY, class: 'threshold-line' }));
   }
   $('graph-note').textContent = data.simplified
     ? 'Dense events are simplified in this view. Cast totals still use the full simulation.'
