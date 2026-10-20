@@ -178,6 +178,10 @@ function drawGraph() {
   }
   svg.append(svgNode('text', { x: 337, y: 315, 'text-anchor': 'middle' }, 'Time (seconds)'));
   svg.append(svgNode('text', { x: 12, y: 145, transform: 'rotate(-90 12 145)', 'text-anchor': 'middle' }, 'Eitr'));
+  const thresholdY = y(settings.threshold);
+  if (thresholdY >= plot.top && thresholdY <= plot.bottom) {
+    svg.append(svgNode('line', { x1: plot.left, x2: plot.right, y1: thresholdY, y2: thresholdY, class: 'threshold-line' }));
+  }
   function drawSegments(series, overlay = false) {
     for (const segment of series.segments) {
       const d = segment.points.map((point, index) =>
@@ -199,10 +203,6 @@ function drawGraph() {
   if (cursorTime !== null && cursorTime <= end) {
     svg.append(svgNode('line', { x1: x(cursorTime), x2: x(cursorTime),
       y1: plot.top, y2: plot.bottom, class: 'cursor' }));
-  }
-  const thresholdY = y(settings.threshold);
-  if (thresholdY >= plot.top && thresholdY <= plot.bottom) {
-    svg.append(svgNode('line', { x1: plot.left, x2: plot.right, y1: thresholdY, y2: thresholdY, class: 'threshold-line' }));
   }
   $('graph-note').textContent = data.simplified
     ? 'Dense events are simplified in this view. Cast totals still use the full simulation.'
