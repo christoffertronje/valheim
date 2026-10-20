@@ -10,31 +10,28 @@
 <header><a class="back" href="../">← Companion</a><a class="back" href="../character/">Character Builder</a></header>
 <div class="eyebrow">THE HERO · SPELLCASTING</div>
 <h1>✨ Eitr Lab</h1>
-<p class="intro">Explore how much Eitr your Viking can spend and recover during a fight. Staff of Embers is the current spell; cast timing is an editable model assumption.</p>
-<section class="panel import-panel" aria-labelledby="import-title">
-  <div><h2 id="import-title">Your character</h2><p id="import-status" class="note">Use your saved foods and Eitr-weave armor as a starting snapshot.</p><div id="import-details" class="chips" aria-live="polite"></div></div>
-  <button id="import-character" type="button">Import from Character Builder</button>
-</section>
+<p class="intro">Tune your fireball timing, explore Eitr recovery, and discover your best tested casting threshold.</p>
+
 <section class="results" aria-label="Simulation results" aria-live="polite">
   <div class="result"><span>Completed fireballs</span><strong id="total-casts">—</strong></div>
   <div class="result"><span>Fireballs / min</span><strong id="casts-per-minute">—</strong></div>
   <div class="result"><span>Ending Eitr</span><strong id="ending-eitr">—</strong></div>
   <div class="result"><span>Cost · regen</span><strong id="cost-regen">—</strong></div>
 </section>
+<section class="panel import-panel" aria-labelledby="import-title">
+  <div class="import-summary"><div><h2 id="import-title">Your character</h2><p id="import-status" class="note">Import your saved build to start experimenting.</p></div><strong id="import-eitr" class="import-eitr">Build snapshot</strong></div>
+  <details class="import-more"><summary>View foods, armor & import</summary><div id="import-details" class="chips" aria-live="polite"></div>
+  <button id="import-character" type="button">Import from Character Builder</button></details>
+</section>
 <p id="error" class="error" role="alert" hidden></p>
 <div class="layout">
-<section class="panel controls" aria-labelledby="settings-title">
-  <div class="section-head"><h2 id="settings-title">Spell & build</h2><button id="reset" type="button" class="quiet">Reset</button></div>
-  <p class="note">Staff of Embers · Elemental Magic. Food provides full Eitr throughout this simulation.</p>
-  <div id="controls"></div>
-  <details class="advanced"><summary>Advanced timing assumptions</summary><p class="note">Example cast timing is editable because Staff of Embers animation and spend timing have not been verified against the current game.</p><div id="advanced-controls"></div></details>
-</section>
 <div class="output">
 <section class="panel graph-panel" aria-labelledby="graph-title">
   <div class="section-head"><h2 id="graph-title">Eitr over time</h2><label class="window-label" for="graph-window">View <select id="graph-window"><option value="60">First minute</option><option value="full">Full fight</option></select></label></div>
   <div class="graph-wrap"><svg id="graph" viewBox="0 0 640 320" role="img" aria-label="Eitr over time graph"></svg></div>
   <p id="inspect" class="note" aria-live="polite">Tap or move across the graph to inspect Eitr.</p>
   <div class="legend"><span><i class="key recovery"></i> Recovering</span><span><i class="key flat"></i> Recovery paused</span><span><i class="key cast"></i> Cast</span><span><i class="key best"></i> Best tested</span></div>
+  <div id="primary-threshold" class="primary-threshold"><h3>Cast at Eitr</h3><p class="note">Adjust the threshold and watch the fireballs change.</p></div>
   <p id="graph-note" class="note"></p>
 </section>
 <section class="panel" aria-labelledby="optimize-title">
@@ -43,5 +40,12 @@
   <div id="comparison" class="comparison" aria-live="polite">Choose Optimize to compare strategies.</div>
   <label class="check"><input id="show-best" type="checkbox" disabled> Overlay best tested curve</label>
 </section>
-</div></div>
+</div>
+<section class="panel controls" aria-labelledby="settings-title">
+  <div class="section-head"><h2 id="settings-title">Spell & build</h2><button id="reset" type="button" class="quiet">Reset</button></div>
+  <p class="note">Staff of Embers · Elemental Magic. Food provides full Eitr throughout this simulation.</p>
+  <div id="controls"></div>
+  <details class="advanced"><summary>Advanced timing assumptions</summary><p class="note">Example cast timing is editable because Staff of Embers animation and spend timing have not been verified against the current game.</p><div id="advanced-controls"></div></details>
+</section>
+</div>
 </main><script type="module" src="./ui.mjs"></script></body></html>
