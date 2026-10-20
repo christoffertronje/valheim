@@ -35,6 +35,21 @@ input[type="search"],input[type="text"],input[type="number"],select,textarea{fon
 #picker-quality{border-top:1px solid #715a3c;padding-top:10px}
 @media(max-width:730px){.sheet-card{padding-bottom:max(18px,env(safe-area-inset-bottom))}}
 
+/* Food cards: keep the meal identity separate from its stats. */
+.food-grid{grid-template-columns:1fr;gap:12px}
+.food-tap{display:grid;grid-template-columns:minmax(0,1fr);gap:12px;min-height:0;padding:14px 15px;align-items:stretch}
+.food-main{display:flex;align-items:center;gap:12px;min-width:0}
+.food-main .slot-icon{width:52px;height:52px;font-size:27px}
+.food-main .slot-info{display:flex;flex-direction:column;gap:4px;min-width:0}
+.food-main .slot-title{display:block;margin:0}
+.food-main .slot-name{display:block;margin:0;font-size:15px;line-height:1.35;white-space:normal;overflow-wrap:anywhere;overflow:visible}
+.food-chevron{flex:none;margin-left:auto;padding-left:10px;color:#d9c7af;font-size:21px}
+.food-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;border-top:1px solid #4a4d3d;padding-top:11px;color:#b7d3a9;font-size:13px;font-variant-numeric:tabular-nums}
+.food-stat{white-space:nowrap}
+.food-stat-time{color:#bdaf99;text-align:right}
+.food-empty{color:#bdaf99}
+@media(max-width:380px){.food-tap{padding:12px}.food-main{gap:10px}.food-stats{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:8px}.food-stat-time{text-align:left}}
+
 .picker-current{flex:none;border:1px solid #715a3c;border-radius:9px;padding:10px 12px;background:#292c23;color:#c5d7b9;font-size:12px}.picker-current strong{display:block;color:#f0d29b;font-size:15px;margin:4px 0}
 .overview-weapons{border-top:1px solid #715a3c;margin-top:18px;padding-top:6px}.overview-weapons h3{margin:10px 0 12px}.overview-weapons .weapon-view{grid-template-columns:repeat(2,minmax(0,1fr))}@media(max-width:730px){.overview-weapons .weapon-view{grid-template-columns:1fr}}
 </style></head><body><main><header><a class="back" href="../">← Companion</a><label class="control"><input id="spoilers" type="checkbox" checked> Hide late biomes</label></header>
@@ -67,7 +82,7 @@ const slotLabel=id=>SLOTS.find(s=>s[0]===id)?.[2]||id;
 function gearDescription(x){if(!x)return 'No item equipped';const values=x.stats;const armor=Number(values.Armor)||0;if(armor)return armor+' armor';const block=Number(values['Block armor'])||0;if(block)return block+' block armor';const attacks=Object.entries(values).filter(([key])=>/slash|pierce|blunt|fire|frost|lightning|poison|spirit/i.test(key));return attacks.map(([key,value])=>key+' '+value).join(' · ')||'Equipped'}
 function render(){const filtered=gear.filter(x=>allowed(x.biome));$('spoilers').checked=selection.hide;
 $('gear-slots').innerHTML=SLOTS.map(([id,icon,title])=>{const current=activeGear(id);return '<button type="button" class="slot-tap" data-open-gear="'+id+'"><span class="slot-icon">'+icon+'</span><span class="slot-info"><span class="slot-title">'+esc(title)+'</span><span class="slot-name">'+esc(current?.name||'Choose equipment')+'</span><span class="slot-reward">'+esc(gearDescription(current))+'</span></span>'+(current?'<span class="slot-level">+'+current.quality+'</span>':'')+'<span aria-hidden="true">›</span></button>'}).join('');
-$('food-slots').innerHTML=Array.from({length:foodSlots},(_,i)=>{const food=foods.find(f=>f.name===selection.foods[i]&&allowed(f.biome));return '<button type="button" class="food-tap" data-open-food="'+i+'"><span class="slot-icon">'+(food?esc(food.icon):'🍲')+'</span><span class="slot-info"><span class="slot-title">Food '+(i+1)+'</span><span class="slot-name">'+(food?esc(food.name):'Choose food')+'</span><span class="food-reward">'+(food?'❤️ '+food.hp+' · ⚡ '+food.stam+' · ✨ '+food.eitr+' · '+food.time+' min':'Empty slot')+'</span></span><span aria-hidden="true">›</span></button>'}).join('');
+$('food-slots').innerHTML=Array.from({length:foodSlots},(_,i)=>{const food=foods.find(f=>f.name===selection.foods[i]&&allowed(f.biome));return '<button type="button" class="food-tap" data-open-food="'+i+'"><span class="food-main"><span class="slot-icon">'+(food?esc(food.icon):'🍲')+'</span><span class="slot-info"><span class="slot-title">Food '+(i+1)+'</span><span class="slot-name">'+(food?esc(food.name):'Choose food')+'</span></span><span class="food-chevron" aria-hidden="true">›</span></span>'+(food?'<span class="food-stats"><span class="food-stat">❤️ '+esc(food.hp)+'</span><span class="food-stat">⚡ '+esc(food.stam)+'</span><span class="food-stat">✨ '+esc(food.eitr)+'</span><span class="food-stat food-stat-time">◷ '+esc(food.time)+' min</span></span>':'<span class="food-empty">Empty slot</span>')+'</button>'}).join('');
 update()}
 function openPicker(kind,id){lastFocus=document.activeElement;pickerState={kind,id};$('picker-search').value='';$('picker-title').textContent=kind==='gear'?'Choose '+slotLabel(id):'Choose food '+(Number(id)+1);$('picker').hidden=false;document.body.classList.add('sheet-open');drawPicker(true)}
 function closePicker(){if(!pickerState)return;pickerState=null;$('picker').hidden=true;document.body.classList.remove('sheet-open');lastFocus?.focus()}
