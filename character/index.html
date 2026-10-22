@@ -52,6 +52,16 @@ input[type="search"],input[type="text"],input[type="number"],select,textarea{fon
 
 .picker-current{flex:none;border:1px solid #715a3c;border-radius:9px;padding:10px 12px;background:#292c23;color:#c5d7b9;font-size:12px}.picker-current strong{display:block;color:#f0d29b;font-size:15px;margin:4px 0}
 .overview-weapons{border-top:1px solid #715a3c;margin-top:18px;padding-top:6px}.overview-weapons h3{margin:10px 0 12px}.overview-weapons .weapon-view{grid-template-columns:repeat(2,minmax(0,1fr))}@media(max-width:730px){.overview-weapons .weapon-view{grid-template-columns:1fr}}
+
+/* Equipment rows: keep label, item and stat on distinct lines. */
+.slot-tap{min-width:0;min-height:92px;padding:13px 14px;gap:12px;align-items:center}
+.slot-tap .slot-info{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:5px;min-width:0;overflow:hidden}
+.slot-tap .slot-title{display:block;margin:0;font-size:11px;line-height:1.25;letter-spacing:.085em;color:#e4bd80}
+.slot-tap .slot-name{display:block;width:100%;margin:0;font-size:16px;font-weight:600;line-height:1.35;color:#f3e4cb;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.slot-tap .slot-reward{display:block;width:100%;font-size:12px;line-height:1.4;color:#b5cda7;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.slot-tap .slot-icon{width:48px;height:48px;font-size:26px}
+.slot-tap .slot-level{margin-left:auto}
+@media(max-width:730px){.slot-tap{min-height:82px;padding:11px 12px}.slot-tap .slot-name{font-size:15px}}
 </style></head><body><main><header><a class="back" href="../">← Companion</a><label class="control"><input id="spoilers" type="checkbox" checked> Hide late biomes</label></header>
 <h1>ᛟ Character Builder</h1><p class="intro">Build your Viking loadout. Equip armor and weapons, choose three foods, and see combined character stats and individual weapon damage. No character artwork needed — the numbers take center stage.</p>
 <div class="controls"><button class="btn" id="reset" type="button">↺ Reset build</button><a class="btn" href="../eitr-lab/">✨ Eitr Lab</a><span class="badge">Saved on this device</span></div>
