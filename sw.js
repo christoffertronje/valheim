@@ -1,5 +1,5 @@
 /* Valheim Companion: offline-ready shell, online-first documents. */
-const CACHE='valheim-companion-v21';
+const CACHE='valheim-companion-v22';
 const ROOT=new URL('./',self.location.href);
 const SHELL=['./','./index.html','./food/','./food/index.html','./creatures/','./creatures/index.html','./crafting/','./crafting/index.html','./character/','./character/index.html','./character/eitr-resolver.mjs','./eitr-lab/','./eitr-lab/index.html','./eitr-lab/style.css','./eitr-lab/ui.mjs','./eitr-lab/settings.mjs','./eitr-lab/graph.mjs','./eitr-lab/optimizer-worker.mjs','./eitr-lab/simulator.mjs','./assets/favicon-64.png','./assets/apple-touch-icon.png','./assets/icon-192.png','./assets/icon-512.png','./assets/materials/wood.css','./data/equipment-upgrades.json','./data/character-builder.json','./manifest.webmanifest'].map(p=>new URL(p,ROOT).href);
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(SHELL)).then(()=>self.skipWaiting()))});
